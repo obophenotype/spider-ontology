@@ -1,0 +1,2134 @@
+format-version: 1.0
+version: 0.70
+date: 21:07:2007 14:07
+saved-by: Martin J. Ramirez
+auto-generated-by: Standard Views Manual generator
+default-namespace: spider_homologues
+
+
+! Contains definitions from the glossary in Ubick, D., P. Paquin, P.E. Cushing, and V. Roth (eds). 2005. Spiders of North America: an identification manual. American Arachnological Society. Pages 260-273.
+
+
+
+
+[Term]
+id: SPD:000000
+name: Homologues
+
+
+[Term]
+id: SPD:0000001
+name: whole organism
+relationship: part_of SPD:000000
+
+
+[Term]
+id: SPD:0000332
+name: color
+relationship: part_of SPD:0000001
+
+
+[Term]
+id: SPD:0000359
+name: setae
+relationship: part_of SPD:0000001
+def: "may be erect or recumb ent; simple\, serrate\, feathery\, to plumose\, or clavate to broad scales" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:44 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000360
+name: setae sockets
+relationship: part_of SPD:0000359
+
+
+[Term]
+id: SPD:0000338
+name: setae patterns
+relationship: part_of SPD:0000001
+
+
+[Term]
+id: SPD:0000002
+name: cephalothorax
+relationship: part_of SPD:000000
+def: "the anterior division of the spider body" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Figs 72\:1\, 72\:4\, 72\:26  in SPDrf:Ubick_et_al_2005_glossary
+synonym: "prosoma" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000336
+name: color
+relationship: part_of SPD:0000002
+
+
+[Term]
+id: SPD:0000339
+name: cuticle
+relationship: part_of SPD:0000002
+
+
+[Term]
+id: SPD:0000288
+name: labrum
+relationship: part_of SPD:0000002
+def: "the upper lip (usually covered by the chelicerae and not easily visible)" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:36 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000287
+name: labral sclerite
+relationship: part_of SPD:0000288
+def: "a short projection from the labrum of certain spiders (Anapidae)" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:36 in SPDrf:Ubick_et_al_2005_glossary
+synonym: "labral spur" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000289
+name: labium
+relationship: part_of SPD:0000002
+def: "the anterior median extension of the sternum" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Figs 72\:13\, 72\:35 in SPDrf:Ubick_et_al_2005_glossary
+synonym: "lip" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000290
+name: labial sigilla
+relationship: part_of SPD:0000289
+
+
+[Term]
+id: SPD:0000291
+name: sternum
+relationship: part_of SPD:0000002
+def: "the ventral sclerite of the cephalothorax" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Figs 72\:26\, 72\:35 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000292
+name: sternal sigilla
+relationship: part_of SPD:0000291
+
+
+[Term]
+id: SPD:0000295
+name: precoxal triangles
+relationship: part_of SPD:0000291
+def: "triangular sclerotized extensions from the sternum to the coxae" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:59 in SPDrf:Ubick_et_al_2005_glossary
+synonym: "precoxal sclerites" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000296
+name: intercoxal sclerites
+relationship: part_of SPD:0000291
+def: "narrow sclerites between the coxae" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:59 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000300
+name: pleural area
+relationship: part_of SPD:0000002
+
+
+[Term]
+id: SPD:0000301
+name: vertical intercoxal bars
+relationship: part_of SPD:0000300
+
+
+[Term]
+id: SPD:0000302
+name: supracoxal sclerites
+relationship: part_of SPD:0000300
+
+
+[Term]
+id: SPD:0000005
+name: carapace
+relationship: part_of SPD:0000002
+def: "dorsal part of the cephalothorax" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:4  in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000039
+name: chilum
+relationship: part_of SPD:0000005
+def: "a small sclerite at the base of the chelicera (under the clypeus)" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:17  in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000040
+name: clypeus
+relationship: part_of SPD:0000005
+def: "the space between the anterior edge of the carapace and the anterior eyes" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:5  in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000062
+name: clypeal glands
+relationship: part_of SPD:0000040
+
+
+[Term]
+id: SPD:0000015
+name: eyes
+relationship: part_of SPD:0000005
+
+
+[Term]
+id: SPD:0000340
+name: eye proportions
+relationship: part_of SPD:0000015
+
+
+[Term]
+id: SPD:0000341
+name: eye relative positions
+relationship: part_of SPD:0000015
+
+
+[Term]
+id: SPD:0000342
+name: indirect eyes
+relationship: part_of SPD:0000015
+def: "all eyes other than the anterior median eyes; only these may have the tapetum layer and appear shiny" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000343
+name: tapeta
+relationship: part_of SPD:0000342
+def: "light reflecting crystalline structure behind the retinal cells of the secondary eyes" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000048
+name: AME
+relationship: part_of SPD:0000015
+def: "these are morphologically distinct from the other eyes and are often reduced or lost" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:6  in SPDrf:Ubick_et_al_2005_glossary
+synonym: "primary eyes" [SPDrf:Ubick_et_al_2005_glossary]
+synonym: "AME" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000191
+name: retina
+relationship: part_of SPD:0000048
+
+
+[Term]
+id: SPD:0000049
+name: ALE
+relationship: part_of SPD:0000015
+def: "eyes situated on the anterolateral portion of the eye group" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:6  in SPDrf:Ubick_et_al_2005_glossary
+synonym: "ALE" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000192
+name: tapetum
+relationship: part_of SPD:0000049
+
+
+[Term]
+id: SPD:0000050
+name: PME
+relationship: part_of SPD:0000015
+
+
+[Term]
+id: SPD:0000193
+name: tapetum
+relationship: part_of SPD:0000050
+
+
+[Term]
+id: SPD:0000051
+name: PLE
+relationship: part_of SPD:0000015
+comment: Fig 72\:6 in SPDrf:Ubick_et_al_2005_glossary
+synonym: "PLE" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000194
+name: tapetum
+relationship: part_of SPD:0000051
+
+
+[Term]
+id: SPD:0000016
+name: cephalic area
+relationship: part_of SPD:0000005
+def: "the anterior (= head) portion of the carapace" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:11  in SPDrf:Ubick_et_al_2005_glossary
+synonym: "caput" [SPDrf:Ubick_et_al_2005_glossary]
+synonym: "cephalon" [SPDrf:Ubick_et_al_2005_glossary]
+synonym: "pars cephalica" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000063
+name: suprapalpal (?) glands
+relationship: part_of SPD:0000016
+
+
+[Term]
+id: SPD:0000018
+name: fovea
+relationship: part_of SPD:0000005
+def: "the central depression in the carapace representing the invagination of the carapace where the stomach muscles attach" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:1\, 72\:11 in SPDrf:Ubick_et_al_2005_glossary
+synonym: "dorsal groove" [SPDrf:Ubick_et_al_2005_glossary]
+synonym: "thoracic groove" [SPDrf:Ubick_et_al_2005_glossary]
+synonym: "furrow" [SPDrf:Ubick_et_al_2005_glossary]
+synonym: "pit" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000017
+name: thoracic area
+relationship: part_of SPD:0000005
+def: "the posterior division of the carapace" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:11 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000052
+name: carapace posterior margin
+relationship: part_of SPD:0000017
+
+
+[Term]
+id: SPD:0000331
+name: appendages cephalothorax
+relationship: part_of SPD:0000002
+
+
+[Term]
+id: SPD:0000372
+name: leg articles multiple
+relationship: part_of SPD:0000331
+
+
+[Term]
+id: SPD:0000373
+name: coxae
+relationship: part_of SPD:0000372
+def: "the basal\, or first\, segment of a spider leg and palp" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Figs 72\:19\, 72\:26\, 72\:75  in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000374
+name: trochanters
+relationship: part_of SPD:0000372
+def: "second segment of the leg or palp between the coxa and femur\, often as a short ring-shaped segment" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Figs 72\:19\, 72\:75 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000375
+name: femora
+relationship: part_of SPD:0000372
+def: "the third segment of the leg\, outward from the body\, located between the trochanter and patella" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Figs 72\:19\,72\:75 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000376
+name: patellae
+relationship: part_of SPD:0000372
+def: "the 4th segment of the legs and palpi outward from the body; it is a short curved segment located between the femur and tibia" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Figs 72\:19\, 72\:75 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000377
+name: tibiae
+relationship: part_of SPD:0000372
+def: "5th segment of the leg and palp; located between patella and metatarsus of leg\, patella and tarsus of palp" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Figs 72\:19\, 72\:75 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000378
+name: metatarsi
+relationship: part_of SPD:0000372
+def: "the 6th segment of the leg\, located between the tibia and tarsus" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:19 in SPDrf:Ubick_et_al_2005_glossary
+synonym: "basitarsus" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000390
+name: metatarsus dorsal stopper
+relationship: part_of SPD:0000378
+
+
+[Term]
+id: SPD:0000379
+name: tarsi
+relationship: part_of SPD:0000372
+def: "the 7th or distal-most segment of the leg\, the distal segment of the palp" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:19\, 72\:75 in SPDrf:Ubick_et_al_2005_glossary
+synonym: "distitarsus" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000380
+name: onychia
+relationship: part_of SPD:0000372
+
+
+[Term]
+id: SPD:0000381
+name: claws
+relationship: part_of SPD:0000372
+
+
+[Term]
+id: SPD:0000382
+name: superior claws
+relationship: part_of SPD:0000381
+
+
+[Term]
+id: SPD:0000383
+name: proclaw
+relationship: part_of SPD:0000381
+
+
+[Term]
+id: SPD:0000384
+name: retroclaw
+relationship: part_of SPD:0000381
+
+
+[Term]
+id: SPD:0000385
+name: inferior claw
+relationship: part_of SPD:0000381
+def: "the third claw (not paired) located apically on the tarsus; absent from male palpi" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:3 in SPDrf:Ubick_et_al_2005_glossary
+synonym: "inferior claw" [SPDrf:Ubick_et_al_2005_glossary]
+synonym: "median claw" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000355
+name: color
+relationship: part_of SPD:0000331
+
+
+[Term]
+id: SPD:0000019
+name: chelicera
+relationship: part_of SPD:0000331
+def: "the anterior appendages of a spider (the “jaws”) consisting of a large basal segment (paturon) and an apical fang" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Figs 72\:4\, 72\:26  in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000068
+name: paturon
+relationship: part_of SPD:0000019
+def: "the basal segment of a chelicera" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Figs 72\:5\, 72\:13 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000184
+name: cheliceral boss
+relationship: part_of SPD:0000068
+
+
+[Term]
+id: SPD:0000188
+name: stridulatory files
+relationship: part_of SPD:0000068
+def: "a series of fine gro oves used in conjunction with thorns to pro duce sound\, ty pically located along the ectal margin of the chelicera or along the ventro apical margin of the abdomen; see also thorn" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:68\, Fig 72\:69 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000185
+name: promargin
+relationship: part_of SPD:0000068
+def: "the anterior margin of the cheliceral furrow in Araneomorphae (mesal margin in Mygalomorphae)" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:13 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000195
+name: promarginal setae
+relationship: part_of SPD:0000068
+
+
+[Term]
+id: SPD:0000345
+name: fang furrow
+relationship: part_of SPD:0000068
+def: "see cheliceral furrow" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000345
+name: fang furrow
+relationship: part_of SPD:0000068
+def: "the groove of the chelicera into which the fang closes" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:13  in SPDrf:Ubick_et_al_2005_glossary
+synonym: "fang furrow" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000186
+name: retromargin
+relationship: part_of SPD:0000068
+def: "the poster ior margin of the cheliceral furrow in Araneomorphae (ectal margin in Mygalomorphae)" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:13 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000196
+name: retromarginal setae
+relationship: part_of SPD:0000068
+
+
+[Term]
+id: SPD:0000187
+name: cheliceral gland
+relationship: part_of SPD:0000068
+
+
+[Term]
+id: SPD:0000067
+name: fang
+relationship: part_of SPD:0000019
+def: "the apical segment of a chelicera; has the opening of the venom gland" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:5 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000197
+name: venom outlet
+relationship: part_of SPD:0000067
+
+
+[Term]
+id: SPD:0000071
+name: postchilum
+relationship: part_of SPD:0000019
+
+
+[Term]
+id: SPD:0000072
+name: intercheliceral articulation
+relationship: part_of SPD:0000019
+
+
+[Term]
+id: SPD:0000329
+name: venom gland
+relationship: part_of SPD:0000019
+
+
+[Term]
+id: SPD:0000020
+name: female palp
+relationship: part_of SPD:0000331
+def: "the most anterior leg-like appendage in spiders" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Figs 72\:26\, 72\:75 in SPDrf:Ubick_et_al_2005_glossary
+synonym: "palpus" [SPDrf:Ubick_et_al_2005_glossary]
+synonym: "pedipalp" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000073
+name: endite-coxa
+relationship: part_of SPD:0000020
+def: "the expanded lobe of the palpal coxa situated laterally of the labium" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Figs 72\:13\, 72\:36\, 72\:75 in SPDrf:Ubick_et_al_2005_glossary
+synonym: "maxilla" [SPDrf:Ubick_et_al_2005_glossary]
+synonym: "gnathocoxa" [SPDrf:Ubick_et_al_2005_glossary]
+synonym: "gnathobase" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000074
+name: trochanter
+relationship: part_of SPD:0000020
+
+
+[Term]
+id: SPD:0000198
+name: serrula
+relationship: part_of SPD:0000073
+def: "a row of tiny teeth along the anterior edge of the endite" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:66 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000199
+name: tuft setae
+relationship: part_of SPD:0000073
+
+
+[Term]
+id: SPD:0000200
+name: maxillary gland
+relationship: part_of SPD:0000073
+
+
+[Term]
+id: SPD:0000242
+name: lyra
+relationship: part_of SPD:0000073
+
+
+[Term]
+id: SPD:0000308
+name: cusples
+relationship: part_of SPD:0000073
+def: "small spines on the endites and labium of Mygalomorphae" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:21  in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000325
+name: ecclosion tooth
+relationship: part_of SPD:0000074
+
+
+[Term]
+id: SPD:0000075
+name: femur
+relationship: part_of SPD:0000020
+
+
+[Term]
+id: SPD:0000241
+name: femoral thorns
+relationship: part_of SPD:0000075
+
+
+[Term]
+id: SPD:0000076
+name: patella
+relationship: part_of SPD:0000020
+
+
+[Term]
+id: SPD:0000077
+name: tibia
+relationship: part_of SPD:0000020
+
+
+[Term]
+id: SPD:0000078
+name: tarsus
+relationship: part_of SPD:0000020
+
+
+[Term]
+id: SPD:0000202
+name: palpal tarsal ventral setae
+relationship: part_of SPD:0000078
+
+
+[Term]
+id: SPD:0000203
+name: palpal tarsal apical setae
+relationship: part_of SPD:0000078
+
+
+[Term]
+id: SPD:0000204
+name: palpal tarsal dorsal setae
+relationship: part_of SPD:0000078
+
+
+[Term]
+id: SPD:0000079
+name: claw
+relationship: part_of SPD:0000020
+
+
+[Term]
+id: SPD:0000045
+name: male palp
+relationship: part_of SPD:0000331
+
+
+[Term]
+id: SPD:0000144
+name: endite-coxa
+relationship: part_of SPD:0000045
+
+
+[Term]
+id: SPD:0000145
+name: serrula
+relationship: part_of SPD:0000144
+
+
+[Term]
+id: SPD:0000146
+name: maxillary gland
+relationship: part_of SPD:0000144
+
+
+[Term]
+id: SPD:0000148
+name: apical tuft
+relationship: part_of SPD:0000144
+
+
+[Term]
+id: SPD:0000149
+name: trochanter
+relationship: part_of SPD:0000045
+
+
+[Term]
+id: SPD:0000150
+name: femur
+relationship: part_of SPD:0000045
+
+
+[Term]
+id: SPD:0000270
+name: femoral thorns
+relationship: part_of SPD:0000150
+
+
+[Term]
+id: SPD:0000271
+name: femoral thorns base
+relationship: part_of SPD:0000150
+
+
+[Term]
+id: SPD:0000151
+name: patella
+relationship: part_of SPD:0000045
+
+
+[Term]
+id: SPD:0000285
+name: patellar processes
+relationship: part_of SPD:0000151
+
+
+[Term]
+id: SPD:0000152
+name: tibia
+relationship: part_of SPD:0000045
+
+
+[Term]
+id: SPD:0000154
+name: dorsal processes
+relationship: part_of SPD:0000152
+
+
+[Term]
+id: SPD:0000155
+name: prolateral processes
+relationship: part_of SPD:0000152
+
+
+[Term]
+id: SPD:0000156
+name: retrolateral processes
+relationship: part_of SPD:0000152
+
+
+[Term]
+id: SPD:0000157
+name: ventral processes
+relationship: part_of SPD:0000152
+
+
+[Term]
+id: SPD:0000158
+name: cymbium
+relationship: part_of SPD:0000045
+def: "the adult male palpal tarsus\, especially when modified as a spoon-shaped structure containing the palpal bulb" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:12 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000159
+name: tarsal organ
+relationship: part_of SPD:0000158
+
+
+[Term]
+id: SPD:0000161
+name: dorsal chemosensory patch
+relationship: part_of SPD:0000158
+
+
+[Term]
+id: SPD:0000162
+name: apical setae
+relationship: part_of SPD:0000158
+
+
+[Term]
+id: SPD:0000163
+name: alveolus
+relationship: part_of SPD:0000158
+def: "the concave ventral surface of the male palpal cymbium; the modified palpal tarsus of the male in which lies the genital bulb " [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000165
+name: alveolus promargin
+relationship: part_of SPD:0000158
+
+
+[Term]
+id: SPD:0000164
+name: alveolus retromargin
+relationship: part_of SPD:0000158
+
+
+[Term]
+id: SPD:0000166
+name: paracymbial retrolateral-basal process
+relationship: part_of SPD:0000158
+def: "an appendage of the cymbium; usually a rigid outgrowth but may be flexibly attached by a membrane" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Figs 72\:29\, 72\:31\, 72\:52 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000316
+name: cymbial retrolateral-medial processes
+relationship: part_of SPD:0000158
+
+
+[Term]
+id: SPD:0000167
+name: cymbial dorsal processes
+relationship: part_of SPD:0000158
+
+
+[Term]
+id: SPD:0000168
+name: copulatory bulb
+relationship: part_of SPD:0000045
+def: "the genital structure of the male spider containing the sperm reservoir and attached to the palpal tarsus; rarely fused to the tarsus\, as in some Oonopidae\, from which it can be differentiated by lacking setae " [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:12 in SPDrf:Ubick_et_al_2005_glossary
+synonym: "bulbus" [SPDrf:Ubick_et_al_2005_glossary]
+synonym: "genital bulb" [SPDrf:Ubick_et_al_2005_glossary]
+synonym: "palpal organ" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000169
+name: petiolus
+relationship: part_of SPD:0000168
+
+
+[Term]
+id: SPD:0000170
+name: basal hematodocha
+relationship: part_of SPD:0000168
+
+
+[Term]
+id: SPD:0000171
+name: subtegulum
+relationship: part_of SPD:0000168
+def: "the basal sclerite of the bulb" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Figs 72\:31\, 72\:37 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000172
+name: fundus
+relationship: part_of SPD:0000168
+
+
+[Term]
+id: SPD:0000173
+name: tegulum
+relationship: part_of SPD:0000168
+def: "the middle sclerite of the male palp\, that contains the sperm duct and bears the embolus" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Figs 72\:29\, 72\:31\, 72\:37 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000174
+name: median hematodocha
+relationship: part_of SPD:0000168
+
+
+[Term]
+id: SPD:0000175
+name: embolic division
+relationship: part_of SPD:0000168
+def: "in the Linyphiidae\, the terminal portion of the palpal bulb\, consisting of the radix\, embolus and various accessory sclerites; it is attached to the suprategulum by a narrow stalk" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000176
+name: embolus
+relationship: part_of SPD:0000168
+def: "the intromittent organ of the male palp\, connected to sperm reservoir; often slender\, but variable in shape and length" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Figs 72\:29\, 72\:31\, 72\:51 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000268
+name: embolus tip
+relationship: part_of SPD:0000168
+
+
+[Term]
+id: SPD:0000269
+name: sperm outlet
+relationship: part_of SPD:0000168
+
+
+[Term]
+id: SPD:0000177
+name: spermaphor
+relationship: part_of SPD:0000168
+
+
+[Term]
+id: SPD:0000178
+name: median apophysis
+relationship: part_of SPD:0000168
+def: "on the male palp\, a sclerotized structure in the lower center of the bulb" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Figs 72\:29\, 72\:31 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000179
+name: conductor
+relationship: part_of SPD:0000168
+def: "the structure of the male palp associated with the embolus; may be sclerotized or hyaline" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Figs 72\:29\, 72\:31\, 72\:51  in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000180
+name: terminal hematodocha
+relationship: part_of SPD:0000168
+
+
+[Term]
+id: SPD:0000181
+name: other sclerites
+relationship: part_of SPD:0000168
+
+
+[Term]
+id: SPD:0000021
+name: leg I
+relationship: part_of SPD:0000331
+
+
+[Term]
+id: SPD:0000082
+name: coxa
+relationship: part_of SPD:0000021
+
+
+[Term]
+id: SPD:0000205
+name: retrocoxal hymen
+relationship: part_of SPD:0000082
+
+
+[Term]
+id: SPD:0000083
+name: trochanter
+relationship: part_of SPD:0000021
+
+
+[Term]
+id: SPD:0000084
+name: femur
+relationship: part_of SPD:0000021
+
+
+[Term]
+id: SPD:0000085
+name: patella
+relationship: part_of SPD:0000021
+
+
+[Term]
+id: SPD:0000086
+name: tibia
+relationship: part_of SPD:0000021
+
+
+[Term]
+id: SPD:0000354
+name: tibial gland
+relationship: part_of SPD:0000086
+
+
+[Term]
+id: SPD:0000087
+name: metatarsus
+relationship: part_of SPD:0000021
+
+
+[Term]
+id: SPD:0000088
+name: tarsus
+relationship: part_of SPD:0000021
+
+
+[Term]
+id: SPD:0000089
+name: claws
+relationship: part_of SPD:0000021
+
+
+[Term]
+id: SPD:0000225
+name: proclaw
+relationship: part_of SPD:0000089
+
+
+[Term]
+id: SPD:0000226
+name: retroclaw
+relationship: part_of SPD:0000089
+
+
+[Term]
+id: SPD:0000227
+name: inferior claw
+relationship: part_of SPD:0000089
+
+
+[Term]
+id: SPD:0000022
+name: leg II
+relationship: part_of SPD:0000331
+
+
+[Term]
+id: SPD:0000090
+name: coxa
+relationship: part_of SPD:0000022
+
+
+[Term]
+id: SPD:0000091
+name: trochanter
+relationship: part_of SPD:0000022
+
+
+[Term]
+id: SPD:0000092
+name: femur
+relationship: part_of SPD:0000022
+
+
+[Term]
+id: SPD:0000093
+name: patella
+relationship: part_of SPD:0000022
+
+
+[Term]
+id: SPD:0000094
+name: tibia
+relationship: part_of SPD:0000022
+
+
+[Term]
+id: SPD:0000095
+name: metatarsus
+relationship: part_of SPD:0000022
+
+
+[Term]
+id: SPD:0000096
+name: tarsus
+relationship: part_of SPD:0000022
+
+
+[Term]
+id: SPD:0000097
+name: claws
+relationship: part_of SPD:0000022
+
+
+[Term]
+id: SPD:0000228
+name: proclaw
+relationship: part_of SPD:0000097
+
+
+[Term]
+id: SPD:0000229
+name: retroclaw
+relationship: part_of SPD:0000097
+
+
+[Term]
+id: SPD:0000230
+name: inferior claw
+relationship: part_of SPD:0000097
+
+
+[Term]
+id: SPD:0000023
+name: leg III
+relationship: part_of SPD:0000331
+
+
+[Term]
+id: SPD:0000098
+name: coxa
+relationship: part_of SPD:0000023
+
+
+[Term]
+id: SPD:0000099
+name: trochanter
+relationship: part_of SPD:0000023
+
+
+[Term]
+id: SPD:0000100
+name: femur
+relationship: part_of SPD:0000023
+
+
+[Term]
+id: SPD:0000101
+name: patella
+relationship: part_of SPD:0000023
+
+
+[Term]
+id: SPD:0000102
+name: tibia
+relationship: part_of SPD:0000023
+
+
+[Term]
+id: SPD:0000103
+name: metatarsus
+relationship: part_of SPD:0000023
+
+
+[Term]
+id: SPD:0000104
+name: tarsus
+relationship: part_of SPD:0000023
+
+
+[Term]
+id: SPD:0000105
+name: claws
+relationship: part_of SPD:0000023
+
+
+[Term]
+id: SPD:0000231
+name: proclaw
+relationship: part_of SPD:0000105
+
+
+[Term]
+id: SPD:0000232
+name: retroclaw
+relationship: part_of SPD:0000105
+
+
+[Term]
+id: SPD:0000233
+name: inferior claw
+relationship: part_of SPD:0000105
+
+
+[Term]
+id: SPD:0000024
+name: leg IV
+relationship: part_of SPD:0000331
+
+
+[Term]
+id: SPD:0000106
+name: coxa
+relationship: part_of SPD:0000024
+
+
+[Term]
+id: SPD:0000107
+name: trochanter
+relationship: part_of SPD:0000024
+
+
+[Term]
+id: SPD:0000108
+name: femur
+relationship: part_of SPD:0000024
+
+
+[Term]
+id: SPD:0000109
+name: patella
+relationship: part_of SPD:0000024
+
+
+[Term]
+id: SPD:0000110
+name: tibia
+relationship: part_of SPD:0000024
+
+
+[Term]
+id: SPD:0000111
+name: metatarsus
+relationship: part_of SPD:0000024
+
+
+[Term]
+id: SPD:0000237
+name: calamistrum
+relationship: part_of SPD:0000111
+def: "a row of curved thick setae (rarely arranged in an oval patch) located dorsally along metatarsus IV of cribellate spiders; used for combing out silk from the cribellum" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:10  in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000238
+name: calamistrum seta
+relationship: part_of SPD:0000111
+
+
+[Term]
+id: SPD:0000112
+name: tarsus
+relationship: part_of SPD:0000024
+
+
+[Term]
+id: SPD:0000239
+name: sustentaculum
+relationship: part_of SPD:0000112
+
+
+[Term]
+id: SPD:0000240
+name: tarsal combs
+relationship: part_of SPD:0000112
+
+
+[Term]
+id: SPD:0000113
+name: claws
+relationship: part_of SPD:0000024
+
+
+[Term]
+id: SPD:0000234
+name: proclaw
+relationship: part_of SPD:0000113
+
+
+[Term]
+id: SPD:0000235
+name: retroclaw
+relationship: part_of SPD:0000113
+
+
+[Term]
+id: SPD:0000236
+name: inferior claw
+relationship: part_of SPD:0000113
+
+
+[Term]
+id: SPD:0000274
+name: setae appendages cephalothorax
+relationship: part_of SPD:0000331
+
+
+[Term]
+id: SPD:0000216
+name: hairs
+relationship: part_of SPD:0000274
+
+
+[Term]
+id: SPD:0000217
+name: hair base
+relationship: part_of SPD:0000216
+
+
+[Term]
+id: SPD:0000218
+name: scales
+relationship: part_of SPD:0000274
+def: "small setae without innervation\, bend in an obtuse angle just after the socket; can be of several shapes\, including cylindrical\, feathery\, flat" [SPD:Curator]
+
+
+[Term]
+id: SPD:0000311
+name: scopula
+relationship: part_of SPD:0000274
+def: "Group of tenent setae covering surfaces in appendages. Do not confuse with the Also used generic use as a brush of unspecified setae." [SPD:Curator]
+comment: Fig72\:15\, 72\:44\, 72\:66 in SPD:Curator
+
+
+[Term]
+id: SPD:0000219
+name: scopular setae
+relationship: part_of SPD:0000311
+
+
+[Term]
+id: SPD:0000220
+name: scopular setae base
+relationship: part_of SPD:0000311
+
+
+[Term]
+id: SPD:0000221
+name: scopular setae tenent surface
+relationship: part_of SPD:0000311
+
+
+[Term]
+id: SPD:0000312
+name: claw tuft
+relationship: part_of SPD:0000274
+def: "a dense brush of hairs between the paired tarsal claws; almost always indicates the absence of the unpaired claw; tufts may be composed of simple hairs or thick broad ones (= tenent hairs)" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:15  in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000222
+name: claw tuft setae
+relationship: part_of SPD:0000312
+
+
+[Term]
+id: SPD:0000223
+name: claw tuft setae base
+relationship: part_of SPD:0000312
+
+
+[Term]
+id: SPD:0000224
+name: claw tuft setae tenent surface
+relationship: part_of SPD:0000312
+
+
+[Term]
+id: SPD:0000286
+name: chemosensory setae
+relationship: part_of SPD:0000274
+
+
+[Term]
+id: SPD:0000313
+name: trichobothria
+relationship: part_of SPD:0000274
+def: "a sensory hair (sensillum) arising from a round pit (bothrium); typically these are very slender and project vertically from the surface above the other hairs\, rarely are they short and thick" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:44 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000349
+name: trichobothrial seta
+relationship: part_of SPD:0000313
+
+
+[Term]
+id: SPD:0000348
+name: trichobothrial socket
+relationship: part_of SPD:0000313
+
+
+[Term]
+id: SPD:0000347
+name: trichobothrial patterns
+relationship: part_of SPD:0000313
+
+
+[Term]
+id: SPD:0000315
+name: macrosetae
+relationship: part_of SPD:0000274
+def: "see spines" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:44 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000352
+name: macrosetae seta
+relationship: part_of SPD:0000315
+
+
+[Term]
+id: SPD:0000350
+name: macrosetae socket
+relationship: part_of SPD:0000315
+
+
+[Term]
+id: SPD:0000351
+name: macrosetae patterns
+relationship: part_of SPD:0000315
+
+
+[Term]
+id: SPD:0000387
+name: sensilla appendages cephalothorax
+relationship: part_of SPD:0000331
+
+
+[Term]
+id: SPD:0000310
+name: tarsal organ
+relationship: part_of SPD:0000387
+def: "sense organs\, usually pit-like on the dorsal surface of spider tarsi" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000389
+name: cuticle legs and palp
+relationship: part_of SPD:0000331
+
+
+[Term]
+id: SPD:0000114
+name: foregut
+relationship: part_of SPD:0000002
+
+
+[Term]
+id: SPD:0000303
+name: midgut
+relationship: part_of SPD:0000002
+
+
+[Term]
+id: SPD:0000304
+name: midgut diverticles
+relationship: part_of SPD:0000303
+
+
+[Term]
+id: SPD:0000116
+name: coxal glands
+relationship: part_of SPD:0000002
+
+
+[Term]
+id: SPD:0000003
+name: abdomen
+relationship: part_of SPD:000000
+def: "the posterior division of the spider body" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Figs 72\:1\, 72\:4\, 72\:26  in SPDrf:Ubick_et_al_2005_glossary
+synonym: "opisthosoma" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000337
+name: color
+relationship: part_of SPD:0000003
+
+
+[Term]
+id: SPD:0000356
+name: cuticle
+relationship: part_of SPD:0000003
+
+
+[Term]
+id: SPD:0000006
+name: pedicel (1st abdominal segment)
+relationship: part_of SPD:0000003
+def: "the narrowed connection between the cephalothorax and abdomen; the “waist” of the spider" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Figs 72\:4\, 72\:26 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000025
+name: sternite pedicel
+relationship: part_of SPD:0000006
+
+
+[Term]
+id: SPD:0000357
+name: tergites
+relationship: part_of SPD:0000003
+
+
+[Term]
+id: SPD:0000026
+name: tergite pedicel
+relationship: part_of SPD:0000006
+
+
+[Term]
+id: SPD:0000358
+name: sternites
+relationship: part_of SPD:0000003
+
+
+[Term]
+id: SPD:0000007
+name: 2nd abdominal segment (epigastrium)
+relationship: part_of SPD:0000003
+
+
+[Term]
+id: SPD:0000027
+name: anterior booklung
+relationship: part_of SPD:0000007
+
+
+[Term]
+id: SPD:0000328
+name: booklung spiracle
+relationship: part_of SPD:0000027
+
+
+[Term]
+id: SPD:0000246
+name: booklung cover external surface
+relationship: part_of SPD:0000027
+
+
+[Term]
+id: SPD:0000247
+name: booklung cover internal surface
+relationship: part_of SPD:0000027
+
+
+[Term]
+id: SPD:0000248
+name: booklung leaves
+relationship: part_of SPD:0000027
+
+
+[Term]
+id: SPD:0000249
+name: booklung leaves internal spacers
+relationship: part_of SPD:0000248
+
+
+[Term]
+id: SPD:0000030
+name: epiandrium
+relationship: part_of SPD:0000007
+
+
+[Term]
+id: SPD:0000251
+name: epiandric spigots
+relationship: part_of SPD:0000030
+
+
+[Term]
+id: SPD:0000034
+name: epigastric fold
+relationship: part_of SPD:0000007
+def: "a transverse groove across the anterior ventral part of the abdomen" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:26\, 72\:34 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000009
+name: 3rd abdominal segment (posterior booklungs and tracheae)
+relationship: part_of SPD:0000003
+
+
+[Term]
+id: SPD:0000031
+name: posterior booklung or lateral tracheae
+relationship: part_of SPD:0000009
+
+
+[Term]
+id: SPD:0000118
+name: posterior booklung or lateral tracheae
+relationship: part_of SPD:0000009
+
+
+[Term]
+id: SPD:0000120
+name: lateral tracheae
+relationship: part_of SPD:0000031
+
+
+[Term]
+id: SPD:0000252
+name: lateral tracheae internal structure
+relationship: part_of SPD:0000120
+
+
+[Term]
+id: SPD:0000032
+name: median tracheae or entapophyses
+relationship: part_of SPD:0000009
+
+
+[Term]
+id: SPD:0000275
+name: median tracheae internal structure
+relationship: part_of SPD:0000032
+
+
+[Term]
+id: SPD:0000033
+name: spiracle
+relationship: part_of SPD:0000009
+def: "the opening to the tracheal respiratory system" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:26 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000330
+name: sigilla
+relationship: part_of SPD:0000003
+def: "circular impressions or “dimples” on the abdomen and sternum of some spiders representing points of muscle attachment and endoskeletal attachments" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:67 in SPDrf:Ubick_et_al_2005_glossary
+synonym: "sigillum" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000309
+name: dorsal sigilla
+relationship: part_of SPD:0000330
+
+
+[Term]
+id: SPD:0000010
+name: spinnerets
+relationship: part_of SPD:0000003
+def: "finger-like or conical silk spinning organs located at the posterior end of the abdomen" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Figs 72\:4\, 72\:7 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000363
+name: spinning fields
+relationship: part_of SPD:0000010
+
+
+[Term]
+id: SPD:0000364
+name: spigots
+relationship: part_of SPD:0000363
+def: "tiny cylindrical extension of the spinnerets from which silk is extruded" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000368
+name: ampullates
+relationship: part_of SPD:0000364
+
+
+[Term]
+id: SPD:0000365
+name: aciniforms
+relationship: part_of SPD:0000364
+def: "form of a silk gland and its a associated spigot type " [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000367
+name: cylindricals
+relationship: part_of SPD:0000364
+
+
+[Term]
+id: SPD:0000369
+name: paracribellars
+relationship: part_of SPD:0000364
+
+
+[Term]
+id: SPD:0000366
+name: pumpkiniforms
+relationship: part_of SPD:0000364
+
+
+[Term]
+id: SPD:0000370
+name: tartipores
+relationship: part_of SPD:0000364
+
+
+[Term]
+id: SPD:0000035
+name: AMS-cribellum-colulus
+relationship: part_of SPD:0000010
+def: "present only in some Mesothelae; absent in Mygalomorphae; represented by cribellum or colulus in Araneomorphae" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000276
+name: cribellar spigots
+relationship: part_of SPD:0000035
+
+
+[Term]
+id: SPD:0000036
+name: ALS
+relationship: part_of SPD:0000010
+def: "absent in most Mygalomorphae; large in Araneomorphae" [SPDrf:Ubick_et_al_2005_glossary]
+synonym: "anterior spinnerets" [SPDrf:Ubick_et_al_2005_glossary]
+synonym: "ALS" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000122
+name: ALS basal segment
+relationship: part_of SPD:0000036
+
+
+[Term]
+id: SPD:0000123
+name: ALS median segment
+relationship: part_of SPD:0000036
+
+
+[Term]
+id: SPD:0000124
+name: ALS apical segment
+relationship: part_of SPD:0000036
+
+
+[Term]
+id: SPD:0000125
+name: ALS spinning field
+relationship: part_of SPD:0000036
+
+
+[Term]
+id: SPD:0000253
+name: spigots unspecific
+relationship: part_of SPD:0000125
+
+
+[Term]
+id: SPD:0000254
+name: maAmp
+relationship: part_of SPD:0000125
+
+
+[Term]
+id: SPD:0000255
+name: maAmp field
+relationship: part_of SPD:0000125
+
+
+[Term]
+id: SPD:0000256
+name: maAmp field sensilla
+relationship: part_of SPD:0000125
+
+
+[Term]
+id: SPD:0000257
+name: Pi
+relationship: part_of SPD:0000125
+
+
+[Term]
+id: SPD:0000037
+name: PMS
+relationship: part_of SPD:0000010
+def: "(= median spinnerets) the innermost pair of spinnerets\, typically small" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:7 in SPDrf:Ubick_et_al_2005_glossary
+synonym: "PMS" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000126
+name: PMS spinning field
+relationship: part_of SPD:0000037
+
+
+[Term]
+id: SPD:0000258
+name: spigots unspecific
+relationship: part_of SPD:0000126
+
+
+[Term]
+id: SPD:0000259
+name: miAmp
+relationship: part_of SPD:0000126
+
+
+[Term]
+id: SPD:0000260
+name: Ac
+relationship: part_of SPD:0000126
+
+
+[Term]
+id: SPD:0000261
+name: Cy
+relationship: part_of SPD:0000126
+
+
+[Term]
+id: SPD:0000267
+name: PC
+relationship: part_of SPD:0000126
+
+
+[Term]
+id: SPD:0000038
+name: PLS
+relationship: part_of SPD:0000010
+def: "typically well developed" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:7 in SPDrf:Ubick_et_al_2005_glossary
+synonym: "PLS" [SPDrf:Ubick_et_al_2005_glossary]
+synonym: "posterior spinnerets" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000127
+name: PLS basal segment
+relationship: part_of SPD:0000038
+
+
+[Term]
+id: SPD:0000128
+name: PLS apical segment
+relationship: part_of SPD:0000038
+
+
+[Term]
+id: SPD:0000129
+name: PLS spinning field
+relationship: part_of SPD:0000038
+
+
+[Term]
+id: SPD:0000277
+name: spigots unspecific
+relationship: part_of SPD:0000129
+
+
+[Term]
+id: SPD:0000262
+name: Ac
+relationship: part_of SPD:0000129
+
+
+[Term]
+id: SPD:0000263
+name: Cy
+relationship: part_of SPD:0000129
+
+
+[Term]
+id: SPD:0000264
+name: MS
+relationship: part_of SPD:0000129
+
+
+[Term]
+id: SPD:0000265
+name: PC
+relationship: part_of SPD:0000129
+
+
+[Term]
+id: SPD:0000266
+name: triad
+relationship: part_of SPD:0000129
+
+
+[Term]
+id: SPD:0000011
+name: anal tubercle
+relationship: part_of SPD:0000003
+def: "a small lobe posterior to the spinnerets which bears the anal opening" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Figs 72\:4\, 72\:7  in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000042
+name: sternites anal tubercle
+relationship: part_of SPD:0000011
+
+
+[Term]
+id: SPD:0000041
+name: tergites anal tubercle
+relationship: part_of SPD:0000011
+
+
+[Term]
+id: SPD:0000278
+name: setae anal tubercle
+relationship: part_of SPD:0000011
+
+
+[Term]
+id: SPD:0000305
+name: setae abdomen
+relationship: part_of SPD:0000003
+
+
+[Term]
+id: SPD:0000306
+name: hairs abdomen
+relationship: part_of SPD:0000305
+
+
+[Term]
+id: SPD:0000307
+name: scales abdomen
+relationship: part_of SPD:0000305
+
+
+[Term]
+id: SPD:0000361
+name: urticating hairs
+relationship: part_of SPD:0000305
+
+
+[Term]
+id: SPD:0000130
+name: heart
+relationship: part_of SPD:0000003
+
+
+[Term]
+id: SPD:0000047
+name: intestine
+relationship: part_of SPD:0000003
+
+
+[Term]
+id: SPD:0000131
+name: midgut
+relationship: part_of SPD:0000047
+
+
+[Term]
+id: SPD:0000132
+name: gut caecum
+relationship: part_of SPD:0000047
+
+
+[Term]
+id: SPD:0000044
+name: female genitalia
+relationship: part_of SPD:0000007
+
+
+[Term]
+id: SPD:0000028
+name: epigynum
+relationship: part_of SPD:0000044
+def: "the sclerotized region of female spiders covering the internal genitalia and located between the book lungs and anterior of the epigastric furrow" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Figs 72\:26\, 72\:32\, 72\:33\, 72\:47\, 72\:76 in SPDrf:Ubick_et_al_2005_glossary
+synonym: "epigyne" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000133
+name: lateral lobes
+relationship: part_of SPD:0000028
+
+
+[Term]
+id: SPD:0000134
+name: median field
+relationship: part_of SPD:0000028
+
+
+[Term]
+id: SPD:0000136
+name: copulatory opening
+relationship: part_of SPD:0000028
+def: "external pores on the epigyna of entelegyne females" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Figs 72\:33\, 72\:34  in SPDrf:Ubick_et_al_2005_glossary
+synonym: "copulatory pores" [SPDrf:Ubick_et_al_2005_glossary]
+synonym: "epigynal openings" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000029
+name: vulva
+relationship: part_of SPD:0000044
+def: "a collective term for the internal components of the female genitalia associated with the epigynum including copulatory ducts\, spermathecae\, and fertilization ducts" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000135
+name: copulatory duct
+relationship: part_of SPD:0000029
+def: "ducts in the female genitalia which connect the copulatory pores to the spermathecae" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:34  in SPDrf:Ubick_et_al_2005_glossary
+synonym: "insemination ducts" [SPDrf:Ubick_et_al_2005_glossary]
+synonym: "connecting ducts" [SPDrf:Ubick_et_al_2005_glossary]
+synonym: "entrance ducts" [SPDrf:Ubick_et_al_2005_glossary]
+synonym: "spermathecal ducts" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000137
+name: fertilization duct
+relationship: part_of SPD:0000029
+def: "internal ducts through which females fertilize their eggs; in haplogyne spiders these are the same as copulatory ducts" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:34 in SPDrf:Ubick_et_al_2005_glossary
+
+
+[Term]
+id: SPD:0000138
+name: primary spermatheca (SP1, with FD)
+relationship: part_of SPD:0000029
+def: "internal sclerotized sperm-storage sacs present in all female spiders" [SPDrf:Ubick_et_al_2005_glossary]
+comment: Fig 72\:34 in SPDrf:Ubick_et_al_2005_glossary
+synonym: "seminal receptacle" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000139
+name: dictynoid pore
+relationship: part_of SPD:0000029
+
+
+[Term]
+id: SPD:0000140
+name: secondary spermatheca (SP2 or head)
+relationship: part_of SPD:0000029
+
+
+[Term]
+id: SPD:0000141
+name: stalk of spermatheca (CD between SP1 and SP2)
+relationship: part_of SPD:0000029
+
+
+[Term]
+id: SPD:0000143
+name: epigynal glands
+relationship: part_of SPD:0000029
+
+
+[Term]
+id: SPD:0000284
+name: uterus externus
+relationship: part_of SPD:0000029
+
+
+[Term]
+id: SPD:0000280
+name: bursa
+relationship: part_of SPD:0000029
+def: "Latin term for female copulatory pouch" [SPDrf:Ubick_et_al_2005_glossary]
+
+
+[Term]
+id: SPD:0000283
+name: posterior receptacle
+relationship: part_of SPD:0000029
+
+
+[Term]
+id: SPD:0000282
+name: posterior apodemes
+relationship: part_of SPD:0000029
+
+
+[Term]
+id: SPD:0000327
+name: egg
+relationship: part_of SPD:000000
+
+
+[Term]
+id: SPD:0000317
+name: chorion
+relationship: part_of SPD:0000327
+
+
+[Term]
+id: SPD:0000318
+name: silk and behavior
+relationship: part_of SPD:000000
+
+
+[Term]
+id: SPD:0000319
+name: cribellate silk
+relationship: part_of SPD:0000318
+
+
+[Term]
+id: SPD:0000320
+name: cribellate fibrils
+relationship: part_of SPD:0000319
+
+
+[Term]
+id: SPD:0000321
+name: dragline
+relationship: part_of SPD:0000318
+
+
+[Term]
+id: SPD:0000326
+name: attachment disk
+relationship: part_of SPD:0000318
+
+
+[Term]
+id: SPD:0000322
+name: piriform glue
+relationship: part_of SPD:0000326
+
+
+[Term]
+id: SPD:0000323
+name: eggsac layers
+relationship: part_of SPD:0000318
+
+
+[Term]
+id: SPD:0000324
+name: sticky spiral composed line
+relationship: part_of SPD:0000318
+
+
+[Term]
+id: SPD:0000388
+name: development
+relationship: part_of SPD:000000
+
+
+[Typedef]
+id: part_of
+name: part of
