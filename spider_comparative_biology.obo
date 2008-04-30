@@ -1,6 +1,6 @@
 format-version: 1.0
-version: 0.8
-date: 22:07:2007 21:08
+version: 0.8.1
+date: 12:04:2008 16:32
 saved-by: Martin Ramirez
 auto-generated-by: OBO-Edit 1.002
 default-namespace: spider_anatomy
@@ -2640,8 +2640,12 @@ namespace: spider_behavior
 id: SPD:0000449
 name: cribellate silk carding behavior
 namespace: spider_behavior
+def: "The stereotyped movements used by cribellate spiders to carde the band of cribellar fibrils using the calamistrum.  It involves the movement of the carding leg IV of which the calamistrum is being used, and a contralateral leg to support the carding leg." [SPD:Curator]
+exact_synonym: "carding behavior" []
+exact_synonym: "combing behavior" []
 is_a: SPD:0000448 ! behavioral entity
 
 [Typedef]
 id: part_of
 name: part of
+
