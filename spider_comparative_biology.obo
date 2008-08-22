@@ -1,6 +1,6 @@
 format-version: 1.0
-version: 0.8.1
-date: 12:04:2008 16:32
+version: 0.8.2
+date: 22:08:2008 07:16
 saved-by: Martin Ramirez
 auto-generated-by: OBO-Edit 1.002
 default-namespace: spider_anatomy
@@ -1930,6 +1930,7 @@ is_a: SPD:0000053 ! silk cable
 [Term]
 id: SPD:0000322
 name: piriform glue
+def: "The silk produced by the piriform gland spigots, placed on the anterior lateral spigots, to attach the ampullate fibers to the substrate." [SPD:Curator]
 relationship: part_of SPD:0000326 ! attachment disk
 
 [Term]
