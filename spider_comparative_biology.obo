@@ -1,6 +1,6 @@
 format-version: 1.0
-version: 0.8.2
-date: 22:08:2008 07:16
+version: 0.8.3
+date: 08:09:2008 20:03
 saved-by: Martin Ramirez
 auto-generated-by: OBO-Edit 1.002
 default-namespace: spider_anatomy
@@ -39,14 +39,14 @@ is_a: SPD:0000043 ! integumentary system
 [Term]
 id: SPD:0000005
 name: carapace
-def: "Dorsal part of the cephalothorax." [SPDrf:Ubick_et_al_2005_glossary]
+def: "Dorsal shield of the cephalothorax." [SPD:Curator]
 comment: Fig 72:4  in SPDrf:Ubick_et_al_2005_glossary
 relationship: part_of SPD:0000002 ! cephalothorax
 
 [Term]
 id: SPD:0000006
 name: pedicel
-def: "The narrowed connection between the cephalothorax and abdomen; the waist of the spider." [SPDrf:Ubick_et_al_2005_glossary]
+def: "First abdominal segment, the narrowed connection between cephalothorax and abdomen." [SPD:Curator]
 comment: Figs 72:4, 72:26 in SPDrf:Ubick_et_al_2005_glossary
 exact_synonym: "1st abdominal segment" []
 exact_synonym: "abdominal segment 1" []
@@ -77,7 +77,7 @@ consider: SPD:0000059
 [Term]
 id: SPD:0000010
 name: spinneret
-def: "Finger-like or conical silk spinning organs located at the posterior end of the abdomen." [SPDrf:Ubick_et_al_2005_glossary]
+def: "Finger-like or conical silk spinning appendages located at the posterior end of the abdomen." [SPD:Curator]
 comment: Figs 72:4, 72:7 in SPDrf:Ubick_et_al_2005_glossary
 relationship: part_of SPD:0000057 ! external abdomen
 
@@ -108,14 +108,15 @@ is_a: SPD:0000001 ! whole organism
 
 [Term]
 id: SPD:0000015
-name: eyes
+name: eye
 relationship: part_of SPD:0000016 ! cephalic area
 
 [Term]
 id: SPD:0000016
 name: cephalic area
-def: "The anterior (= head) portion of the carapace." [SPDrf:Ubick_et_al_2005_glossary]
+def: "The anterior portion of the carapace, bearing the eyes, sometimes delimited posteriorly by marked thoracic furrows." [SPD:Curator]
 comment: Fig 72:11  in SPDrf:Ubick_et_al_2005_glossary
+exact_synonym: "head" [SPD:Curator]
 exact_synonym: "caput" [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "cephalon" [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "pars cephalica" [SPDrf:Ubick_et_al_2005_glossary]
@@ -124,7 +125,7 @@ relationship: part_of SPD:0000005 ! carapace
 [Term]
 id: SPD:0000017
 name: thoracic area
-def: "The posterior division of the carapace." [SPDrf:Ubick_et_al_2005_glossary]
+def: "The posterior portion of the carapace, sometimes delimited anteriorly by marked thoracic furrows." [SPD:Curator]
 comment: Fig 72:11 in SPDrf:Ubick_et_al_2005_glossary
 relationship: part_of SPD:0000005 ! carapace
 
@@ -158,32 +159,44 @@ is_a: SPD:0000335 ! palp
 [Term]
 id: SPD:0000021
 name: leg 1
+def: "Appendage of cephalothorax, between the palp and leg 2." [SPD:Curator]
+exact_synonym: "leg I" [SPD:Curator]
+exact_synonym: "fore leg" [SPD:Curator]
 is_a: SPD:0000331 ! appendages cephalothorax
 
 [Term]
 id: SPD:0000022
 name: leg 2
+def: "Appendage of cephalothorax, between the leg 1 and leg 3." [SPD:Curator]
+exact_synonym: "leg II" [SPD:Curator]
 is_a: SPD:0000331 ! appendages cephalothorax
 
 [Term]
 id: SPD:0000023
 name: leg 3
+def: "Appendage of cephalothorax, between the leg 2 and leg 4." [SPD:Curator]
+exact_synonym: "leg III" [SPD:Curator]
 is_a: SPD:0000331 ! appendages cephalothorax
 
 [Term]
 id: SPD:0000024
 name: leg 4
+def: "Most posterior appendage of cephalothorax." [SPD:Curator]
+exact_synonym: "leg IV" [SPD:Curator]
+exact_synonym: "hind leg" [SPD:Curator]
 is_a: SPD:0000331 ! appendages cephalothorax
 
 [Term]
 id: SPD:0000025
 name: pedicel sternite
+def: "Ventral sclerite on the pedicel." [SPD:Curator]
 is_a: SPD:0000358 ! abdominal sternite
 relationship: part_of SPD:0000006 ! pedicel
 
 [Term]
 id: SPD:0000026
 name: pedicel tergite
+def: "One of the dorsal sclerites on the pedicel." [SPD:Curator]
 is_a: SPD:0000357 ! abdominal tergite
 relationship: part_of SPD:0000006 ! pedicel
 
@@ -210,11 +223,13 @@ relationship: part_of SPD:0000044 ! female genitalia
 [Term]
 id: SPD:0000030
 name: epiandrium
+def: "The area just anterior to the epigastric fold and between the booklungs in male spiders, often bearing epiandrous spigots." [SPD:Curator]
 relationship: part_of SPD:0000058 ! epigastrium
 
 [Term]
 id: SPD:0000031
 name: posterior lateral respiratory structure
+def: "The respiratory structure homologous to the posterior booklung, which may be present as a booklung developed in full or in diverse grades of reduction, or as a (lateral) trachea." [SPD:Curator]
 relationship: part_of SPD:0000060 ! posterior respiratory system
 
 [Term]
@@ -234,14 +249,14 @@ relationship: part_of SPD:0000060 ! posterior respiratory system
 [Term]
 id: SPD:0000034
 name: epigastric fold
-def: "A transverse groove across the anterior ventral part of the abdomen." [SPDrf:Ubick_et_al_2005_glossary]
+def: "A transverse groove across the anterior ventral part of the abdomen, delimiting the second and third abdominal segments." [SPD:Curator]
 comment: Fig 72:26, 72:34 in SPDrf:Ubick_et_al_2005_glossary
 relationship: part_of SPD:0000058 ! epigastrium
 
 [Term]
 id: SPD:0000035
 name: AMS-cribellum-colulus
-def: "Present only in some Mesothelae; absent in Mygalomorphae; represented by cribellum or colulus in Araneomorphae." [SPDrf:Ubick_et_al_2005_glossary]
+def: "The anterior median abdominal appendage, which may be present as a spinneret in some Mesothelae, or reduced to the cribellum or colulus in Araneomorphae; it is absent in Mygalomorphae." [SPD:Curator]
 is_obsolete: true
 consider: SPD:0000081
 
@@ -1712,9 +1727,8 @@ relationship: part_of SPD:0000274 ! seta appendage cephalothorax
 [Term]
 id: SPD:0000287
 name: labral sclerite
-def: "A short projection from the labrum of certain spiders (Anapidae)." [SPDrf:Ubick_et_al_2005_glossary]
-comment: Fig 72:36 in SPDrf:Ubick_et_al_2005_glossary
-exact_synonym: "labral spur" [SPDrf:Ubick_et_al_2005_glossary]
+def: "A flat sclerite with a distal free end on the dorsal side of the labrum of araneomorph spiders (except Hypochilus)." [SPD:Curator]
+related_synonym: "labral spur" [SPDrf:Ubick_et_al_2005_glossary]
 relationship: part_of SPD:0000288 ! labrum
 
 [Term]
@@ -2046,7 +2060,7 @@ consider: SPD:0000015
 id: SPD:0000342
 name: indirect eye
 def: "All eyes other than the anterior median eyes; only these may have the tapetum layer and appear shiny." [SPDrf:Ubick_et_al_2005_glossary]
-relationship: part_of SPD:0000015 ! eyes
+relationship: part_of SPD:0000015 ! eye
 
 [Term]
 id: SPD:0000343
@@ -2338,7 +2352,7 @@ relationship: part_of SPD:0000348 ! socket trichobothria
 [Term]
 id: SPD:0000392
 name: direct eye
-is_a: SPD:0000015 ! eyes
+is_a: SPD:0000015 ! eye
 
 [Term]
 id: SPD:0000393
@@ -2367,7 +2381,7 @@ relationship: part_of SPD:0000050 ! PME
 [Term]
 id: SPD:0000397
 name: eye lens
-relationship: part_of SPD:0000015 ! eyes
+relationship: part_of SPD:0000015 ! eye
 
 [Term]
 id: SPD:0000398
