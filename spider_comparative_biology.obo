@@ -1,5 +1,5 @@
 format-version: 1.0
-version: 0.8.3
+version: 0.8.4
 date: 08:09:2008 20:03
 saved-by: Martin Ramirez
 auto-generated-by: OBO-Edit 1.002
@@ -1728,7 +1728,6 @@ relationship: part_of SPD:0000274 ! seta appendage cephalothorax
 id: SPD:0000287
 name: labral sclerite
 def: "A flat sclerite with a distal free end on the dorsal side of the labrum of araneomorph spiders (except Hypochilus)." [SPD:Curator]
-related_synonym: "labral spur" [SPDrf:Ubick_et_al_2005_glossary]
 relationship: part_of SPD:0000288 ! labrum
 
 [Term]
