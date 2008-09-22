@@ -1,6 +1,7 @@
 format-version: 1.0
-version: 0.8.4
-date: 08:09:2008 20:03
+format-version: 1.0
+version: 0.8.5
+date: 20:09:2008 17:49
 saved-by: Martin Ramirez
 auto-generated-by: OBO-Edit 1.002
 default-namespace: spider_anatomy
@@ -203,6 +204,7 @@ relationship: part_of SPD:0000006 ! pedicel
 [Term]
 id: SPD:0000027
 name: anterior booklung
+def: "The booklung of the second abdominal segment." [SPD:Curator]
 is_a: SPD:0000428 ! booklung
 is_a: SPD:0000441 ! anterior lateral respiratory structure
 
@@ -262,29 +264,30 @@ consider: SPD:0000081
 
 [Term]
 id: SPD:0000036
-name: ALS
-def: "Absent in most Mygalomorphae; large in Araneomorphae." [SPDrf:Ubick_et_al_2005_glossary]
+name: anterior lateral spinneret
+def: "The lateral spinneret of the fourth abdominal segment." [SPD:Curator]
 exact_synonym: "ALS" [SPDrf:Ubick_et_al_2005_glossary]
-exact_synonym: "anterior spinnerets" [SPDrf:Ubick_et_al_2005_glossary]
+exact_synonym: "anterior spinneret" [SPDrf:Ubick_et_al_2005_glossary]
 relationship: part_of SPD:0000010 ! spinneret
 relationship: part_of SPD:0000425 ! abdominal segment 4
 
 [Term]
 id: SPD:0000037
-name: PMS
-def: "(= median spinnerets) the innermost pair of spinnerets, typically small." [SPDrf:Ubick_et_al_2005_glossary]
+name: posterior median spinneret
+def: "The median spinneret of the fifth abdominal segment." [SPD:Curator]
 comment: Fig 72:7 in SPDrf:Ubick_et_al_2005_glossary
 exact_synonym: "PMS" [SPDrf:Ubick_et_al_2005_glossary]
+exact_synonym: "median spinneret" [SPDrf:Ubick_et_al_2005_glossary]
 relationship: part_of SPD:0000010 ! spinneret
 relationship: part_of SPD:0000426 ! abdominal segment 5
 
 [Term]
 id: SPD:0000038
-name: PLS
-def: "Typically well developed." [SPDrf:Ubick_et_al_2005_glossary]
+name: posterior lateral spinneret
+def: "The lateral spinneret of the fifth abdominal segment." [SPD:Curator]
 comment: Fig 72:7 in SPDrf:Ubick_et_al_2005_glossary
 exact_synonym: "PLS" [SPDrf:Ubick_et_al_2005_glossary]
-exact_synonym: "posterior spinnerets" [SPDrf:Ubick_et_al_2005_glossary]
+exact_synonym: "posterior spinneret" [SPDrf:Ubick_et_al_2005_glossary]
 relationship: part_of SPD:0000010 ! spinneret
 relationship: part_of SPD:0000426 ! abdominal segment 5
 
@@ -305,12 +308,14 @@ relationship: part_of SPD:0000016 ! cephalic area
 [Term]
 id: SPD:0000041
 name: anal tubercle tergite
+def: "The dorsal sclerite of the anal tubercle." [SPD:Curator]
 is_a: SPD:0000357 ! abdominal tergite
 relationship: part_of SPD:0000011 ! anal tubercle
 
 [Term]
 id: SPD:0000042
 name: anal tubercle sternite
+def: "The ventral sclerite of the anal tubercle." [SPD:Curator]
 is_a: SPD:0000358 ! abdominal sternite
 relationship: part_of SPD:0000011 ! anal tubercle
 
@@ -334,6 +339,7 @@ is_a: SPD:0000335 ! palp
 [Term]
 id: SPD:0000046
 name: setal shaft
+def: "The movable body of the seta, articulated on the setal socket." [SPD:Curator]
 relationship: part_of SPD:0000359 ! seta
 
 [Term]
@@ -343,29 +349,32 @@ relationship: part_of SPD:0000003 ! abdomen
 
 [Term]
 id: SPD:0000048
-name: AME
-def: "These are morphologically distinct from the other eyes and are often reduced or lost." [SPDrf:Ubick_et_al_2005_glossary]
+name: anterior median eye
+def: "The median of the anterior row." [SPD:Curator]
 comment: Fig 72:6  in SPDrf:Ubick_et_al_2005_glossary
 exact_synonym: "AME" [SPDrf:Ubick_et_al_2005_glossary]
-exact_synonym: "primary eyes" [SPDrf:Ubick_et_al_2005_glossary]
+exact_synonym: "primary eye" [SPDrf:Ubick_et_al_2005_glossary]
 is_a: SPD:0000392 ! direct eye
 
 [Term]
 id: SPD:0000049
-name: ALE
-def: "Eyes situated on the anterolateral portion of the eye group." [SPDrf:Ubick_et_al_2005_glossary]
+name: anterior lateral eye
+def: "The lateral eye of the anterior row." [SPD:Curator]
 comment: Fig 72:6  in SPDrf:Ubick_et_al_2005_glossary
 exact_synonym: "ALE" [SPDrf:Ubick_et_al_2005_glossary]
 is_a: SPD:0000342 ! indirect eye
 
 [Term]
 id: SPD:0000050
-name: PME
+name: posterior median eye
+def: "The median eye of the posterior row." [SPD:Curator]
+exact_synonym: "PME" [SPD:Ubick_et_al_2005_glossary]
 is_a: SPD:0000342 ! indirect eye
 
 [Term]
 id: SPD:0000051
-name: PLE
+name: posterior lateral eye
+def: "The lateral eye of the posterior row." [SPD:Curator]
 comment: Fig 72:6 in SPDrf:Ubick_et_al_2005_glossary
 exact_synonym: "PLE" [SPDrf:Ubick_et_al_2005_glossary]
 is_a: SPD:0000342 ! indirect eye
@@ -373,6 +382,7 @@ is_a: SPD:0000342 ! indirect eye
 [Term]
 id: SPD:0000052
 name: carapace posterior margin
+def: "The posterior margin o fthe carapace on top of the pedicel." [SPD:Curator]
 relationship: part_of SPD:0000017 ! thoracic area
 
 [Term]
@@ -405,6 +415,7 @@ relationship: part_of SPD:0000003 ! abdomen
 [Term]
 id: SPD:0000058
 name: epigastrium
+def: "The ventral part of the second abdominal segment, bearing the booklung plates and anterior to the epigastric furrow." [SPD:Curator]
 exact_synonym: "epigastric area" []
 relationship: part_of SPD:0000057 ! external abdomen
 relationship: part_of SPD:0000423 ! abdominal segment 2
@@ -418,12 +429,14 @@ relationship: part_of SPD:0000424 ! abdominal segment 3
 
 [Term]
 id: SPD:0000060
+def: "The respiratory ssytem of the third abdominal segment, reduced to tubular tracheae in derived Araneomorphae." [SPD:Curator]
 name: posterior respiratory system
 relationship: part_of SPD:0000059 ! posepigastrium
 
 [Term]
 id: SPD:0000061
 name: posterior booklung
+def: "The booklung of the third abdominal segment." [SPD:Curator]
 is_a: SPD:0000031 ! posterior lateral respiratory structure
 is_a: SPD:0000428 ! booklung
 
@@ -460,7 +473,7 @@ is_a: SPD:0000064 ! posterior median respiratory structure
 [Term]
 id: SPD:0000067
 name: fang
-def: "The apical segment of a chelicera; has the opening of the venom gland." [SPDrf:Ubick_et_al_2005_glossary]
+def: "The apical segment of a chelicera, bearing the opening of the venom gland." [SPD:Curator]
 comment: Fig 72:5 in SPDrf:Ubick_et_al_2005_glossary
 relationship: part_of SPD:0000019 ! chelicera
 
@@ -2058,7 +2071,7 @@ consider: SPD:0000015
 [Term]
 id: SPD:0000342
 name: indirect eye
-def: "All eyes other than the anterior median eyes; only these may have the tapetum layer and appear shiny." [SPDrf:Ubick_et_al_2005_glossary]
+def: "All eyes other than the anterior median eye; only these may have the tapetum layer and appear shiny." [SPDrf:Ubick_et_al_2005_glossary]
 relationship: part_of SPD:0000015 ! eye
 
 [Term]
@@ -2351,6 +2364,7 @@ relationship: part_of SPD:0000348 ! socket trichobothria
 [Term]
 id: SPD:0000392
 name: direct eye
+def: "An eye where the retina receives the light directly, as opposed to being reflected by a tapetum." [SPD:Curator]
 is_a: SPD:0000015 ! eye
 
 [Term]
@@ -2545,6 +2559,7 @@ is_a: SPD:0000014 ! organ system
 [Term]
 id: SPD:0000428
 name: booklung
+def: "A respiratory structure made of many hollow leaves lined by cuticle, connecting to the exterior by a spiracle." [SPD:Curator]
 is_a: SPD:0000437 ! lateral respiratory structure
 
 [Term]
