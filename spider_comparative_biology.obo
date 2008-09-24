@@ -1,7 +1,7 @@
 format-version: 1.0
 format-version: 1.0
-version: 0.8.5
-date: 20:09:2008 17:49
+version: 0.8.6
+date: 24:09:2008 19:31
 saved-by: Martin Ramirez
 auto-generated-by: OBO-Edit 1.002
 default-namespace: spider_anatomy
@@ -117,9 +117,9 @@ id: SPD:0000016
 name: cephalic area
 def: "The anterior portion of the carapace, bearing the eyes, sometimes delimited posteriorly by marked thoracic furrows." [SPD:Curator]
 comment: Fig 72:11  in SPDrf:Ubick_et_al_2005_glossary
-exact_synonym: "head" [SPD:Curator]
 exact_synonym: "caput" [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "cephalon" [SPDrf:Ubick_et_al_2005_glossary]
+exact_synonym: "head" [SPD:Curator]
 exact_synonym: "pars cephalica" [SPDrf:Ubick_et_al_2005_glossary]
 relationship: part_of SPD:0000005 ! carapace
 
@@ -161,8 +161,8 @@ is_a: SPD:0000335 ! palp
 id: SPD:0000021
 name: leg 1
 def: "Appendage of cephalothorax, between the palp and leg 2." [SPD:Curator]
-exact_synonym: "leg I" [SPD:Curator]
 exact_synonym: "fore leg" [SPD:Curator]
+exact_synonym: "leg I" [SPD:Curator]
 is_a: SPD:0000331 ! appendages cephalothorax
 
 [Term]
@@ -183,8 +183,8 @@ is_a: SPD:0000331 ! appendages cephalothorax
 id: SPD:0000024
 name: leg 4
 def: "Most posterior appendage of cephalothorax." [SPD:Curator]
-exact_synonym: "leg IV" [SPD:Curator]
 exact_synonym: "hind leg" [SPD:Curator]
+exact_synonym: "leg IV" [SPD:Curator]
 is_a: SPD:0000331 ! appendages cephalothorax
 
 [Term]
@@ -276,8 +276,8 @@ id: SPD:0000037
 name: posterior median spinneret
 def: "The median spinneret of the fifth abdominal segment." [SPD:Curator]
 comment: Fig 72:7 in SPDrf:Ubick_et_al_2005_glossary
-exact_synonym: "PMS" [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "median spinneret" [SPDrf:Ubick_et_al_2005_glossary]
+exact_synonym: "PMS" [SPDrf:Ubick_et_al_2005_glossary]
 relationship: part_of SPD:0000010 ! spinneret
 relationship: part_of SPD:0000426 ! abdominal segment 5
 
@@ -382,7 +382,7 @@ is_a: SPD:0000342 ! indirect eye
 [Term]
 id: SPD:0000052
 name: carapace posterior margin
-def: "The posterior margin o fthe carapace on top of the pedicel." [SPD:Curator]
+def: "The posterior margin of the carapace on top of the pedicel." [SPD:Curator]
 relationship: part_of SPD:0000017 ! thoracic area
 
 [Term]
@@ -422,16 +422,16 @@ relationship: part_of SPD:0000423 ! abdominal segment 2
 
 [Term]
 id: SPD:0000059
-name: posepigastrium
+name: postepigastrium
 def: "A new tentative term for the ventral abdominal area between the epigastric fold and the spinnerets.  It corresponds with the 3rd abdominal segment." [SPD:Curator]
 relationship: part_of SPD:0000057 ! external abdomen
 relationship: part_of SPD:0000424 ! abdominal segment 3
 
 [Term]
 id: SPD:0000060
-def: "The respiratory ssytem of the third abdominal segment, reduced to tubular tracheae in derived Araneomorphae." [SPD:Curator]
 name: posterior respiratory system
-relationship: part_of SPD:0000059 ! posepigastrium
+def: "The respiratory system of the third abdominal segment, reduced to tubular tracheae in derived Araneomorphae." [SPD:Curator]
+relationship: part_of SPD:0000059 ! postepigastrium
 
 [Term]
 id: SPD:0000061
@@ -791,22 +791,22 @@ is_a: SPD:0000437 ! lateral respiratory structure
 [Term]
 id: SPD:0000121
 name: PMS segment
-relationship: part_of SPD:0000037 ! PMS
+relationship: part_of SPD:0000037 ! posterior median spinneret
 
 [Term]
 id: SPD:0000122
 name: ALS basal segment
-relationship: part_of SPD:0000036 ! ALS
+relationship: part_of SPD:0000036 ! anterior lateral spinneret
 
 [Term]
 id: SPD:0000123
 name: ALS median segment
-relationship: part_of SPD:0000036 ! ALS
+relationship: part_of SPD:0000036 ! anterior lateral spinneret
 
 [Term]
 id: SPD:0000124
 name: ALS apical segment
-relationship: part_of SPD:0000036 ! ALS
+relationship: part_of SPD:0000036 ! anterior lateral spinneret
 
 [Term]
 id: SPD:0000125
@@ -823,12 +823,12 @@ relationship: part_of SPD:0000121 ! PMS segment
 [Term]
 id: SPD:0000127
 name: PLS basal segment
-relationship: part_of SPD:0000038 ! PLS
+relationship: part_of SPD:0000038 ! posterior lateral spinneret
 
 [Term]
 id: SPD:0000128
 name: PLS apical segment
-relationship: part_of SPD:0000038 ! PLS
+relationship: part_of SPD:0000038 ! posterior lateral spinneret
 
 [Term]
 id: SPD:0000129
@@ -1163,7 +1163,7 @@ relationship: part_of SPD:0000068 ! paturon
 [Term]
 id: SPD:0000186
 name: retromargin
-def: "The poster ior margin of the cheliceral furrow in Araneomorphae (ectal margin in Mygalomorphae)." [SPDrf:Ubick_et_al_2005_glossary]
+def: "The posterior margin of the cheliceral furrow in Araneomorphae (ectal margin in Mygalomorphae)." [SPDrf:Ubick_et_al_2005_glossary]
 comment: Fig 72:13 in SPDrf:Ubick_et_al_2005_glossary
 relationship: part_of SPD:0000068 ! paturon
 
@@ -1175,7 +1175,7 @@ relationship: part_of SPD:0000068 ! paturon
 [Term]
 id: SPD:0000188
 name: stridulatory files
-def: "A series of fine gro oves used in conjunction with thorns to pro duce sound, ty pically located along the ectal margin of the chelicera or along the ventro apical margin of the abdomen; see also thorn." [SPDrf:Ubick_et_al_2005_glossary]
+def: "A series of fine grooves used in conjunction with thorns to pro duce sound, typically located along the ectal margin of the chelicera or along the ventro apical margin of the abdomen; see also thorn." [SPDrf:Ubick_et_al_2005_glossary]
 comment: Fig 72:68, Fig 72:69 in SPDrf:Ubick_et_al_2005_glossary
 relationship: part_of SPD:0000068 ! paturon
 
@@ -1194,25 +1194,25 @@ relationship: part_of SPD:0000262 ! PLS Ac
 [Term]
 id: SPD:0000191
 name: AME retina
-relationship: part_of SPD:0000048 ! AME
+relationship: part_of SPD:0000048 ! anterior median eye
 
 [Term]
 id: SPD:0000192
 name: ALE tapetum
 is_a: SPD:0000343 ! tapetum
-relationship: part_of SPD:0000049 ! ALE
+relationship: part_of SPD:0000049 ! anterior lateral eye
 
 [Term]
 id: SPD:0000193
 name: PME tapetum
 is_a: SPD:0000343 ! tapetum
-relationship: part_of SPD:0000050 ! PME
+relationship: part_of SPD:0000050 ! posterior median eye
 
 [Term]
 id: SPD:0000194
 name: PLE tapetum
 is_a: SPD:0000343 ! tapetum
-relationship: part_of SPD:0000051 ! PLE
+relationship: part_of SPD:0000051 ! posterior lateral eye
 
 [Term]
 id: SPD:0000195
@@ -1325,7 +1325,7 @@ relationship: part_of SPD:0000277 ! PLS spigot unspecific
 
 [Term]
 id: SPD:0000214
-name: PLS Agg
+name: posterior lateral spinneret aggregate gland spigot
 is_a: SPD:0000215 ! aggregate gland spigot
 relationship: part_of SPD:0000129 ! PLS spinning field
 
@@ -1804,15 +1804,15 @@ relationship: part_of SPD:0000291 ! sternum
 
 [Term]
 id: SPD:0000297
-name: PLS Agg base
+name: base of posterior lateral spinneret aggregate gland spigot
 is_a: SPD:0000147 ! spigot base
-relationship: part_of SPD:0000214 ! PLS Agg
+relationship: part_of SPD:0000214 ! posterior lateral spinneret aggregate gland spigot
 
 [Term]
 id: SPD:0000298
-name: PLS Agg shaft
+name: shaft of posterior lateral spinneret aggregate gland spigot
 is_a: SPD:0000153 ! spigot shaft
-relationship: part_of SPD:0000214 ! PLS Agg
+relationship: part_of SPD:0000214 ! posterior lateral spinneret aggregate gland spigot
 
 [Term]
 id: SPD:0000299
@@ -1842,7 +1842,7 @@ relationship: part_of SPD:0000002 ! cephalothorax
 
 [Term]
 id: SPD:0000304
-name: midgut diverticles
+name: midgut diverticle
 relationship: part_of SPD:0000303 ! midgut
 
 [Term]
@@ -1972,7 +1972,7 @@ is_a: SPD:0000053 ! silk cable
 
 [Term]
 id: SPD:0000325
-name: trochanter ecclosion tooth
+name: trochanter eclosion tooth
 relationship: part_of SPD:0000344 ! postembryo
 
 [Term]
@@ -2146,7 +2146,7 @@ relationship: part_of SPD:0000086 ! tibia 1
 
 [Term]
 id: SPD:0000355
-name: cephalotorax color
+name: cephalothorax color
 comment: Replace this with pigment layers, cuticular pigment, or other more precise terms.  Use characters as guide.
 is_obsolete: true
 
@@ -2371,25 +2371,25 @@ is_a: SPD:0000015 ! eye
 id: SPD:0000393
 name: AME lens
 is_a: SPD:0000397 ! eye lens
-relationship: part_of SPD:0000048 ! AME
+relationship: part_of SPD:0000048 ! anterior median eye
 
 [Term]
 id: SPD:0000394
 name: ALE lens
 is_a: SPD:0000397 ! eye lens
-relationship: part_of SPD:0000049 ! ALE
+relationship: part_of SPD:0000049 ! anterior lateral eye
 
 [Term]
 id: SPD:0000395
 name: PLE lens
 is_a: SPD:0000397 ! eye lens
-relationship: part_of SPD:0000051 ! PLE
+relationship: part_of SPD:0000051 ! posterior lateral eye
 
 [Term]
 id: SPD:0000396
 name: PME lens
 is_a: SPD:0000397 ! eye lens
-relationship: part_of SPD:0000050 ! PME
+relationship: part_of SPD:0000050 ! posterior median eye
 
 [Term]
 id: SPD:0000397
@@ -2669,7 +2669,7 @@ namespace: spider_behavior
 id: SPD:0000449
 name: cribellate silk carding behavior
 namespace: spider_behavior
-def: "The stereotyped movements used by cribellate spiders to carde the band of cribellar fibrils using the calamistrum.  It involves the movement of the carding leg IV of which the calamistrum is being used, and a contralateral leg to support the carding leg." [SPD:Curator]
+def: "The stereotyped movements used by cribellate spiders to card the band of cribellar fibrils using the calamistrum.  It involves the movement of the carding leg IV of which the calamistrum is being used, and a contralateral leg to support the carding leg." [SPD:Curator]
 exact_synonym: "carding behavior" []
 exact_synonym: "combing behavior" []
 is_a: SPD:0000448 ! behavioral entity
