@@ -1,6 +1,6 @@
 format-version: 1.0
-version: 0.8.8
-date: 16:07:2009 07:39
+version: 0.9
+date: 23:07:2009 09:44
 saved-by: Martin Ramirez
 auto-generated-by: OBO-Edit 1.002
 default-namespace: spider_anatomy
@@ -1002,7 +1002,8 @@ relationship: part_of SPD:0000045 ! male palp
 
 [Term]
 id: SPD:0000159
-name: tarsal organ
+name: tarsal organ of cymbium
+is_a: SPD:0000310 ! tarsal organ
 relationship: part_of SPD:0000158 ! cymbium
 
 [Term]
@@ -1019,7 +1020,7 @@ relationship: part_of SPD:0000158 ! cymbium
 
 [Term]
 id: SPD:0000162
-name: cymbium apical setae
+name: cymbium apical seta
 is_a: SPD:0000274 ! seta appendage cephalothorax
 relationship: part_of SPD:0000158 ! cymbium
 
@@ -1350,25 +1351,27 @@ relationship: part_of SPD:0000216 ! hair appendages cephalothorax
 [Term]
 id: SPD:0000218
 name: scale appendages cephalothorax
-def: "Small setae without innervation, bend in an obtuse angle just after the socket; can be of several shapes, including cylindrical, feathery, flat" [SPD:Curator]
+def: "Small setae without innervation, bent in an obtuse angle just after the socket; can be of several shapes, including cylindrical, feathery, or flat." [SPD:Curator]
 relationship: part_of SPD:0000274 ! seta appendage cephalothorax
 
 [Term]
 id: SPD:0000219
 name: scopular seta
+def: "Tenent seta on ventral or lateral surfaces on appendages." [SPD:Curator]
 relationship: part_of SPD:0000311 ! scopula
 
 [Term]
 id: SPD:0000220
-name: socket scopular seta
+name: socket of scopular seta
 is_a: SPD:0000360 ! setal socket
 relationship: part_of SPD:0000219 ! scopular seta
 
 [Term]
 id: SPD:0000221
-name: scopular seta tenent barb
+name: tenent barb of scopular seta
+def: "A barb with expanded tip that makes contact with substratum and produces adherence through molecular forces." [SPD:Curator]
 is_a: SPD:0000353 ! setal barb
-relationship: part_of SPD:0000371 ! shaft scopular seta
+relationship: part_of SPD:0000371 ! shaft of scopular seta
 
 [Term]
 id: SPD:0000222
@@ -1377,14 +1380,15 @@ relationship: part_of SPD:0000312 ! claw tuft
 
 [Term]
 id: SPD:0000223
-name: claw tuft seta base
-relationship: part_of SPD:0000222 ! claw tuft seta
+name: claw tuft shaft base
+def: "The base of the claw tuft setal shaft, just above its insertion on the socket." [SPD:Curator]
+relationship: part_of SPD:0000459 ! claw tuft seta shaft
 
 [Term]
 id: SPD:0000224
-name: claw tuft seta tenent barb
+name: tenent barb of claw tuft seta
 is_a: SPD:0000353 ! setal barb
-relationship: part_of SPD:0000222 ! claw tuft seta
+relationship: part_of SPD:0000459 ! claw tuft seta shaft
 
 [Term]
 id: SPD:0000225
@@ -1736,6 +1740,7 @@ relationship: part_of SPD:0000151 ! male palpal patella
 [Term]
 id: SPD:0000286
 name: chemosensory seta
+def: "Sensory seta with an open tip and dendrites extending into the shaft." [SPD:Curator]
 relationship: part_of SPD:0000274 ! seta appendage cephalothorax
 
 [Term]
@@ -1880,7 +1885,8 @@ relationship: part_of SPD:0000330 ! sigilla
 [Term]
 id: SPD:0000310
 name: tarsal organ
-def: "Sense organs, usually pit-like on the dorsal surface of spider tarsi." [SPDrf:Ubick_et_al_2005_glossary]
+def: "A hygroreceptor and thermosensory organ situated on the dorsal side of the leg and palpal tarsi." [SPD:Curator]
+related_synonym: "Blumenthal's tarsal organ" [SPD:Curator]
 is_a: SPD:0000387 ! sensilla appendage cephalothorax
 relationship: part_of SPD:0000078 ! female palpal tarsus
 relationship: part_of SPD:0000088 ! tarsus 1
@@ -1892,7 +1898,7 @@ relationship: part_of SPD:0000379 ! tarsus
 [Term]
 id: SPD:0000311
 name: scopula
-def: "Group of tenent setae covering surfaces in appendages. Do not confuse with the generic use as a brush of unspecified setae." [SPD:Curator]
+def: "Group of tenent setae covering surfaces on appendages. Do not confuse with the generic use as a brush of unspecified setae." [SPD:Curator]
 comment: Fig72:15, 72:44, 72:66 in SPDrf:Ubick_et_al_2005_glossary
 relationship: part_of SPD:0000274 ! seta appendage cephalothorax
 
@@ -1906,7 +1912,7 @@ relationship: part_of SPD:0000274 ! seta appendage cephalothorax
 [Term]
 id: SPD:0000313
 name: trichobothria
-def: "A sensory hair (sensillum) arising from a round pit (bothrium); typically these are very slender and project vertically from the surface above the other hairs, rarely are they short and thick." [SPDrf:Ubick_et_al_2005_glossary]
+def: "A sensory seta on the dorsal surfaces of legs and palps, specialized in detecting air movement.  The setal shaft is slender, perpendicular to the cuticle surface, usually curved backwards and longer than the sorrounding hairs.  Trichobothria are typically disposed in longitudinal series of distally increasing length." [SPD:Curator]
 comment: Fig 72:44 in SPDrf:Ubick_et_al_2005_glossary
 relationship: part_of SPD:0000274 ! seta appendage cephalothorax
 
@@ -2110,13 +2116,14 @@ consider: SPD:0000313
 
 [Term]
 id: SPD:0000348
-name: socket trichobothria
+name: bothrium
+exact_synonym: "socket of trichobothria" [SPD:Curator]
 is_a: SPD:0000360 ! setal socket
 relationship: part_of SPD:0000313 ! trichobothria
 
 [Term]
 id: SPD:0000349
-name: shaft trichobothria
+name: shaft of trichobothria
 is_a: SPD:0000046 ! setal shaft
 relationship: part_of SPD:0000313 ! trichobothria
 
@@ -2172,13 +2179,14 @@ relationship: part_of SPD:0000055 ! abdominal segment
 [Term]
 id: SPD:0000359
 name: seta
-def: "May be erect or recumbent; simple, serrate, feathery, to plumose, or clavate to broad scales." [SPDrf:Ubick_et_al_2005_glossary]
+def: "An articulate cuticular outgrowth, often inervated to conform a mechanical or chemical sensillium." [SPD:Curator]
 comment: Fig 72:44 in SPDrf:Ubick_et_al_2005_glossary
 relationship: part_of SPD:0000004 ! cuticle
 
 [Term]
 id: SPD:0000360
 name: setal socket
+def: "The cuticular alveolus where the setal shaft articulates." [SPD:Curator]
 relationship: part_of SPD:0000359 ! seta
 
 [Term]
@@ -2189,7 +2197,7 @@ relationship: part_of SPD:0000305 ! abdominal seta
 
 [Term]
 id: SPD:0000362
-name: shaft hair appendages cephalothorax
+name: shaft of hair appendages cephalothorax
 is_a: SPD:0000046 ! setal shaft
 relationship: part_of SPD:0000216 ! hair appendages cephalothorax
 
@@ -2237,7 +2245,7 @@ relationship: part_of SPD:0000363 ! spinning field
 
 [Term]
 id: SPD:0000371
-name: shaft scopular seta
+name: shaft of scopular seta
 is_a: SPD:0000046 ! setal shaft
 relationship: part_of SPD:0000219 ! scopular seta
 
@@ -2340,7 +2348,7 @@ is_a: SPD:0000381 ! claw
 [Term]
 id: SPD:0000386
 name: distal plate socket trichobothria
-relationship: part_of SPD:0000348 ! socket trichobothria
+relationship: part_of SPD:0000348 ! bothrium
 
 [Term]
 id: SPD:0000387
@@ -2368,7 +2376,8 @@ relationship: part_of SPD:0000378 ! metatarsus
 [Term]
 id: SPD:0000391
 name: proximal plate socket trichobothria
-relationship: part_of SPD:0000348 ! socket trichobothria
+related_synonym: "trichobothrial hood" [SPD:Curator]
+relationship: part_of SPD:0000348 ! bothrium
 
 [Term]
 id: SPD:0000392
@@ -2736,6 +2745,85 @@ id: SPD:0000457
 name: plagula ventralis
 def: "A small sclerite on the fang articulation, where the fang flexor tendon inserts." [SPD:Curator]
 relationship: part_of SPD:0000445 ! fang base
+
+[Term]
+id: SPD:0000458
+name: basal expansion of trichobothria shaft
+def: "The bulbous expansion on the trichobothrial shaft base, just above its insertion point." [SPD:Curator]
+relationship: part_of SPD:0000349 ! shaft of trichobothria
+
+[Term]
+id: SPD:0000459
+name: claw tuft seta shaft
+def: "The shaft of the claw tuft seta." [SPD:Curator]
+is_a: SPD:0000046 ! setal shaft
+relationship: part_of SPD:0000222 ! claw tuft seta
+
+[Term]
+id: SPD:0000460
+name: socket of claw tuft seta
+def: "The socket of the claw tuft seta." [SPD:Curator]
+is_a: SPD:0000360 ! setal socket
+relationship: part_of SPD:0000312 ! claw tuft
+
+[Term]
+id: SPD:0000461
+name: tarsal organ capsule
+def: "In entelegyne spiders the tarsal organ is protected by a capsule with a small opening." [SPD:Curator]
+relationship: part_of SPD:0000310 ! tarsal organ
+
+[Term]
+id: SPD:0000462
+name: tarsal organ sensillum
+def: "Each of the tarsal organ sensilla with rimmed pores, where the sensory dendrites end." [SPD:Curator]
+relationship: part_of SPD:0000310 ! tarsal organ
+
+[Term]
+id: SPD:0000463
+name: cuticle sculpture cell
+def: "Each of the discrete cells in the cuticular sculpture of rigid surfaces in spiders such as some Araneoidea." [SPD:Curator]
+relationship: part_of SPD:0000444 ! leg cuticle
+
+[Term]
+id: SPD:0000464
+name: claw lever
+def: "The sclerotized median piece on the pretarsus, where the two tendons controlling the movement of the claws are connected (pretarsus levator and pretarsus depressor).  It articulates with the tarsus by two basal lateral condyles (struts).  The superior claws articulate with the claw lever by a movable joint.  When present, the inferior claw arises from the pretarsus." [SPD:Curator]
+relationship: part_of SPD:0000450 ! pretarsus
+
+[Term]
+id: SPD:0000465
+name: claw lever 1
+def: "The claw lever of leg 1." [SPD:Curator]
+is_a: SPD:0000464 ! claw lever
+relationship: part_of SPD:0000452 ! pretarsus 1
+
+[Term]
+id: SPD:0000466
+name: claw lever 2
+def: "The claw lever of leg 2." [SPD:Curator]
+is_a: SPD:0000464 ! claw lever
+relationship: part_of SPD:0000452 ! pretarsus 1
+relationship: part_of SPD:0000453 ! pretarsus 2
+
+[Term]
+id: SPD:0000467
+name: claw lever 3
+def: "The claw lever of leg 3." [SPD:Curator]
+is_a: SPD:0000464 ! claw lever
+relationship: part_of SPD:0000454 ! pretarsus 3
+
+[Term]
+id: SPD:0000468
+name: claw lever 4
+def: "The claw lever of leg 4." [SPD:Curator]
+is_a: SPD:0000464 ! claw lever
+relationship: part_of SPD:0000455 ! pretarsus 4
+
+[Term]
+id: SPD:0000469
+name: thoracic furrow
+def: "Each of the radial superficial markings on the carapace corresponding to the limits of th eunderlying leg muscles." [SPD:Curator]
+relationship: part_of SPD:0000017 ! thoracic area
 
 [Typedef]
 id: part_of
