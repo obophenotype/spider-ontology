@@ -1,6 +1,6 @@
 format-version: 1.0
-version: 0.9
-date: 23:07:2009 09:44
+version: 0.9.1
+date: 07:08:2009 07:06
 saved-by: Martin Ramirez
 auto-generated-by: OBO-Edit 1.002
 default-namespace: spider_anatomy
@@ -546,7 +546,7 @@ relationship: part_of SPD:0000020 ! female palp
 [Term]
 id: SPD:0000079
 name: female palpal claw
-relationship: part_of SPD:0000020 ! female palp
+relationship: part_of SPD:0000473 ! palpal pretarsus
 
 [Term]
 id: SPD:0000080
@@ -1245,7 +1245,10 @@ relationship: part_of SPD:0000073 ! female palpal coxa
 
 [Term]
 id: SPD:0000200
-name: maxillary gland
+name: maxillary gland pore field
+def: "A small field patch of pores, usually on the dorsal side of the endite, sometimes on its mesal surface, where the maxillary glands discharge.  " [SPD:Curator]
+related_synonym: "gnathocoxal gland" [SPD:Curator]
+exact_synonym: "sieve plate" [SPD:Curator]
 relationship: part_of SPD:0000073 ! female palpal coxa
 
 [Term]
@@ -1745,8 +1748,10 @@ relationship: part_of SPD:0000274 ! seta appendage cephalothorax
 
 [Term]
 id: SPD:0000287
-name: labral sclerite
+name: labral tongue
 def: "A flat sclerite with a distal free end on the dorsal side of the labrum of araneomorph spiders (except Hypochilus)." [SPD:Curator]
+related_synonym: "labral sclerite" [SPDrf:Kropf_1990]
+exact_synonym: "labral flap" [SPDrf:Lopardo_and_Hormiga_2008]
 relationship: part_of SPD:0000288 ! labrum
 
 [Term]
@@ -1839,6 +1844,9 @@ relationship: part_of SPD:0000300 ! pleural area
 [Term]
 id: SPD:0000302
 name: supracoxal sclerites
+def: "Small horizontal sclerites on the pleural area, between the coxae and the carapace." [SPDrf:Bosselaers_and_Jocqu_2002\:_247]
+related_synonym: "pleural bars" [SPD:Curator]
+exact_synonym: "epimeric sclerites" [SPD:Curator]
 relationship: part_of SPD:0000300 ! pleural area
 
 [Term]
@@ -2257,42 +2265,42 @@ is_a: SPD:0000331 ! appendages cephalothorax
 [Term]
 id: SPD:0000373
 name: coxa
-def: "The basal, or first, segment of a spider leg and palp." [SPDrf:Ubick_et_al_2005_glossary]
+def: "The basal, 1st segment of the leg.  It articulates with the trochanter through a prolateral ball-socket articulation." [SPDrf:Parry_1957]
 comment: Figs 72:19, 72:26, 72:75  in SPDrf:Ubick_et_al_2005_glossary
 is_a: SPD:0000451 ! leg article
 
 [Term]
 id: SPD:0000374
 name: trochanter
-def: "Second segment of the leg or palp between the coxa and femur, often as a short ring-shaped segment." [SPDrf:Ubick_et_al_2005_glossary]
+def: "Second segment of the leg, between the coxa and femur.  It articulates with the femur through a pair of lateral condyles." [SPD:Curator]
 comment: Figs 72:19, 72:75 in SPDrf:Ubick_et_al_2005_glossary
 is_a: SPD:0000451 ! leg article
 
 [Term]
 id: SPD:0000375
 name: femur
-def: "The third segment of the leg, outward from the body, located between the trochanter and patella." [SPDrf:Ubick_et_al_2005_glossary]
+def: "The 3rd segment of the leg, between trochanter and patella.  It articulates with the patella through a pair of dorsal-lateral condyles." [SPD:Curator]
 comment: Figs 72:19,72:75 in SPDrf:Ubick_et_al_2005_glossary
 is_a: SPD:0000451 ! leg article
 
 [Term]
 id: SPD:0000376
 name: patella
-def: "The 4th segment of the legs and palpi outward from the body; it is a short curved segment located between the femur and tibia." [SPDrf:Ubick_et_al_2005_glossary]
+def: "The 4th segment of the leg, between femur and tibia.  It articulates with the tibia through a medial dorsal condyle." [SPD:Curator]
 comment: Figs 72:19, 72:75 in SPDrf:Ubick_et_al_2005_glossary
 is_a: SPD:0000451 ! leg article
 
 [Term]
 id: SPD:0000377
 name: tibia
-def: "5th segment of the leg and palp; located between patella and metatarsus of leg, patella and tarsus of palp." [SPDrf:Ubick_et_al_2005_glossary]
+def: "The 5th segment of the leg, between patella and metatarsus.  It articulates with the metatarsus through a pair of dorsal-lateral condyles." [SPDd:Curator]
 comment: Figs 72:19, 72:75 in SPDrf:Ubick_et_al_2005_glossary
 is_a: SPD:0000451 ! leg article
 
 [Term]
 id: SPD:0000378
 name: metatarsus
-def: "The 6th segment of the leg, located between the tibia and tarsus." [SPDrf:Ubick_et_al_2005_glossary]
+def: "The 6th segment of the leg, between tibia and tarsus.  It articulates with the tarsus through free joint without condyles." [SPD:Curator]
 comment: Fig 72:19 in SPDrf:Ubick_et_al_2005_glossary
 exact_synonym: "basitarsus" [SPDrf:Ubick_et_al_2005_glossary]
 is_a: SPD:0000451 ! leg article
@@ -2300,7 +2308,7 @@ is_a: SPD:0000451 ! leg article
 [Term]
 id: SPD:0000379
 name: tarsus
-def: "The 7th or distal-most segment of the leg, the distal segment of the palp." [SPDrf:Ubick_et_al_2005_glossary]
+def: "The 7th segment of the leg, between the metatarsus and the pretarsus.  It articulates with the pretarsus through a pair of lateral condyles." [SPD:Curator]
 comment: Fig 72:19, 72:75 in SPDrf:Ubick_et_al_2005_glossary
 exact_synonym: "distitarsus" [SPDrf:Ubick_et_al_2005_glossary]
 is_a: SPD:0000451 ! leg article
@@ -2371,6 +2379,7 @@ consider: SPD:0000444
 [Term]
 id: SPD:0000390
 name: metatarsus dorsal stopper
+def: "A cuticular overhang that makes contact with an opposing step in the tarsus and prevents overflexion of the tarsus-metatarsus joint.  The contact with the tarsal step triggers a signal from the vibration sense organ, a lyriform organ immediately behind the metatarsal stopper." [SPD:Curator]
 relationship: part_of SPD:0000378 ! metatarsus
 
 [Term]
@@ -2697,7 +2706,7 @@ is_a: SPD:0000448 ! behavioral entity
 [Term]
 id: SPD:0000450
 name: pretarsus
-def: "The distal article of the leg, articulated with the tarsus and containing the claws." [SPD:Curator]
+def: "The 8th, most distal article of the leg, articulated with the tarsus and containing the claws." [SPD:Curator]
 is_a: SPD:0000451 ! leg article
 
 [Term]
@@ -2824,6 +2833,80 @@ id: SPD:0000469
 name: thoracic furrow
 def: "Each of the radial superficial markings on the carapace corresponding to the limits of th eunderlying leg muscles." [SPD:Curator]
 relationship: part_of SPD:0000017 ! thoracic area
+
+[Term]
+id: SPD:0000470
+name: promarginal escort seta
+def: "A plumose seta on the promargin, arising near the fang articulation, bent near its base and accompanying the fang." [SPD:Curator]
+is_a: SPD:0000195 ! promarginal seta
+
+[Term]
+id: SPD:0000471
+name: retromarginal escort seta
+def: "A plumose seta on the retromargin, arising near the fang articulation, bent near its base and accompanying the fang." [SPD:Curator]
+is_a: SPD:0000196 ! retromarginal seta
+
+[Term]
+id: SPD:0000472
+name: promarginal rake seta
+def: "Each of the setae aligned on the cheliceral promargin in front of the fang base.  They have the barbs disposed on longitudinal lines." [SPD:Curator]
+is_a: SPD:0000195 ! promarginal seta
+
+[Term]
+id: SPD:0000473
+name: palpal pretarsus
+def: "The pretarsus of female palp." [SPD:Curator]
+relationship: part_of SPD:0000020 ! female palp
+
+[Term]
+id: SPD:0000474
+name: palpal claw lever
+def: "The claw lever of the female palp." [SPD:Curator]
+relationship: part_of SPD:0000473 ! palpal pretarsus
+
+[Term]
+id: SPD:0000475
+name: slit sensillum
+def: "A mechanoreceptor sensitive to strain on the cuticle.  It has a linear shape with raised borders.  Slit sensilla may occur in isolation or in groups of parallel sensilla, forming a lyriform organ." [SPD:Curator]
+is_a: SPD:0000387 ! sensilla appendage cephalothorax
+relationship: part_of SPD:0000004 ! cuticle
+
+[Term]
+id: SPD:0000476
+name: coxal muscle sclerite
+def: "Each of the sclerites forming a ring, where the coxal and trochanter muscles insert.  Upon leg autospasy, the cleavage occurs across the sclerites, thus leaving the coxal muscles intact." [SPDrf:Parry_1957]
+is_a: SPD:0000373 ! coxa
+
+[Term]
+id: SPD:0000477
+name: patellar indentation
+def: "An unsclerized area from the retrolateral distal margin of the patella to the lyriform organs.  The area of the retrolateral indentation is distorted by the movement." [SPDrf:Parry_1957]
+relationship: part_of SPD:0000376 ! patella
+
+[Term]
+id: SPD:0000478
+name: hair plate
+def: "A group of short propiosensory setae placed at the ventral basal corners of coxae.  They are reflected by the folding of the pleural membrane." [SPDrf:Seyfath_Eckweiler _and_]
+is_a: SPD:0000387 ! sensilla appendage cephalothorax
+
+[Term]
+id: SPD:0000479
+name: lyriform organ
+def: "A propisensor made of a group of parallel slit sensilla." [SPD:Curator]
+is_a: SPD:0000387 ! sensilla appendage cephalothorax
+
+[Term]
+id: SPD:0000480
+name: tarsal dorsobasal step
+def: "A cuticular step or ridge that makes contact with the opposing metatarsus dorsal stopper and prevents overflexion of the tarsus-metatarsus joint." [SPD:Curator]
+relationship: part_of SPD:0000379 ! tarsus
+
+[Term]
+id: SPD:0000481
+name: vibration sense organ
+def: "A lyriform organ placed just behind the metatarsus dorsal stopper, with slit sensilla perpendicular to the leg axis." [SPDrf:Barth_2002]
+is_a: SPD:0000479 ! lyriform organ
+relationship: part_of SPD:0000378 ! metatarsus
 
 [Typedef]
 id: part_of
