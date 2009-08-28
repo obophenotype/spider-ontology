@@ -1,6 +1,6 @@
 format-version: 1.0
-version: 0.9.3
-date: 19:08:2009 19:20
+version: 0.9.4
+date: 24:08:2009 16:24
 saved-by: Martin Ramirez
 auto-generated-by: OBO-Edit 2.0
 default-namespace: spider_anatomy
@@ -87,6 +87,7 @@ name: anal tubercle
 def: "A small lobe posterior to the spinnerets which bears the anal opening." [SPDrf:Ubick_et_al_2005_glossary]
 comment: Figs 72:4, 72:7 in SPDrf:Ubick_et_al_2005_glossary.
 relationship: part_of SPD:0000057 ! external abdomen
+relationship: part_of SPD:0000516 ! abdominal segment 11
 
 [Term]
 id: SPD:0000012
@@ -151,7 +152,7 @@ relationship: part_of SPD:0000331 ! appendage cephalothorax
 [Term]
 id: SPD:0000020
 name: female palp
-def: "The most anterior leg-like appendage in spiders." [SPDrf:Ubick_et_al_2005_glossary]
+def: "The palp of the female." [SPD:Curator]
 comment: Figs 72:26, 72:75 in SPDrf:Ubick_et_al_2005_glossary.
 exact_synonym: "palpus" [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "pedipalp" [SPDrf:Ubick_et_al_2005_glossary]
@@ -336,6 +337,7 @@ relationship: part_of SPD:0000058 ! epigastrium
 [Term]
 id: SPD:0000045
 name: male palp
+def: "The palp of the adult male, modified, with a copulatory bulb attached to the tarsus." [SPD:Curator]
 is_a: SPD:0000335 ! palp
 
 [Term]
@@ -518,7 +520,7 @@ relationship: part_of SPD:0000019 ! chelicera
 [Term]
 id: SPD:0000073
 name: female palpal coxa
-def: "The expanded lobe of the palpal coxa situated laterally of the labium." [SPDrf:Ubick_et_al_2005_glossary]
+def: "The basal, 1st segment of the female palp. It may be expanded in a lobe, and then is called endite." [SPD:Curator]
 comment: Figs 72:13, 72:36, 72:75 in SPDrf:Ubick_et_al_2005_glossary.
 related_synonym: "endite" []
 exact_synonym: "gnathobase" [SPDrf:Ubick_et_al_2005_glossary]
@@ -529,26 +531,31 @@ relationship: part_of SPD:0000020 ! female palp
 [Term]
 id: SPD:0000074
 name: female palpal trochanter
+def: "The 2nd segment of the female palp, between coxa and femur." [SPD:Curator]
 relationship: part_of SPD:0000020 ! female palp
 
 [Term]
 id: SPD:0000075
 name: female palpal femur
+def: "The 3rd segment of the female palp, between trochanter and patella." [SPD:Curator]
 relationship: part_of SPD:0000020 ! female palp
 
 [Term]
 id: SPD:0000076
 name: female palpal patella
+def: "The 4th segment of the female palp, between femur and tibia." [SPD:Curator]
 relationship: part_of SPD:0000020 ! female palp
 
 [Term]
 id: SPD:0000077
 name: female palpal tibia
+def: "The 5th segment of the female palp, between patella and tarsus." [SPD:Curator]
 relationship: part_of SPD:0000020 ! female palp
 
 [Term]
 id: SPD:0000078
 name: female palpal tarsus
+def: "The 6th segment of the female palp, between tibia and pretarsus." [SPD:Curator]
 relationship: part_of SPD:0000020 ! female palp
 
 [Term]
@@ -950,6 +957,7 @@ relationship: part_of SPD:0000029 ! vulva
 [Term]
 id: SPD:0000144
 name: male palpal coxa
+def: "The basal, 1st segment of the male palp." [SPD:Curator]
 related_synonym: "male palpal endite" []
 relationship: part_of SPD:0000045 ! male palp
 
@@ -977,21 +985,25 @@ relationship: part_of SPD:0000144 ! male palpal coxa
 [Term]
 id: SPD:0000149
 name: male palpal trochanter
+def: "The 2nd segment of the male palp, between coxa and femur." [SPD:Curator]
 relationship: part_of SPD:0000045 ! male palp
 
 [Term]
 id: SPD:0000150
 name: male palpal femur
+def: "The 3rd segment of the male palp, between trochanter and patella." [SPD:Curator]
 relationship: part_of SPD:0000045 ! male palp
 
 [Term]
 id: SPD:0000151
 name: male palpal patella
+def: "The 4th segment of the male palp, between femur and tibia." [SPD:Curator]
 relationship: part_of SPD:0000045 ! male palp
 
 [Term]
 id: SPD:0000152
 name: male palpal tibia
+def: "The 5th segment of the male palp, between patella and tarsus." [SPD:Curator]
 relationship: part_of SPD:0000045 ! male palp
 
 [Term]
@@ -1003,33 +1015,39 @@ relationship: part_of SPD:0000364 ! spigot
 [Term]
 id: SPD:0000154
 name: male palpal tibia dorsal processes
-relationship: part_of SPD:0000152 ! male palpal tibia
+def: "A process on the dorsal surface of the male palpal tibia." [SPD:Curator]
+is_a: SPD:0000526 ! male palpal tibial process
 
 [Term]
 id: SPD:0000155
 name: male palpal tibia prolateral processes
-relationship: part_of SPD:0000152 ! male palpal tibia
+def: "A process on the prolateral surface of the male palpal tibia." [SPD:Curator]
+is_a: SPD:0000526 ! male palpal tibial process
 
 [Term]
 id: SPD:0000156
 name: male palpal tibia retrolateral processes
-relationship: part_of SPD:0000152 ! male palpal tibia
+def: "A process on the retrolateral surface of the male palpal tibia." [SPD:Curator]
+exact_synonym: "retrolateral tibial apophysis" []
+is_a: SPD:0000526 ! male palpal tibial process
 
 [Term]
 id: SPD:0000157
 name: male palpal tibia ventral processes
-relationship: part_of SPD:0000152 ! male palpal tibia
+def: "A process on the ventral surface of the male palpal tibia." [SPD:Curator]
+is_a: SPD:0000526 ! male palpal tibial process
 
 [Term]
 id: SPD:0000158
 name: cymbium
-def: "The adult male palpal tarsus, especially when modified as a spoon-shaped structure containing the palpal bulb." [SPDrf:Ubick_et_al_2005_glossary]
+def: "The tarsus, 6th and last segment of the male palp connected with the tibia. The name cymbium is mostly used when modified as a spoon-shaped structure containing the copulatory bulb." [SPD:Curator]
 comment: Fig 72:12 in SPDrf:Ubick_et_al_2005_glossary.
 relationship: part_of SPD:0000045 ! male palp
 
 [Term]
 id: SPD:0000159
 name: tarsal organ of cymbium
+def: "The tarsal organ of the male palpal tarsus." [SPD:Curator]
 is_a: SPD:0000310 ! tarsal organ
 relationship: part_of SPD:0000158 ! cymbium
 
@@ -1045,43 +1063,47 @@ id: SPD:0000161
 name: cymbium dorsal chemosensory seta
 def: "Each of the chemosensory setae on the male palpal tarsus." [SPD:Curator]
 is_a: SPD:0000286 ! chemosensory seta
-relationship: part_of SPD:0000158 ! cymbium
-relationship: part_of SPD:0000493 ! male palpal chemosensory patch
+is_a: SPD:0000525 ! seta of cymbium
+relationship: part_of SPD:0000493 ! cymbial chemosensory patch
 
 [Term]
 id: SPD:0000162
 name: cymbium apical seta
 def: "Any of the apical setae on the male palpal cymbium." [SPD:Curator]
 is_a: SPD:0000274 ! seta appendage cephalothorax
-relationship: part_of SPD:0000158 ! cymbium
+is_a: SPD:0000525 ! seta of cymbium
 
 [Term]
 id: SPD:0000163
 name: alveolus
-def: "The concave ventral surface of the male palpal cymbium; the modified palpal tarsus of the male in which lies the genital bulb ." [SPDrf:Ubick_et_al_2005_glossary]
+def: "The concave ventral surface of the male palpal cymbium, where the copulatory bulb is attached." [SPD:Curator]
 relationship: part_of SPD:0000158 ! cymbium
 
 [Term]
 id: SPD:0000164
 name: alveolus retromargin
+def: "The retrolateral margin of the alveouls." [SPD:Curator]
 relationship: part_of SPD:0000163 ! alveolus
 
 [Term]
 id: SPD:0000165
 name: alveolus promargin
+def: "The prolateral margin of the alveouls." [SPD:Curator]
 relationship: part_of SPD:0000163 ! alveolus
 
 [Term]
 id: SPD:0000166
-name: paracymbial retrolateral-basal process
-def: "An appendage of the cymbium; usually a rigid outgrowth but may be flexibly attached by a membrane." [SPDrf:Ubick_et_al_2005_glossary]
+name: paracymbium
+def: "A process on the retrolateral-basal sector of the cymbium. It may be flexibly articulated through a movable membrane, or a rigid outgrowth." [SPD:Curator]
 comment: Figs 72:29, 72:31, 72:52 in SPDrf:Ubick_et_al_2005_glossary.
-relationship: part_of SPD:0000158 ! cymbium
+related_synonym: "paracymbial retrolateral-basal process" []
+is_a: SPD:0000524 ! process of cymbium
 
 [Term]
 id: SPD:0000167
 name: cymbial dorsal processes
-relationship: part_of SPD:0000158 ! cymbium
+def: "A process on the dorsal surface of the cymbium." [SPD:Curator]
+is_a: SPD:0000524 ! process of cymbium
 
 [Term]
 id: SPD:0000168
@@ -1091,28 +1113,33 @@ comment: Fig 72:12 in SPDrf:Ubick_et_al_2005_glossary.
 exact_synonym: "bulbus" [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "genital bulb" [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "palpal organ" [SPDrf:Ubick_et_al_2005_glossary]
-relationship: part_of SPD:0000158 ! cymbium
+relationship: part_of SPD:0000045 ! male palp
 
 [Term]
 id: SPD:0000169
 name: petiolus
-relationship: part_of SPD:0000168 ! copulatory bulb
+def: "A strongly sclerotized and thickened region within the wall of the basal hematodochal membrane." [SPDrf:Sierwald_1990]
+relationship: part_of SPD:0000170 ! basal hematodocha
 
 [Term]
 id: SPD:0000170
 name: basal hematodocha
-relationship: part_of SPD:0000168 ! copulatory bulb
+def: "The membrane connecting the genital bulb to the tarsus." [SPDrf:Huber_2004]
+is_a: SPD:0000519 ! hematodocha
 
 [Term]
 id: SPD:0000171
 name: subtegulum
-def: "The basal sclerite of the bulb." [SPDrf:Ubick_et_al_2005_glossary]
+def: "The basal sclerite of the bulb, connected to the cymbium by the basal hematodocha. It contains the fundus of the spermaphor." [SPD:Curator]
 comment: Figs 72:31, 72:37 in SPDrf:Ubick_et_al_2005_glossary.
-relationship: part_of SPD:0000168 ! copulatory bulb
+is_a: SPD:0000181 ! sclerite of copulatory bulb
+relationship: part_of SPD:0000521 ! basal division of copulatory bulb
 
 [Term]
 id: SPD:0000172
 name: fundus
+def: "The blind end of the spermaphor in the subtegulum." [SPD:Curator]
+relationship: part_of SPD:0000171 ! subtegulum
 relationship: part_of SPD:0000177 ! spermaphor
 
 [Term]
@@ -1120,53 +1147,63 @@ id: SPD:0000173
 name: tegulum
 def: "The middle sclerite of the male palp, that contains the sperm duct and bears the embolus." [SPDrf:Ubick_et_al_2005_glossary]
 comment: Figs 72:29, 72:31, 72:37 in SPDrf:Ubick_et_al_2005_glossary.
-relationship: part_of SPD:0000168 ! copulatory bulb
+is_a: SPD:0000181 ! sclerite of copulatory bulb
+relationship: part_of SPD:0000522 ! median division of copulatory bulb
 
 [Term]
 id: SPD:0000174
 name: median hematodocha
-relationship: part_of SPD:0000168 ! copulatory bulb
+def: "The membrane connecting the tegulum to the subtegulum." [SPD:Curator]
+is_a: SPD:0000519 ! hematodocha
 
 [Term]
 id: SPD:0000175
 name: embolic division
-def: "In the Linyphiidae, the terminal portion of the palpal bulb, consisting of the radix, embolus and various accessory sclerites; it is attached to the suprategulum by a narrow stalk." [SPDrf:Ubick_et_al_2005_glossary]
-relationship: part_of SPD:0000168 ! copulatory bulb
+def: "The division of the copulatory bulb distal to the median division, articulated to the tegulum by a terminal hematodocha. It contains the embolus, the sperm outlet, and may also have additional sclerites such as the radix." [SPD:Curator]
+is_a: SPD:0000520 ! division of copulatory bulb
 
 [Term]
 id: SPD:0000176
 name: embolus
-def: "The intromittent organ of the male palp, connected to sperm reservoir; often slender, but variable in shape and length." [SPDrf:Ubick_et_al_2005_glossary]
+def: "The intromittent organ of the male copulatory bulb, where the spermaphor discharges." [SPD:Curator]
 comment: Figs 72:29, 72:31, 72:51 in SPDrf:Ubick_et_al_2005_glossary.
+is_a: SPD:0000181 ! sclerite of copulatory bulb
 relationship: part_of SPD:0000175 ! embolic division
 
 [Term]
 id: SPD:0000177
 name: spermaphor
+def: "The tube inside the copulatory bulb containing the sperm. It runs from the blind fundus in the subtegulum, to an opening in the embolus. It is often sclerotized and served by many glands." [SPD:Curator]
+related_synonym: "sperm duct" []
 relationship: part_of SPD:0000168 ! copulatory bulb
 
 [Term]
 id: SPD:0000178
 name: median apophysis
-def: "On the male palp, a sclerotized structure in the lower center of the bulb." [SPDrf:Ubick_et_al_2005_glossary]
+def: "A sclerite of the copulatory bulb arising from the tegulum." [SPD:Curator, SPDrf:Ubick_et_al_2005_glossary]
 comment: Figs 72:29, 72:31 in SPDrf:Ubick_et_al_2005_glossary.
-relationship: part_of SPD:0000168 ! copulatory bulb
+is_a: SPD:0000181 ! sclerite of copulatory bulb
+relationship: part_of SPD:0000522 ! median division of copulatory bulb
 
 [Term]
 id: SPD:0000179
 name: conductor
-def: "The structure of the male palp associated with the embolus; may be sclerotized or hyaline." [SPDrf:Ubick_et_al_2005_glossary]
+def: "A sclerite of the male palp inserted in the tegulum. It usually guides or fits part of the embolus; may be sclerotized or hyaline." [SPD:Curator]
 comment: Figs 72:29, 72:31, 72:51 in SPDrf:Ubick_et_al_2005_glossary.
-relationship: part_of SPD:0000168 ! copulatory bulb
+is_a: SPD:0000181 ! sclerite of copulatory bulb
+relationship: part_of SPD:0000522 ! median division of copulatory bulb
 
 [Term]
 id: SPD:0000180
 name: terminal hematodocha
-relationship: part_of SPD:0000168 ! copulatory bulb
+def: "The membrane connecting the embolic division with the tegulum." [SPD:Curator]
+related_synonym: "column" []
+is_a: SPD:0000519 ! hematodocha
 
 [Term]
 id: SPD:0000181
-name: sclerite unspecified
+name: sclerite of copulatory bulb
+def: "A sclerotized piece inserted on another sclerotized structure of the copulatory bulb through a membranous joint." [PSD:Curator]
 relationship: part_of SPD:0000168 ! copulatory bulb
 
 [Term]
@@ -1708,12 +1745,15 @@ is_a: SPD:0000369 ! paracribellar gland spigot
 [Term]
 id: SPD:0000268
 name: embolus tip
+def: "The end of the embolus containing the sperm outlet." [SPD:Curator]
 relationship: part_of SPD:0000176 ! embolus
 
 [Term]
 id: SPD:0000269
 name: sperm outlet
+def: "The orifice on the embolus tip where the spermaphor discharges." [SPD:Curator]
 relationship: part_of SPD:0000177 ! spermaphor
+relationship: part_of SPD:0000268 ! embolus tip
 
 [Term]
 id: SPD:0000270
@@ -1809,6 +1849,7 @@ relationship: part_of SPD:0000029 ! vulva
 [Term]
 id: SPD:0000285
 name: male palpal patellar process
+def: "A sclerotized process on the male palpal patella." [SPD:Curator]
 relationship: part_of SPD:0000151 ! male palpal patella
 
 [Term]
@@ -2015,7 +2056,8 @@ is_a: SPD:0000359 ! seta
 [Term]
 id: SPD:0000316
 name: cymbial retrolateral-medial processes
-relationship: part_of SPD:0000158 ! cymbium
+def: "A process on the retrolateral margin of the cymbium, midway between the base and the tip." [SPD:Curator]
+is_a: SPD:0000524 ! process of cymbium
 
 [Term]
 id: SPD:0000317
@@ -2123,6 +2165,7 @@ is_a: SPD:0000382 ! superior claw
 [Term]
 id: SPD:0000335
 name: palp
+def: "Appendage of cephalothorax, between the chelicerae and leg I." [SPD:Curator]
 is_a: SPD:0000331 ! appendage cephalothorax
 
 [Term]
@@ -2352,6 +2395,7 @@ relationship: part_of SPD:0000219 ! scopular seta
 [Term]
 id: SPD:0000372
 name: leg
+def: "Any of the four appendages of cephalothorax, behind the palp." [SPD:Curator]
 is_a: SPD:0000331 ! appendage cephalothorax
 
 [Term]
@@ -2974,7 +3018,7 @@ is_a: SPD:0000195 ! promarginal seta
 [Term]
 id: SPD:0000473
 name: palpal pretarsus
-def: "The pretarsus of female palp." [SPD:Curator]
+def: "The 7th, most distal article of the female palp, articulated with the tarsus and containing the claw." [SPD:Curator]
 relationship: part_of SPD:0000020 ! female palp
 
 [Term]
@@ -3032,7 +3076,7 @@ id: SPD:0000482
 name: calamistrum seta tooth
 def: "Each of the small tooth forming a comb at the margin of the calamistrum setae." [SPD:Curator]
 relationship: part_of SPD:0000238 ! calamistrum seta
-created_by: Sony
+created_by: Martin Ramirez
 creation_date: 2009-08-08T07:33:36Z
 
 [Term]
@@ -3040,7 +3084,7 @@ id: SPD:0000483
 name: claw tuft plate
 def: "A plate bearing the insertions of the claw tuft setae, it may be articulated, well delimited from the tarsus by membranous areas." [SPD:Curator]
 relationship: part_of SPD:0000379 ! tarsus
-created_by: Sony
+created_by: Martin Ramirez
 creation_date: 2009-08-09T08:08:36Z
 
 [Term]
@@ -3049,7 +3093,7 @@ name: claw slit
 def: "Each of the paired lateral-ventral slit sensilla at the tip of the tarsus, sensitive to vibrations." [SPDrf:Barth_2002]
 is_a: SPD:0000475 ! slit sensillum
 relationship: part_of SPD:0000379 ! tarsus
-created_by: Sony
+created_by: Martin Ramirez
 creation_date: 2009-08-09T08:22:15Z
 
 [Term]
@@ -3057,7 +3101,7 @@ id: SPD:0000485
 name: claw slit suture
 def: "A ventral unsclerotized suture ventrally on the tarsus tip, uniting the claw slits from both sides. The suture seemingly provides room for cuticle deformation upon stress, and thus increased sensitivity on the slit sensilla." [SPDrf:Barth_2002]
 relationship: part_of SPD:0000379 ! tarsus
-created_by: Sony
+created_by: Martin Ramirez
 creation_date: 2009-08-09T08:25:33Z
 
 [Term]
@@ -3065,7 +3109,7 @@ id: SPD:0000486
 name: claw lever file
 def: "A series of longitudinal ridges at each side on the claw lever." [SPD:Curator]
 relationship: part_of SPD:0000464 ! claw lever
-created_by: Sony
+created_by: Martin Ramirez
 creation_date: 2009-08-09T08:32:06Z
 
 [Term]
@@ -3119,8 +3163,8 @@ creation_date: 2009-08-10T02:46:47Z
 
 [Term]
 id: SPD:0000493
-name: male palpal chemosensory patch
-def: "A patch of chemosensory setae apically on the dorsal surface of the male palpal tarsus. It has been shown to be sensitive to the pheromones laid by females in draglines." [SPD:Curator]
+name: cymbial chemosensory patch
+def: "A patch of chemosensory setae apically on the dorsal surface of the male palpal tarsus (cymbium). It has been shown to be sensitive to the pheromones laid by females in draglines." [SPD:Curator]
 is_a: SPD:0000490 ! field of setae
 relationship: part_of SPD:0000158 ! cymbium
 created_by: Ramirez
@@ -3147,7 +3191,7 @@ id: SPD:0000496
 name: scale socket
 def: "The socket of a scale." [SPD:Curator]
 is_a: SPD:0000402 ! scale
-created_by: Sony
+created_by: Martin Ramirez
 creation_date: 2009-08-11T06:44:51Z
 
 [Term]
@@ -3185,7 +3229,7 @@ id: SPD:0000501
 name: pedicel dorsal posterior sclerite
 def: "The posterior of the two dorsal sclerites on the pedicel. It has two lateral series of slit sensilla perpendicular to the body axis." [SPD:Curator]
 is_a: SPD:0000026 ! pedicel tergite
-created_by: Sony
+created_by: Martin Ramirez
 creation_date: 2009-08-12T06:17:28Z
 
 [Term]
@@ -3240,7 +3284,7 @@ name: entapophysis 2
 def: "The entapophysis of the second abdominal segment." [SPD:Curator]
 is_a: SPD:0000439 ! abdominal entapophysis
 relationship: part_of SPD:0000423 ! abdominal segment 2
-created_by: Sony
+created_by: Martin Ramirez
 creation_date: 2009-08-15T07:34:30Z
 
 [Term]
@@ -3249,7 +3293,7 @@ name: entapophysis 4
 def: "The entapophysis of the fourth abdominal segment." [SPD:Curator]
 is_a: SPD:0000425 ! abdominal segment 4
 is_a: SPD:0000439 ! abdominal entapophysis
-created_by: Sony
+created_by: Martin Ramirez
 creation_date: 2009-08-15T07:36:59Z
 
 [Term]
@@ -3258,7 +3302,7 @@ name: entapophysis 5
 def: "The entapophysis of the fifth abdominal segment." [SPD:Curator]
 is_a: SPD:0000426 ! abdominal segment 5
 is_a: SPD:0000439 ! abdominal entapophysis
-created_by: Sony
+created_by: Martin Ramirez
 creation_date: 2009-08-15T07:37:35Z
 
 [Term]
@@ -3266,7 +3310,7 @@ id: SPD:0000511
 name: strain sensillum of cuticle
 def: "A sensillum whose dendrites end on a pore in the cuticle, sensitive to its deformations." [SPD:Barth_2002]
 relationship: part_of SPD:0000004 ! cuticle
-created_by: Sony
+created_by: Martin Ramirez
 creation_date: 2009-08-16T07:37:36Z
 
 [Term]
@@ -3274,7 +3318,7 @@ id: SPD:0000512
 name: flanking spigots of triad
 def: "The two spigots of the triad at each side of the modified gland spigot. Depending on the taxonomic group, the flanking spigots may be aggregate, paracribellar, or a form not yet characterized of gland spigots." [SPDrf:Griswold_et_al_2005]
 relationship: part_of SPD:0000266 ! triad of posterior lateral spinneret
-created_by: Sony
+created_by: Martin Ramirez
 creation_date: 2009-08-16T07:55:19Z
 
 [Term]
@@ -3299,6 +3343,188 @@ def: "A flexible piece at the tip of the spigot shaft, delimiting the apical ope
 is_a: SPD:0000153 ! spigot shaft
 created_by: Ramirez
 creation_date: 2009-08-19T06:23:12Z
+
+[Term]
+id: SPD:0000516
+name: abdominal segment 11
+def: "The abdominal segment bearing the anal tubercle." [SPDrf:Millot_1936]
+is_a: SPD:0000055 ! abdominal segment
+creation_date: 2009-08-21T03:04:01Z
+
+[Term]
+id: SPD:0000517
+name: anus
+def: "An orifice on the anal tubercle where the stercoral pocket discharges." [SPD:Curator]
+relationship: part_of SPD:0000011 ! anal tubercle
+created_by: Ramirez
+creation_date: 2009-08-21T03:05:28Z
+
+[Term]
+id: SPD:0000518
+name: cuticular sheet of chemosensory seta
+def: "A internal cuticular tube inside the chemosensory seta shaft, enclosing the dentrites, extending from the apical pore to about 2/3 of the shaft length." [SPDrf:Foelix_1970]
+is_a: SPD:0000499 ! chemosensory seta shaft
+created_by: Ramirez
+creation_date: 2009-08-21T03:45:31Z
+
+[Term]
+id: SPD:0000519
+name: hematodocha
+def: "Any membrane that allows or actively produces movement of\nthe copulatory bulb or of parts of it." [SPDrf:Huber_2002]
+relationship: part_of SPD:0000168 ! copulatory bulb
+created_by: Ramirez
+creation_date: 2009-08-21T05:57:03Z
+
+[Term]
+id: SPD:0000520
+name: division of copulatory bulb
+def: "Any of the main sections of the male copulatory bulb, delimited by hematodochae." [SPD:Curator]
+relationship: part_of SPD:0000168 ! copulatory bulb
+created_by: Ramirez
+creation_date: 2009-08-21T06:50:39Z
+
+[Term]
+id: SPD:0000521
+name: basal division of copulatory bulb
+def: "The division of the copulatory bulb between the basal and median hematodochae, containing the subtegulum" [SPDrf:Coddington_1990]
+is_a: SPD:0000520 ! division of copulatory bulb
+created_by: Ramirez
+creation_date: 2009-08-21T06:52:33Z
+
+[Term]
+id: SPD:0000522
+name: median division of copulatory bulb
+def: "The division of the copulatory bulb between the median and terminal hematodochae, containing the tegulum, conductor and median apophysis." [SPD:Curator]
+is_a: SPD:0000520 ! division of copulatory bulb
+created_by: Ramirez
+creation_date: 2009-08-21T06:54:15Z
+
+[Term]
+id: SPD:0000523
+name: radix
+def: "A sclerotized tube connecting the embolus with the tegulum through the terminal hematodocha, and containing the spermophor." [SPD:Curator]
+relationship: part_of SPD:0000175 ! embolic division
+created_by: Ramirez
+creation_date: 2009-08-21T06:58:22Z
+
+[Term]
+id: SPD:0000524
+name: process of cymbium
+def: "Any of the sclerotized processes arising in the cymbium." [SPD:Curator]
+relationship: part_of SPD:0000158 ! cymbium
+created_by: Ramirez
+creation_date: 2009-08-21T07:00:42Z
+
+[Term]
+id: SPD:0000525
+name: seta of cymbium
+def: "Any of the setae on the male palpal cymbium." [SPD:Curator]
+relationship: part_of SPD:0000158 ! cymbium
+created_by: Ramirez
+creation_date: 2009-08-21T07:02:29Z
+
+[Term]
+id: SPD:0000526
+name: male palpal tibial process
+def: "A sclerotized process on the male palpal tibia." [SPD:Curator]
+relationship: part_of SPD:0000152 ! male palpal tibia
+created_by: Ramirez
+creation_date: 2009-08-21T07:04:27Z
+
+[Term]
+id: SPD:0000527
+name: male palpal femoral process
+def: "A sclerotized process on the male palpal femur." [SPD:Curator]
+relationship: part_of SPD:0000150 ! male palpal femur
+creation_date: 2009-08-22T06:58:57Z
+
+[Term]
+id: SPD:0000528
+name: male palpal ventral-medial processes
+def: "A process on the middle of the ventral surface of the male palpal femur." [SPD:Curator]
+is_a: SPD:0000527 ! male palpal femoral process
+created_by: Martin Ramirez
+creation_date: 2009-08-22T07:00:50Z
+
+[Term]
+id: SPD:0000529
+name: male palpal ventral-basal processes
+def: "A process on the ventral surface of the male palpal femur near its base." [SPD:Curator]
+is_a: SPD:0000527 ! male palpal femoral process
+created_by: Martin Ramirez
+creation_date: 2009-08-22T07:01:21Z
+
+[Term]
+id: SPD:0000530
+name: male palpal ventral-apical processes
+def: "A process on the ventral surface of the male palpal femur near its distal end." [SPD:Curator]
+is_a: SPD:0000527 ! male palpal femoral process
+created_by: Martin Ramirez
+creation_date: 2009-08-22T07:01:37Z
+
+[Term]
+id: SPD:0000531
+name: male palpal patella dorsal processes
+def: "A process on the dorsal surface of the male palpal patella." [SPD:Curator]
+is_a: SPD:0000285 ! male palpal patellar process
+created_by: Martin Ramirez
+creation_date: 2009-08-22T07:06:38Z
+
+[Term]
+id: SPD:0000532
+name: male palpal patella retrolateral processes
+def: "A process on the retrolateral surface of the male palpal patella." [SPD:Curator]
+is_a: SPD:0000285 ! male palpal patellar process
+created_by: Martin Ramirez
+creation_date: 2009-08-22T07:06:54Z
+
+[Term]
+id: SPD:0000533
+name: gland of male palpal tibia
+def: "A gland inside the male palpal tibia, discharging through a pore on a tibial process. Has been found in some Spartaeinae (Saliticidae) and Macrobuninae (Amaurobiidae)." [SPDrf:Compagnucci_and_Ramirez_2000]
+relationship: part_of SPD:0000152 ! male palpal tibia
+created_by: Martin Ramirez
+creation_date: 2009-08-22T07:08:46Z
+
+[Term]
+id: SPD:0000534
+name: groove of cymbium
+def: "A elongate depression forming a canal on the surface of cymbium." [SPD:Curator]
+relationship: part_of SPD:0000158 ! cymbium
+created_by: Martin Ramirez
+creation_date: 2009-08-22T07:14:47Z
+
+[Term]
+id: SPD:0000535
+name: apical cymbial groove
+def: "A ventral longitudinal groove on the tip of the cymbium. It occurs in Anyphaenidae." [SPD:Curator]
+is_a: SPD:0000534 ! groove of cymbium
+created_by: Martin Ramirez
+creation_date: 2009-08-22T07:15:41Z
+
+[Term]
+id: SPD:0000536
+name: retrolateral cymbial groove
+def: "A longitudinal groove on the retrolateral surface of cymbium. It occurs in several Miturgidae." [SPD:Curator]
+is_a: SPD:0000534 ! groove of cymbium
+created_by: Martin Ramirez
+creation_date: 2009-08-22T07:16:37Z
+
+[Term]
+id: SPD:0000537
+name: wall of spermaphor
+def: "The cuticular wall of the spermaphor." [SPD:Curator]
+relationship: part_of SPD:0000177 ! spermaphor
+created_by: Martin Ramirez
+creation_date: 2009-08-22T07:23:58Z
+
+[Term]
+id: SPD:0000538
+name: embolar process
+def: "A sclerotized process on the emblous." [SPD:Curator]
+relationship: part_of SPD:0000176 ! embolus
+created_by: Martin Ramirez
+creation_date: 2009-08-22T07:28:06Z
 
 [Typedef]
 id: part_of
