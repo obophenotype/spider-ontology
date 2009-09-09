@@ -1,6 +1,6 @@
 format-version: 1.0
-version: 0.9.4
-date: 24:08:2009 16:24
+version: 0.9.5
+date: 04:09:2009 16:16
 saved-by: Martin Ramirez
 auto-generated-by: OBO-Edit 2.0
 default-namespace: spider_anatomy
@@ -217,11 +217,12 @@ def: "The sclerotized region of female spiders covering the internal genitalia a
 comment: Figs 72:26, 72:32, 72:33, 72:47, 72:76 in SPDrf:Ubick_et_al_2005_glossary.
 exact_synonym: "epigyne" [SPDrf:Ubick_et_al_2005_glossary]
 relationship: part_of SPD:0000044 ! female genitalia
+relationship: part_of SPD:0000553 ! anterior section of female genitalia
 
 [Term]
 id: SPD:0000029
 name: vulva
-def: "A collective term for the internal components of the female genitalia associated with the epigynum including copulatory ducts, spermathecae, and fertilization ducts." [SPDrf:Ubick_et_al_2005_glossary]
+def: "A collective term for the internal components of the female genitalia associated with the epigynum, including copulatory ducts, spermathecae, and fertilization ducts." [SPDrf:Ubick_et_al_2005_glossary]
 relationship: part_of SPD:0000044 ! female genitalia
 
 [Term]
@@ -886,28 +887,30 @@ relationship: part_of SPD:0000047 ! intestine
 [Term]
 id: SPD:0000133
 name: lateral lobe
+def: "Each of the lateral sclerotized plates on the epigynum, ectal to the epigynal fold." [SPDrf:Sierwald_1989]
 relationship: part_of SPD:0000028 ! epigynum
 
 [Term]
 id: SPD:0000134
 name: median field
+def: "The median sclerotized plate on the epigynum, between the epigynal folds." [SPDrf:Sierwald_1989]
 relationship: part_of SPD:0000028 ! epigynum
 
 [Term]
 id: SPD:0000135
 name: copulatory duct
-def: "Ducts in the female genitalia which connect the copulatory pores to the spermathecae." [SPDrf:Ubick_et_al_2005_glossary]
+def: "Each of the paired ducts in the female genitalia connecting the copulatory opening to the spermathecae." [SPDrf:Ubick_et_al_2005_glossary]
 comment: Fig 72:34 in SPDrf:Ubick_et_al_2005_glossary.
 exact_synonym: "connecting ducts" [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "entrance ducts" [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "insemination ducts" [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "spermathecal ducts" [SPDrf:Ubick_et_al_2005_glossary]
-relationship: part_of SPD:0000029 ! vulva
+is_a: SPD:0000545 ! duct of female genitalia
 
 [Term]
 id: SPD:0000136
 name: copulatory opening
-def: "External pores on the epigyna of entelegyne females." [SPDrf:Ubick_et_al_2005_glossary]
+def: "Each of the paired external orifices on the epigynum of entelegyne spiders, leading to the copulatory ducts. They are usually placed on the epigynal fold." [SPDrf:Sierwald_1989]
 comment: Figs 72:33, 72:34 in SPDrf:Ubick_et_al_2005_glossary.
 exact_synonym: "copulatory pores" [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "epigynal openings" [SPDrf:Ubick_et_al_2005_glossary]
@@ -916,32 +919,41 @@ relationship: part_of SPD:0000028 ! epigynum
 [Term]
 id: SPD:0000137
 name: fertilization duct
-def: "Internal ducts through which females fertilize their eggs; in haplogyne spiders these are the same as copulatory ducts." [SPDrf:Ubick_et_al_2005_glossary]
+def: "Each of the paired ducts connecting the primary spermatheca with the uterus externus in entelegyne spiders." [SPD:Curator]
 comment: Fig 72:34 in SPDrf:Ubick_et_al_2005_glossary.
-relationship: part_of SPD:0000029 ! vulva
+is_a: SPD:0000545 ! duct of female genitalia
 
 [Term]
 id: SPD:0000138
-name: primary spermatheca (SP1, with FD)
-def: "Internal sclerotized sperm-storage sacs present in all female spiders." [SPDrf:Ubick_et_al_2005_glossary]
+name: primary spermatheca
+def: "A hollow sclerotized structure of the female genitalia of entelegyne spiders, used for the storage of sperm. The primary spermatheca is connected to the copulatory and fertilization ducts." [SPD:Curator]
 comment: Fig 72:34 in SPDrf:Ubick_et_al_2005_glossary.
-exact_synonym: "seminal receptacle" [SPDrf:Ubick_et_al_2005_glossary]
-relationship: part_of SPD:0000029 ! vulva
+related_synonym: "seminal receptacle" [SPDrf:Ubick_et_al_2005_glossary]
+related_synonym: "spermatheca" []
+is_a: SPD:0000544 ! spermatheca
 
 [Term]
 id: SPD:0000139
-name: dictynoid pore
+name: Bennet's gland
+def: "A delimited patch of pores on the primary spermathecae of entelegyne spiders." [SPDrf:Bennet_1992]
+exact_synonym: "dictynoid pore" []
 relationship: part_of SPD:0000029 ! vulva
+relationship: part_of SPD:0000553 ! anterior section of female genitalia
 
 [Term]
 id: SPD:0000140
-name: secondary spermatheca (SP2 or head)
-relationship: part_of SPD:0000029 ! vulva
+name: secondary spermatheca
+def: "A hollow, blind sclerotized structure of the female genitalia of entelegyne spiders, usually connected by a duct to the copulatory duct. The secondary spermatheca has several gland pores with cuticular glandular ducts. In occasions the secondary spermatheca is reduced to the patch of gland pores, without its own lumen or duct." [SPD:Curator]
+related_synonym: "diverticle" []
+exact_synonym: "accessory bulb" [SPDrf:Carico_and_Holt_1964]
+exact_synonym: "head of spermatheca" [SPDrf:Sierwald_1989]
+is_a: SPD:0000544 ! spermatheca
 
 [Term]
 id: SPD:0000141
-name: stalk of spermatheca (CD between SP1 and SP2)
-relationship: part_of SPD:0000029 ! vulva
+name: stalk of spermatheca
+def: "The segment of duct between the primary and secondary spermatheca." [SPDrf:Sierwald_1989]
+is_a: SPD:0000545 ! duct of female genitalia
 
 [Term]
 id: SPD:0000142
@@ -951,7 +963,8 @@ relationship: part_of SPD:0000363 ! spinning field
 
 [Term]
 id: SPD:0000143
-name: epigynal glands
+name: epigynal cuticular glands
+def: "Small glands with a cuticular duct, discharging through a pore on the epigynal plate." [SPD:Curator]
 relationship: part_of SPD:0000029 ! vulva
 
 [Term]
@@ -1014,26 +1027,26 @@ relationship: part_of SPD:0000364 ! spigot
 
 [Term]
 id: SPD:0000154
-name: male palpal tibia dorsal processes
+name: male palpal tibia dorsal process
 def: "A process on the dorsal surface of the male palpal tibia." [SPD:Curator]
 is_a: SPD:0000526 ! male palpal tibial process
 
 [Term]
 id: SPD:0000155
-name: male palpal tibia prolateral processes
+name: male palpal tibia prolateral process
 def: "A process on the prolateral surface of the male palpal tibia." [SPD:Curator]
 is_a: SPD:0000526 ! male palpal tibial process
 
 [Term]
 id: SPD:0000156
-name: male palpal tibia retrolateral processes
+name: male palpal tibia retrolateral process
 def: "A process on the retrolateral surface of the male palpal tibia." [SPD:Curator]
 exact_synonym: "retrolateral tibial apophysis" []
 is_a: SPD:0000526 ! male palpal tibial process
 
 [Term]
 id: SPD:0000157
-name: male palpal tibia ventral processes
+name: male palpal tibia ventral process
 def: "A process on the ventral surface of the male palpal tibia." [SPD:Curator]
 is_a: SPD:0000526 ! male palpal tibial process
 
@@ -1101,7 +1114,7 @@ is_a: SPD:0000524 ! process of cymbium
 
 [Term]
 id: SPD:0000167
-name: cymbial dorsal processes
+name: cymbial dorsal process
 def: "A process on the dorsal surface of the cymbium." [SPD:Curator]
 is_a: SPD:0000524 ! process of cymbium
 
@@ -1822,7 +1835,7 @@ relationship: part_of SPD:0000267 ! paracribellar gland spigot of posterior medi
 [Term]
 id: SPD:0000280
 name: bursa
-def: "Latin term for female copulatory pouch." [SPDrf:Ubick_et_al_2005_glossary]
+def: "A generalized term for a pouch in the female genitalia, arising internally from the epigastric fold." [SPD:Curator]
 relationship: part_of SPD:0000029 ! vulva
 
 [Term]
@@ -1833,17 +1846,22 @@ relationship: part_of SPD:0000267 ! paracribellar gland spigot of posterior medi
 
 [Term]
 id: SPD:0000282
-name: posterior apodemes
-relationship: part_of SPD:0000029 ! vulva
+name: epigastric furrow posterior apodeme
+def: "An apodeme arising from the posterior wall of the epigastric furrow. These apodemes are usually placed on invaginations or folds of the cuticle." [SPD:Curator]
+is_a: SPD:0000504 ! apodeme
+relationship: part_of SPD:0000034 ! epigastric furrow
 
 [Term]
 id: SPD:0000283
 name: posterior receptacle
-relationship: part_of SPD:0000029 ! vulva
+def: "A receptacle arising from the posterior wall of the epigastric furrow, posterior to the uterus externus." [SPD:Curator]
+is_a: SPD:0000549 ! receptacle
+relationship: part_of SPD:0000554 ! posterior section of female genitalia
 
 [Term]
 id: SPD:0000284
 name: uterus externus
+def: "The last, cuticular section of the oviduct, connecting the female genitalia with the ovaries. It is usually placed at the end of the epigastric furrow." [SPD:Curator]
 relationship: part_of SPD:0000029 ! vulva
 
 [Term]
@@ -2055,7 +2073,7 @@ is_a: SPD:0000359 ! seta
 
 [Term]
 id: SPD:0000316
-name: cymbial retrolateral-medial processes
+name: cymbial retrolateral-medial process
 def: "A process on the retrolateral margin of the cymbium, midway between the base and the tip." [SPD:Curator]
 is_a: SPD:0000524 ! process of cymbium
 
@@ -2458,7 +2476,7 @@ relationship: part_of SPD:0000379 ! tarsus
 [Term]
 id: SPD:0000381
 name: claw
-def: "A hook-shaped sclerotyzed structure arising from the leg pretarsus." [SPD:Curator]
+def: "A hook-shaped sclerotized structure arising from the leg pretarsus." [SPD:Curator]
 is_a: SPD:0000456 ! acellular anatomical structure
 relationship: part_of SPD:0000450 ! pretarsus
 
@@ -3440,7 +3458,7 @@ creation_date: 2009-08-22T06:58:57Z
 
 [Term]
 id: SPD:0000528
-name: male palpal ventral-medial processes
+name: male palpal ventral-medial process
 def: "A process on the middle of the ventral surface of the male palpal femur." [SPD:Curator]
 is_a: SPD:0000527 ! male palpal femoral process
 created_by: Martin Ramirez
@@ -3448,7 +3466,7 @@ creation_date: 2009-08-22T07:00:50Z
 
 [Term]
 id: SPD:0000529
-name: male palpal ventral-basal processes
+name: male palpal ventral-basal process
 def: "A process on the ventral surface of the male palpal femur near its base." [SPD:Curator]
 is_a: SPD:0000527 ! male palpal femoral process
 created_by: Martin Ramirez
@@ -3456,7 +3474,7 @@ creation_date: 2009-08-22T07:01:21Z
 
 [Term]
 id: SPD:0000530
-name: male palpal ventral-apical processes
+name: male palpal ventral-apical process
 def: "A process on the ventral surface of the male palpal femur near its distal end." [SPD:Curator]
 is_a: SPD:0000527 ! male palpal femoral process
 created_by: Martin Ramirez
@@ -3464,7 +3482,7 @@ creation_date: 2009-08-22T07:01:37Z
 
 [Term]
 id: SPD:0000531
-name: male palpal patella dorsal processes
+name: male palpal patella dorsal process
 def: "A process on the dorsal surface of the male palpal patella." [SPD:Curator]
 is_a: SPD:0000285 ! male palpal patellar process
 created_by: Martin Ramirez
@@ -3472,7 +3490,7 @@ creation_date: 2009-08-22T07:06:38Z
 
 [Term]
 id: SPD:0000532
-name: male palpal patella retrolateral processes
+name: male palpal patella retrolateral process
 def: "A process on the retrolateral surface of the male palpal patella." [SPD:Curator]
 is_a: SPD:0000285 ! male palpal patellar process
 created_by: Martin Ramirez
@@ -3498,6 +3516,7 @@ creation_date: 2009-08-22T07:14:47Z
 id: SPD:0000535
 name: apical cymbial groove
 def: "A ventral longitudinal groove on the tip of the cymbium. It occurs in Anyphaenidae." [SPD:Curator]
+exact_synonym: "cymbial conductor" []
 is_a: SPD:0000534 ! groove of cymbium
 created_by: Martin Ramirez
 creation_date: 2009-08-22T07:15:41Z
@@ -3525,6 +3544,138 @@ def: "A sclerotized process on the emblous." [SPD:Curator]
 relationship: part_of SPD:0000176 ! embolus
 created_by: Martin Ramirez
 creation_date: 2009-08-22T07:28:06Z
+
+[Term]
+id: SPD:0000539
+name: male palpal tibia dorsal basal process
+def: "A proximal process on the dorsal surface of the male palpal tibia." [SPD:Curator]
+is_a: SPD:0000154 ! male palpal tibia dorsal process
+created_by: Ramirez
+creation_date: 2009-08-28T12:42:35Z
+
+[Term]
+id: SPD:0000540
+name: male palpal tibia ventral apical process
+def: "A distal process on the ventral surface of the male palpal tibia." [SPD:Curator]
+is_a: SPD:0000157 ! male palpal tibia ventral process
+created_by: Ramirez
+creation_date: 2009-08-28T12:48:08Z
+
+[Term]
+id: SPD:0000541
+name: duct of epigynal cuticular gland
+def: "The cuticular duct of the epigynal cuticular gland." [SPD:Curator]
+relationship: part_of SPD:0000143 ! epigynal cuticular glands
+created_by: Ramirez
+creation_date: 2009-09-03T10:48:21Z
+
+[Term]
+id: SPD:0000542
+name: pore of epigynal cuticular gland
+def: "The pore on the epigynal plate where the epigynal cuticular gland discharges." [SPD:Curator]
+relationship: part_of SPD:0000143 ! epigynal cuticular glands
+created_by: Ramirez
+creation_date: 2009-09-03T10:49:23Z
+
+[Term]
+id: SPD:0000543
+name: epigynal fold
+def: "Each of the two folds on the epigynum, between the lateral lobes and the median field." [SPDrf:Sierwald_1989]
+relationship: part_of SPD:0000028 ! epigynum
+created_by: Ramirez
+creation_date: 2009-09-03T10:58:48Z
+
+[Term]
+id: SPD:0000544
+name: spermatheca
+def: "A hollow cuticular structure of the female genitalia used for sperm storage. It is connected to the copulatory duct." [SPD:Curator]
+relationship: part_of SPD:0000029 ! vulva
+relationship: part_of SPD:0000553 ! anterior section of female genitalia
+created_by: Ramirez
+creation_date: 2009-09-03T11:58:44Z
+
+[Term]
+id: SPD:0000545
+name: duct of female genitalia
+def: "A sclerotized hollow tube connecting structures of the female genitalia, usually for the transit of sperm." [SPD:Curator]
+relationship: part_of SPD:0000029 ! vulva
+relationship: part_of SPD:0000553 ! anterior section of female genitalia
+created_by: Ramirez
+creation_date: 2009-09-03T12:06:11Z
+
+[Term]
+id: SPD:0000546
+name: duct of secondary spermatheca
+def: "The segment of duct connecting the secondary spermatheca to the copulatory duct, occasionally directly to the primary spermatheca." [SPD:Curator]
+is_a: SPD:0000545 ! duct of female genitalia
+created_by: Ramirez
+creation_date: 2009-09-03T12:12:23Z
+
+[Term]
+id: SPD:0000547
+name: copulatory plug
+def: "A hardened plug obstructing the female copulatory opening. The copulatory plug is secreted by the male copulatory bulb, although it may have components secreted by the female as well." [SPD:Curator]
+exact_synonym: "mating plug" []
+is_a: SPD:0000008 ! portion of organism substance
+created_by: Ramirez
+creation_date: 2009-09-03T12:14:46Z
+
+[Term]
+id: SPD:0000548
+name: gland of posterior receptacle
+def: "A gland with a cuticular duct discharging in the posterior receptacle." [SPD:Curator]
+relationship: part_of SPD:0000283 ! posterior receptacle
+created_by: Ramirez
+creation_date: 2009-09-03T03:20:35Z
+
+[Term]
+id: SPD:0000549
+name: receptacle
+def: "A generic term for hollow cuticular structures in the female genitalia, whose presumed function is sperm storage. The term is used mainly in Dysderoidea, Palpimanoidea or Austrochiloidea, where the homology with the spermathecae as found in other spiders is not well defined." [SPD:Curator]
+relationship: part_of SPD:0000029 ! vulva
+created_by: Ramirez
+creation_date: 2009-09-03T03:48:27Z
+
+[Term]
+id: SPD:0000550
+name: anterior receptacle
+def: "A receptacle arising from the anterior wall of the epigastric furrow, anterior to the uterus externus." [SPD:Curator]
+is_a: SPD:0000549 ! receptacle
+relationship: part_of SPD:0000553 ! anterior section of female genitalia
+created_by: Ramirez
+creation_date: 2009-09-03T03:51:46Z
+
+[Term]
+id: SPD:0000551
+name: gland of anterior receptacle
+def: "A gland with a cuticular duct discharging in the anterior receptacle." [SPD:Curator]
+relationship: part_of SPD:0000550 ! anterior receptacle
+created_by: Ramirez
+creation_date: 2009-09-03T03:52:19Z
+
+[Term]
+id: SPD:0000552
+name: postepigastric invagination
+def: "A small invagination, often sclerotized, just posterior to the anterior booklung spiracle. It is found in lamponids and some other spiders." [SPDrf:Platnick_2000]
+relationship: part_of SPD:0000059 ! postepigastrium
+created_by: Ramirez
+creation_date: 2009-09-04T03:36:21Z
+
+[Term]
+id: SPD:0000553
+name: anterior section of female genitalia
+def: "The section of the female genitalia anterior to the uterus externus. Most spiders only have genitalic structures in this section." [SPD:Curator]
+relationship: part_of SPD:0000044 ! female genitalia
+created_by: Ramirez
+creation_date: 2009-09-04T04:03:49Z
+
+[Term]
+id: SPD:0000554
+name: posterior section of female genitalia
+def: "The section of the female genitalia posterior to the uterus externus. Only some spider groups have genitalic structures in this section, for example most Dysderoidea." [SPD:Curator]
+relationship: part_of SPD:0000044 ! female genitalia
+created_by: Ramirez
+creation_date: 2009-09-04T04:05:07Z
 
 [Typedef]
 id: part_of
