@@ -1,6 +1,6 @@
 format-version: 1.0
-version: 0.9.5
-date: 04:09:2009 16:16
+version: 0.9.6
+date: 09:09:2009 15:22
 saved-by: Martin Ramirez
 auto-generated-by: OBO-Edit 2.0
 default-namespace: spider_anatomy
@@ -935,8 +935,9 @@ is_a: SPD:0000544 ! spermatheca
 [Term]
 id: SPD:0000139
 name: Bennet's gland
-def: "A delimited patch of pores on the primary spermathecae of entelegyne spiders." [SPDrf:Bennet_1992]
+def: "A delimited patch of glandular pores on the primary spermathecae of entelegyne spiders." [SPDrf:Bennet_1992]
 exact_synonym: "dictynoid pore" []
+is_a: SPD:0000558 ! vulval gland
 relationship: part_of SPD:0000029 ! vulva
 relationship: part_of SPD:0000553 ! anterior section of female genitalia
 
@@ -3676,6 +3677,47 @@ def: "The section of the female genitalia posterior to the uterus externus. Only
 relationship: part_of SPD:0000044 ! female genitalia
 created_by: Ramirez
 creation_date: 2009-09-04T04:05:07Z
+
+[Term]
+id: SPD:0000555
+name: gland pore of secondary spermatheca
+def: "A pore on the secondary spermatheca where a gland duct is connected." [SPD:Curator]
+relationship: part_of SPD:0000559 ! gland of secondary spermatheca
+creation_date: 2009-09-09T11:52:44Z
+
+[Term]
+id: SPD:0000556
+name: duct of gland of secondary spermatheca
+def: "The cuticular duct connected to a pore on the secondary spermatheca." [SPD:Curator]
+relationship: part_of SPD:0000559 ! gland of secondary spermatheca
+created_by: Ramirez
+creation_date: 2009-09-09T11:54:50Z
+
+[Term]
+id: SPD:0000557
+name: gland of primary spermatheca
+def: "A gland discharging through a pore on the primary spermatheca." [SPD:Curator]
+is_a: SPD:0000558 ! vulval gland
+relationship: part_of SPD:0000138 ! primary spermatheca
+created_by: Ramirez
+creation_date: 2009-09-09T02:17:21Z
+
+[Term]
+id: SPD:0000558
+name: vulval gland
+def: "A generic term for the glands discharging on the copulatory ducts and spermathecae." [SPD:Curator]
+relationship: part_of SPD:0000029 ! vulva
+created_by: Ramirez
+creation_date: 2009-09-09T03:01:37Z
+
+[Term]
+id: SPD:0000559
+name: gland of secondary spermatheca
+def: "A gland discharging through a pore on the secondary spermatheca." [SPD:Curator]
+is_a: SPD:0000558 ! vulval gland
+relationship: part_of SPD:0000140 ! secondary spermatheca
+created_by: Ramirez
+creation_date: 2009-09-09T03:04:02Z
 
 [Typedef]
 id: part_of
