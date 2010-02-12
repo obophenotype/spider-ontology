@@ -1,9 +1,10 @@
 format-version: 1.0
 version: 0.9.6
-date: 09:09:2009 15:22
+date: 12:02:2010 07:38
 saved-by: Martin Ramirez
 auto-generated-by: OBO-Edit 2.0
 default-namespace: spider_anatomy
+namespace-id-rule: * SPD:$sequence(7,0,9999999)$
 
 [Term]
 id: SPD:0000000
@@ -48,8 +49,6 @@ id: SPD:0000006
 name: pedicel
 def: "First abdominal segment, the narrowed connection between cephalothorax and abdomen." [SPD:Curator]
 comment: Figs 72:4, 72:26 in SPDrf:Ubick_et_al_2005_glossary.
-exact_synonym: "1st abdominal segment" []
-exact_synonym: "abdominal segment 1" []
 is_a: SPD:0000422 ! abdominal segment 1
 relationship: part_of SPD:0000057 ! external abdomen
 
@@ -876,7 +875,8 @@ relationship: part_of SPD:0000003 ! abdomen
 
 [Term]
 id: SPD:0000131
-name: midgut
+name: posterior midgut
+def: "The portion of the midgut contained in the abdomen." [SPD:Curator]
 relationship: part_of SPD:0000047 ! intestine
 
 [Term]
@@ -1331,7 +1331,7 @@ relationship: part_of SPD:0000073 ! female palpal coxa
 [Term]
 id: SPD:0000200
 name: maxillary gland pore field
-def: "A small field patch of pores, usually on the dorsal side of the endite, sometimes on its mesal surface, where the maxillary glands discharge. " [SPD:Curator]
+def: "A small field patch of pores, usually on the dorsal side of the endite, sometimes on its mesal surface, where the maxillary glands discharge." [SPD:Curator]
 related_synonym: "gnathocoxal gland" [SPD:Curator]
 exact_synonym: "sieve plate" [SPD:Curator]
 relationship: part_of SPD:0000073 ! female palpal coxa
@@ -1403,7 +1403,7 @@ relationship: part_of SPD:0000265 ! paracribellar gland spigot of posterior late
 [Term]
 id: SPD:0000211
 name: shaft of paracribellar gland spigot of posterior lateral spinneret
-def: "The shaft of a paracribellar gland spigot of the posterior lateral spinneret" [SPD:Curator]
+def: "The shaft of a paracribellar gland spigot of the posterior lateral spinneret." [SPD:Curator]
 is_a: SPD:0000153 ! spigot shaft
 relationship: part_of SPD:0000265 ! paracribellar gland spigot of posterior lateral spinneret
 
@@ -1422,14 +1422,15 @@ relationship: part_of SPD:0000277 ! spigot of posterior lateral spinneret
 [Term]
 id: SPD:0000214
 name: aggregate gland spigot
-is_a: SPD:0000215 ! aggregate gland spigot
+def: "A flanking spigot in the triad of araneoid spiders. It extrudes a viscid silk used in the wet adhesive threads." [SPD:Curator]
 is_a: SPD:0000277 ! spigot of posterior lateral spinneret
+is_a: SPD:0000364 ! spigot
 
 [Term]
 id: SPD:0000215
-name: aggregate gland spigot
-def: "A flanking spigot in the triad of araneoid spiders. It extrudes a viscid silk used in the wet adhesive threads." [SPD:Curator]
-is_a: SPD:0000364 ! spigot
+name: agg gland spigot
+is_obsolete: true
+consider: SPD:0000214
 
 [Term]
 id: SPD:0000216
@@ -1681,7 +1682,7 @@ relationship: part_of SPD:0000125 ! spinning field of anterior lateral spinneret
 [Term]
 id: SPD:0000256
 name: sensillum of major ampullate field
-def: "A cuticle strain sensor on the major ampullate field. These receptors are found at the base of the spigots of the major ampullate glands which produce the dragline used by the spider as a safety thread in various behavioral situations. They are likely\nto provide information on the forces pulling on the dragline and also on its orientation in space. A single sensillum consists of a hole in the cuticle covered by a thin cuticular membrane. It much resembles spider slit sensilla, which are known to detect strains in the exoskeleton. Each sensillum is supplied by two dendrites most likely belonging to two bipolar sensory cells. One of the dendrites ends at the covering membrane and the other more proximally. The sensilla are arranged with their long axes roughly parallel to the circumference of the spigots. External forces, transmitted by the dragline, result in deformation of the central part of the cuticular plate at the base of the spigots and thus in stimulation of the sensilla. Considering their morphology, topography, and electrophysiology, these mechanoreceptors\nare suggested to be important in the sensory control of dragline release by the spider." [SPDrf:Gorb_and_Barth_1996]
+def: "A cuticle strain sensor on the major ampullate field. These receptors are found at the base of the spigots of the major ampullate glands which produce the dragline used by the spider as a safety thread in various behavioral situations. They are likely to provide information on the forces pulling on the dragline and also on its orientation in space. A single sensillum consists of a hole in the cuticle covered by a thin cuticular membrane. It much resembles spider slit sensilla, which are known to detect strains in the exoskeleton. Each sensillum is supplied by two dendrites most likely belonging to two bipolar sensory cells. One of the dendrites ends at the covering membrane and the other more proximally. The sensilla are arranged with their long axes roughly parallel to the circumference of the spigots. External forces, transmitted by the dragline, result in deformation of the central part of the cuticular plate at the base of the spigots and thus in stimulation of the sensilla. Considering their morphology, topography, and electrophysiology, these mechanoreceptors are suggested to be important in the sensory control of dragline release by the spider." [SPDrf:Gorb_and_Barth_1996]
 is_a: SPD:0000511 ! strain sensillum of cuticle
 relationship: part_of SPD:0000255 ! major ampullate field
 
@@ -1813,7 +1814,7 @@ consider: SPD:0000505
 id: SPD:0000276
 name: cribellar spigot
 def: "Each of the many gland spigots on the cribellum. They produce an adhesive mat of very thin dry fibrils." [SPD:Curator]
-relationship: part_of SPD:0000115 ! cribellum
+relationship: part_of SPD:0000561 ! spinning field of cribellum
 
 [Term]
 id: SPD:0000277
@@ -1982,13 +1983,14 @@ relationship: part_of SPD:0000300 ! pleural area
 
 [Term]
 id: SPD:0000303
-name: midgut
+name: anterior midgut
+def: "The portion of the midgut contained in the cephalothorax." [SPD:Curator]
 relationship: part_of SPD:0000002 ! cephalothorax
 
 [Term]
 id: SPD:0000304
-name: midgut diverticle
-relationship: part_of SPD:0000303 ! midgut
+name: anterior midgut diverticle
+relationship: part_of SPD:0000303 ! anterior midgut
 
 [Term]
 id: SPD:0000305
@@ -2900,28 +2902,28 @@ relationship: part_of SPD:0000372 ! leg
 [Term]
 id: SPD:0000452
 name: pretarsus 1
-def: "The pretarsus of leg 1" [SPD:Curator]
+def: "The pretarsus of leg 1." [SPD:Curator]
 is_a: SPD:0000450 ! pretarsus
 relationship: part_of SPD:0000021 ! leg 1
 
 [Term]
 id: SPD:0000453
 name: pretarsus 2
-def: "The pretarsus of leg 2" [SPD:Curator]
+def: "The pretarsus of leg 2." [SPD:Curator]
 is_a: SPD:0000450 ! pretarsus
 relationship: part_of SPD:0000022 ! leg 2
 
 [Term]
 id: SPD:0000454
 name: pretarsus 3
-def: "The pretarsus of leg 3" [SPD:Curator]
+def: "The pretarsus of leg 3." [SPD:Curator]
 is_a: SPD:0000450 ! pretarsus
 relationship: part_of SPD:0000023 ! leg 3
 
 [Term]
 id: SPD:0000455
 name: pretarsus 4
-def: "The pretarsus of leg 4" [SPD:Curator]
+def: "The pretarsus of leg 4." [SPD:Curator]
 is_a: SPD:0000450 ! pretarsus
 relationship: part_of SPD:0000024 ! leg 4
 
@@ -3068,7 +3070,7 @@ relationship: part_of SPD:0000376 ! patella
 [Term]
 id: SPD:0000478
 name: hair plate
-def: "A group of short propiosensory setae placed at the ventral basal corners of coxae. They are reflected by the folding of the pleural membrane." [SPDrf:Seyfath_Eckweiler _and_]
+def: "A group of short propiosensory setae placed at the ventral basal corners of coxae. They are reflected by the folding of the pleural membrane." [SPDrf:Seyfarth_et_al_1985]
 is_a: SPD:0000387 ! sensilla appendage cephalothorax
 
 [Term]
@@ -3389,7 +3391,7 @@ creation_date: 2009-08-21T03:45:31Z
 [Term]
 id: SPD:0000519
 name: hematodocha
-def: "Any membrane that allows or actively produces movement of\nthe copulatory bulb or of parts of it." [SPDrf:Huber_2002]
+def: "Any membrane that allows or actively produces movement of the copulatory bulb or of parts of it." [SPDrf:Huber_2002]
 relationship: part_of SPD:0000168 ! copulatory bulb
 created_by: Ramirez
 creation_date: 2009-08-21T05:57:03Z
@@ -3405,7 +3407,7 @@ creation_date: 2009-08-21T06:50:39Z
 [Term]
 id: SPD:0000521
 name: basal division of copulatory bulb
-def: "The division of the copulatory bulb between the basal and median hematodochae, containing the subtegulum" [SPDrf:Coddington_1990]
+def: "The division of the copulatory bulb between the basal and median hematodochae, containing the subtegulum." [SPDrf:Coddington_1990]
 is_a: SPD:0000520 ! division of copulatory bulb
 created_by: Ramirez
 creation_date: 2009-08-21T06:52:33Z
@@ -3718,6 +3720,22 @@ is_a: SPD:0000558 ! vulval gland
 relationship: part_of SPD:0000140 ! secondary spermatheca
 created_by: Ramirez
 creation_date: 2009-09-09T03:04:02Z
+
+[Term]
+id: SPD:0000560
+name: cribellum base
+def: "The short basal article of the cribellum, visible as a sclerotized band bearing setae." [SPD:Curator]
+relationship: part_of SPD:0000115 ! cribellum
+creation_date: 2010-02-11T07:12:58Z
+
+[Term]
+id: SPD:0000561
+name: spinning field of cribellum
+def: "The spinning field of the cribellum." [SPD:Curator]
+is_a: SPD:0000363 ! spinning field
+relationship: part_of SPD:0000115 ! cribellum
+created_by: Sony
+creation_date: 2010-02-11T07:14:12Z
 
 [Typedef]
 id: part_of
