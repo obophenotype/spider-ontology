@@ -1,8 +1,8 @@
 format-version: 1.0
-version: 0.9.7
-date: 17:03:2010 06:57
+data-version: 0.9.8
+date: 08:07:2011 13:00
 saved-by: Martin Ramirez
-auto-generated-by: OBO-Edit 2.0
+auto-generated-by: OBO-Edit 2.1-beta13
 default-namespace: spider_anatomy
 namespace-id-rule: * SPD:$sequence(7,0,9999999)$
 
@@ -303,7 +303,7 @@ id: SPD:0000039
 name: chilum
 def: "A small sclerite at the base of the chelicera (under the clypeus)." [SPDrf:Ubick_et_al_2005_glossary]
 comment: Fig 72:17 in SPDrf:Ubick_et_al_2005_glossary.
-relationship: part_of SPD:0000016 ! cephalic area
+relationship: part_of SPD:0000002 ! cephalothorax
 
 [Term]
 id: SPD:0000040
@@ -516,7 +516,7 @@ id: SPD:0000071
 name: intercheliceral sclerite
 exact_synonym: "postchilum" []
 exact_synonym: "posterior chilum" []
-relationship: part_of SPD:0000019 ! chelicera
+relationship: part_of SPD:0000072 ! intercheliceral articulation
 
 [Term]
 id: SPD:0000072
@@ -943,8 +943,8 @@ is_a: SPD:0000544 ! spermatheca
 
 [Term]
 id: SPD:0000139
-name: Bennet's gland
-def: "A delimited patch of glandular pores on the primary spermathecae of entelegyne spiders." [SPDrf:Bennet_1992]
+name: Bennett's gland
+def: "A delimited patch of glandular pores on the primary spermathecae of entelegyne spiders." [SPDrf:Bennett_1992]
 exact_synonym: "dictynoid pore" []
 is_a: SPD:0000558 ! vulval gland
 relationship: part_of SPD:0000138 ! primary spermatheca
@@ -1307,6 +1307,7 @@ name: posterior median eye tapetum
 def: "The tapetum of the posterior median eye." [SPD:Curator]
 is_a: SPD:0000343 ! tapetum
 relationship: part_of SPD:0000050 ! posterior median eye
+relationship: part_of SPD:0000578 ! posterior median eye cup
 
 [Term]
 id: SPD:0000194
@@ -1314,6 +1315,7 @@ name: posterior lateral eye tapetum
 def: "The tapetum of the posterior lateral eye." [SPD:Curator]
 is_a: SPD:0000343 ! tapetum
 relationship: part_of SPD:0000051 ! posterior lateral eye
+relationship: part_of SPD:0000577 ! posterior lateral eye cup
 
 [Term]
 id: SPD:0000195
@@ -1956,7 +1958,7 @@ id: SPD:0000295
 name: precoxal triangle
 def: "Each of the triangular sclerotized extensions from the sternum, to the middle of the coxae." [SPD:Curator]
 comment: Fig 72:59 in SPDrf:Ubick_et_al_2005_glossary.
-exact_synonym: "precoxal sclerites" [SPDrf:Ubick_et_al_2005_glossary]
+exact_synonym: "precoxal sclerite" [SPDrf:Ubick_et_al_2005_glossary]
 relationship: part_of SPD:0000291 ! sternum
 
 [Term]
@@ -2565,7 +2567,7 @@ relationship: part_of SPD:0000378 ! metatarsus
 id: SPD:0000391
 name: bothrium proximal plate
 def: "The proximal plate of the socket of trichobothria." [SPD:Curator]
-related_synonym: "trichobothrial hood" [SPD:Curator]
+exact_synonym: "trichobothrial hood" [SPD:Curator]
 relationship: part_of SPD:0000348 ! bothrium
 
 [Term]
@@ -2915,7 +2917,7 @@ is_a: SPD:0000448 ! behavioral entity
 [Term]
 id: SPD:0000450
 name: pretarsus
-def: "The 8th, most distal article of the leg, articulated with the tarsus and containing the claws." [SPD:Curator]
+def: "The 8th, most distal article of the leg, articulated with the tarsus and bearing the claws." [SPD:Curator]
 is_a: SPD:0000451 ! leg article
 
 [Term]
@@ -3219,8 +3221,9 @@ creation_date: 2009-08-10T02:49:17Z
 
 [Term]
 id: SPD:0000494
-name: proto-tenent seta
+name: pseudotenent seta
 def: "A seta with intermediate morphology between tenent and tactile hair, with acute tip and tenent barbs loosely organized on the contact side but usually not forming a pad." [SPD:Curator]
+exact_synonym: "proto-tenent seta" [SPD:Curator]
 is_a: SPD:0000491 ! tenent seta
 created_by: Ramirez
 creation_date: 2009-08-10T04:10:34Z
@@ -3642,9 +3645,9 @@ creation_date: 2009-09-03T12:12:23Z
 
 [Term]
 id: SPD:0000547
-name: copulatory plug
+name: mating plug
 def: "A hardened plug obstructing the female copulatory opening. The copulatory plug is secreted by the male copulatory bulb, although it may have components secreted by the female as well." [SPD:Curator]
-exact_synonym: "mating plug" []
+exact_synonym: "copulatory plug" []
 is_a: SPD:0000008 ! portion of organism substance
 created_by: Ramirez
 creation_date: 2009-09-03T12:14:46Z
@@ -3886,6 +3889,21 @@ def: "The silken sac made by the female to retain together the eggs." [SPD:Curat
 is_a: SPD:0000318 ! silk structure
 created_by: Ramirez
 creation_date: 2010-03-17T06:54:05Z
+
+[Term]
+id: SPD:0000577
+name: posterior lateral eye cup
+def: "The cup of the posterior lateral eye." [SPD:Curator]
+is_a: SPD:0000567 ! eye cup
+creation_date: 2010-03-17T11:22:31Z
+
+[Term]
+id: SPD:0000578
+name: posterior median eye cup
+def: "The cup of the posterior median eye." [SPD:Curator]
+is_a: SPD:0000567 ! eye cup
+created_by: Sony
+creation_date: 2010-03-17T11:23:16Z
 
 [Typedef]
 id: part_of
