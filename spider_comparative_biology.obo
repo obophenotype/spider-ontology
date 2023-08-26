@@ -1,5 +1,5 @@
 format-version: 1.0
-data-version: 1.0
+data-version: 1.1
 date: 28:11:2016 21:12
 saved-by: Martin Ramirez
 auto-generated-by: OBO-Edit 2.3.1
@@ -45,8 +45,7 @@ relationship: part_of SPD:0000043 ! integument
 [Term]
 id: SPD:0000005
 name: carapace
-def: "The dorsal shield of the prosoma." [SPD:Ramirez]
-comment: Fig 72:4 in SPDrf:Ubick_et_al_2005_glossary.
+def: "The sclerite that covers the prosoma dorsally." [SPD:Ramirez]
 exact_synonym: "dorsal shield of the prosoma" [SPD:Ramirez]
 is_a: SPD:0000663 ! sclerite
 relationship: part_of SPD:0000002 ! prosoma
@@ -55,7 +54,6 @@ relationship: part_of SPD:0000002 ! prosoma
 id: SPD:0000006
 name: pedicel
 def: "First opisthosomal segment, the narrowed connection between prosoma and opisthosoma." [SPD:Ramirez]
-comment: Figs 72:4, 72:26 in SPDrf:Ubick_et_al_2005_glossary.
 is_a: SPD:0000422 ! opisthosomal segment 1
 
 [Term]
@@ -85,7 +83,6 @@ consider: SPD:0000059
 id: SPD:0000010
 name: spinneret
 def: "Finger-like or conical silk spinning appendages located at the posterior end of the opisthosoma." [SPD:Ramirez]
-comment: Figs 72:4, 72:7 in SPDrf:Ubick_et_al_2005_glossary.
 is_a: SPD:0000651 ! appendage
 relationship: part_of SPD:0000633 ! spinning apparatus
 
@@ -93,7 +90,6 @@ relationship: part_of SPD:0000633 ! spinning apparatus
 id: SPD:0000011
 name: anal tubercle
 def: "A small lobe posterior to the spinnerets which bears the anal opening." [SPDrf:Ubick_et_al_2005_glossary]
-comment: Figs 72:4, 72:7 in SPDrf:Ubick_et_al_2005_glossary.
 relationship: part_of SPD:0000516 ! opisthosomal segment 11
 
 [Term]
@@ -128,7 +124,6 @@ relationship: part_of SPD:0000566 ! ocular area
 id: SPD:0000016
 name: cephalic area
 def: "The anterior portion of the carapace, bearing the eyes, sometimes delimited posteriorly by marked thoracic furrows." [SPD:Ramirez]
-comment: Fig 72:11 in SPDrf:Ubick_et_al_2005_glossary.
 exact_synonym: "caput" [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "cephalon" [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "head" [SPD:Ramirez]
@@ -139,14 +134,12 @@ relationship: part_of SPD:0000005 ! carapace
 id: SPD:0000017
 name: thoracic area
 def: "The posterior portion of the carapace, sometimes delimited anteriorly by marked thoracic furrows." [SPD:Ramirez]
-comment: Fig 72:11 in SPDrf:Ubick_et_al_2005_glossary.
 relationship: part_of SPD:0000005 ! carapace
 
 [Term]
 id: SPD:0000018
 name: thoracic fovea
 def: "The central depression in the carapace representing the invagination of the carapace where the stomach muscles attach." [SPDrf:Ubick_et_al_2005_glossary]
-comment: Fig 72:1, 72:11 in SPDrf:Ubick_et_al_2005_glossary.
 exact_synonym: "dorsal groove" [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "furrow" [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "pit" [SPDrf:Ubick_et_al_2005_glossary]
@@ -156,8 +149,7 @@ relationship: part_of SPD:0000017 ! thoracic area
 [Term]
 id: SPD:0000019
 name: chelicera
-def: "The anterior appendages of a spider (the jaws) consisting of a large basal segment (paturon) and an apical fang." [SPDrf:Ubick_et_al_2005_glossary]
-comment: Figs 72:4, 72:26 in SPDrf:Ubick_et_al_2005_glossary.
+def: "The anterior appendage of a spider (the jaw) consisting of a large basal segment (paturon) and an apical fang." [SPDrf:Ubick_et_al_2005_glossary]
 is_a: SPD:0000651 ! appendage
 relationship: part_of SPD:0000673 ! mouthparts
 
@@ -165,7 +157,6 @@ relationship: part_of SPD:0000673 ! mouthparts
 id: SPD:0000020
 name: female palp
 def: "The palp of the female." [SPD:Ramirez]
-comment: Figs 72:26, 72:75 in SPDrf:Ubick_et_al_2005_glossary.
 exact_synonym: "palpus" [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "pedipalp" [SPDrf:Ubick_et_al_2005_glossary]
 is_a: SPD:0000335 ! palp
@@ -227,7 +218,6 @@ relationship: part_of SPD:0000440 ! anterior respiratory system
 id: SPD:0000028
 name: epigyne
 def: "An often sclerotized and well-defined area in the median epigastric area that contains the copulatory openings." [SPD:Michalik]
-comment: Figs 72:26, 72:32, 72:33, 72:47, 72:76 in SPDrf:Ubick_et_al_2005_glossary.
 exact_synonym: "epigynum" [SPD:Michalik]
 relationship: part_of SPD:0000553 ! anterior section of female genitalia
 
@@ -235,6 +225,7 @@ relationship: part_of SPD:0000553 ! anterior section of female genitalia
 id: SPD:0000029
 name: vulva
 def: "A collective term for the internal elements of the female genitalia." [SPD:Michalik]
+exact_synonym: "endogyne" [SPDrf:Mcheidze_1972]
 relationship: part_of SPD:0000044 ! female genitalia
 
 [Term]
@@ -258,14 +249,12 @@ is_obsolete: true
 id: SPD:0000033
 name: posterior tracheal spiracle
 def: "The spiracle of the posterior tracheal system." [SPD:Ramirez]
-comment: Fig 72:26 in SPDrf:Ubick_et_al_2005_glossary.
 relationship: part_of SPD:0000060 ! posterior respiratory system
 
 [Term]
 id: SPD:0000034
 name: epigastric furrow
 def: "A transverse groove or fold across the anterior ventral part of the opisthosoma, delimiting the second and third opisthosomal segments." [SPD:Ramirez]
-comment: Fig 72:26, 72:34 in SPDrf:Ubick_et_al_2005_glossary.
 exact_synonym: "epigastric fold" [SPD:Ramirez]
 relationship: part_of SPD:0000058 ! epigastric area
 
@@ -289,7 +278,6 @@ relationship: part_of SPD:0000425 ! opisthosomal segment 4
 id: SPD:0000037
 name: posterior median spinneret
 def: "The median spinneret of the fifth opisthosomal segment." [SPD:Ramirez]
-comment: Fig 72:7 in SPDrf:Ubick_et_al_2005_glossary.
 exact_synonym: "median spinneret" [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "PMS" [SPDrf:Ubick_et_al_2005_glossary]
 is_a: SPD:0000010 ! spinneret
@@ -299,7 +287,6 @@ relationship: part_of SPD:0000426 ! opisthosomal segment 5
 id: SPD:0000038
 name: posterior lateral spinneret
 def: "The lateral spinneret of the fifth opisthosomal segment." [SPD:Ramirez]
-comment: Fig 72:7 in SPDrf:Ubick_et_al_2005_glossary.
 exact_synonym: "PLS" [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "posterior spinneret" [SPDrf:Ubick_et_al_2005_glossary]
 is_a: SPD:0000010 ! spinneret
@@ -308,8 +295,7 @@ relationship: part_of SPD:0000426 ! opisthosomal segment 5
 [Term]
 id: SPD:0000039
 name: chilum
-def: "A small sclerite at the base of the chelicera (under the clypeus)." [SPDrf:Ubick_et_al_2005_glossary]
-comment: Fig 72:17 in SPDrf:Ubick_et_al_2005_glossary.
+def: "A small sclerite at the base of the chelicera, under the clypeus." [SPDrf:Ubick_et_al_2005_glossary]
 is_a: SPD:0000663 ! sclerite
 relationship: part_of SPD:0000002 ! prosoma
 
@@ -317,7 +303,6 @@ relationship: part_of SPD:0000002 ! prosoma
 id: SPD:0000040
 name: clypeus
 def: "The space between the anterior edge of the carapace and the anterior eyes." [SPDrf:Ubick_et_al_2005_glossary]
-comment: Fig 72:5 in SPDrf:Ubick_et_al_2005_glossary.
 relationship: part_of SPD:0000016 ! cephalic area
 
 [Term]
@@ -372,7 +357,6 @@ is_obsolete: true
 id: SPD:0000048
 name: anterior median eye
 def: "The median of the anterior row." [SPD:Ramirez]
-comment: Fig 72:6 in SPDrf:Ubick_et_al_2005_glossary.
 exact_synonym: "AME" [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "primary eye" [SPDrf:Ubick_et_al_2005_glossary]
 is_a: SPD:0000392 ! direct eye
@@ -381,7 +365,6 @@ is_a: SPD:0000392 ! direct eye
 id: SPD:0000049
 name: anterior lateral eye
 def: "The lateral eye of the anterior row." [SPD:Ramirez]
-comment: Fig 72:6 in SPDrf:Ubick_et_al_2005_glossary.
 exact_synonym: "ALE" [SPDrf:Ubick_et_al_2005_glossary]
 is_a: SPD:0000015 ! eye
 
@@ -396,7 +379,6 @@ is_a: SPD:0000015 ! eye
 id: SPD:0000051
 name: posterior lateral eye
 def: "The lateral eye of the posterior row." [SPD:Ramirez]
-comment: Fig 72:6 in SPDrf:Ubick_et_al_2005_glossary.
 exact_synonym: "PLE" [SPDrf:Ubick_et_al_2005_glossary]
 is_a: SPD:0000015 ! eye
 
@@ -504,15 +486,13 @@ relationship: part_of SPD:0000424 ! opisthosomal segment 3
 id: SPD:0000067
 name: fang
 def: "The apical segment of a chelicera, bearing the opening of the venom gland." [SPD:Ramirez]
-comment: Fig 72:5 in SPDrf:Ubick_et_al_2005_glossary.
 is_a: SPD:0000822 ! podomere
 relationship: part_of SPD:0000019 ! chelicera
 
 [Term]
 id: SPD:0000068
 name: paturon
-def: "The basal segment of a chelicera." [SPDrf:Ubick_et_al_2005_glossary]
-comment: Figs 72:5, 72:13 in SPDrf:Ubick_et_al_2005_glossary.
+def: "The basal segment of the chelicera." [SPDrf:Ubick_et_al_2005_glossary]
 is_a: SPD:0000822 ! podomere
 relationship: part_of SPD:0000019 ! chelicera
 
@@ -536,6 +516,7 @@ name: intercheliceral sclerite
 def: "A small sclerite on the posterior end of the intercheliceral articulation, usually matching a small concavity on each paturon." [SPD:Ramirez]
 exact_synonym: "postchilum" [SPD:Ramirez]
 exact_synonym: "posterior chilum" [SPD:Ramirez]
+is_a: SPD:0000663 ! sclerite
 relationship: part_of SPD:0000072 ! intercheliceral articulation
 
 [Term]
@@ -548,7 +529,6 @@ relationship: part_of SPD:0000019 ! chelicera
 id: SPD:0000073
 name: female palpal coxa
 def: "The basal, 1st segment of the female palp. It may be expanded in a lobe, and then is called endite." [SPD:Ramirez]
-comment: Figs 72:13, 72:36, 72:75 in SPDrf:Ubick_et_al_2005_glossary.
 related_synonym: "endite" [SPD:Ramirez]
 exact_synonym: "gnathobase" [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "gnathocoxa" [SPDrf:Ubick_et_al_2005_glossary]
@@ -980,7 +960,6 @@ relationship: part_of SPD:0000028 ! epigyne
 id: SPD:0000135
 name: anterior copulatory duct
 def: "A copulatory duct in the anterior section of the female genitalia." [SPD:Michalik]
-comment: Fig 72:34 in SPDrf:Ubick_et_al_2005_glossary.
 exact_synonym: "connecting ducts" [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "entrance ducts" [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "insemination ducts" [SPDrf:Ubick_et_al_2005_glossary]
@@ -1011,7 +990,6 @@ relationship: part_of SPD:0000553 ! anterior section of female genitalia
 id: SPD:0000138
 name: primary spermatheca
 def: "A hollow sclerotized structure of the female genitalia of entelegyne spiders, used for the storage of sperm. The spermatheca is connected to the copulatory and fertilization ducts." [SPD:Ramirez]
-comment: Fig 72:34 in SPDrf:Ubick_et_al_2005_glossary.
 related_synonym: "seminal receptacle" [SPDrf:Ubick_et_al_2005_glossary]
 related_synonym: "spermatheca" [SPD:Ramirez]
 is_obsolete: true
@@ -1145,7 +1123,6 @@ is_a: SPD:0000526 ! male palpal tibial process
 id: SPD:0000158
 name: cymbium
 def: "The tarsus, 6th and last segment of the male palp connected with the tibia. The name cymbium is mostly used when modified as a spoon-shaped structure containing the copulatory bulb." [SPD:Ramirez]
-comment: Fig 72:12 in SPDrf:Ubick_et_al_2005_glossary.
 is_a: SPD:0000822 ! podomere
 relationship: part_of SPD:0000045 ! male palp
 
@@ -1199,7 +1176,6 @@ relationship: part_of SPD:0000163 ! alveolus
 id: SPD:0000166
 name: paracymbium
 def: "A process on the retrolateral-basal sector of the cymbium. It may be flexibly articulated through a movable membrane, or a rigid outgrowth." [SPD:Ramirez]
-comment: Figs 72:29, 72:31, 72:52 in SPDrf:Ubick_et_al_2005_glossary.
 related_synonym: "paracymbial retrolateral-basal process" [SPD:Ramirez]
 is_a: SPD:0000524 ! process of cymbium
 
@@ -1212,8 +1188,7 @@ is_a: SPD:0000524 ! process of cymbium
 [Term]
 id: SPD:0000168
 name: copulatory bulb
-def: "The genital structure of the male spider containing the sperm reservoir and attached to the palpal tarsus; rarely fused to the tarsus, as in some Oonopidae, from which it can be differentiated by lacking setae ." [SPDrf:Ubick_et_al_2005_glossary]
-comment: Fig 72:12 in SPDrf:Ubick_et_al_2005_glossary.
+def: "The genital structure of the male spider containing the spermophor and attached to the palpal tarsus; rarely fused to the tarsus, as in some Oonopidae, from which it can be differentiated by lacking setae ." [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "bulbus" [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "genital bulb" [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "palpal organ" [SPDrf:Ubick_et_al_2005_glossary]
@@ -1235,7 +1210,6 @@ is_a: SPD:0000519 ! hematodocha
 id: SPD:0000171
 name: subtegulum
 def: "The basal sclerite of the bulb, connected to the cymbium by the basal hematodocha. It contains the fundus of the spermaphor." [SPD:Ramirez]
-comment: Figs 72:31, 72:37 in SPDrf:Ubick_et_al_2005_glossary.
 is_a: SPD:0000663 ! sclerite
 relationship: part_of SPD:0000521 ! basal division of copulatory bulb
 
@@ -1249,8 +1223,7 @@ relationship: part_of SPD:0000177 ! spermophor
 [Term]
 id: SPD:0000173
 name: tegulum
-def: "The middle sclerite of the male palp, that contains the sperm duct and bears the embolus." [SPDrf:Ubick_et_al_2005_glossary]
-comment: Figs 72:29, 72:31, 72:37 in SPDrf:Ubick_et_al_2005_glossary.
+def: "The middle sclerite of the male palp, that contains the spermophore and bears the embolus." [SPDrf:Ubick_et_al_2005_glossary]
 is_a: SPD:0000663 ! sclerite
 relationship: part_of SPD:0000522 ! median division of copulatory bulb
 
@@ -1270,7 +1243,6 @@ is_a: SPD:0000520 ! division of copulatory bulb
 id: SPD:0000176
 name: embolus
 def: "The intromittent sclerite of the male copulatory bulb, where the spermophor discharges." [SPD:Ramirez]
-comment: Figs 72:29, 72:31, 72:51 in SPDrf:Ubick_et_al_2005_glossary.
 is_a: SPD:0000663 ! sclerite
 relationship: part_of SPD:0000175 ! embolic division
 
@@ -1289,7 +1261,6 @@ relationship: part_of SPD:0000168 ! copulatory bulb
 id: SPD:0000178
 name: median apophysis
 def: "A sclerite of the copulatory bulb arising from the tegulum." [SPD:Ramirez, SPDrf:Ubick_et_al_2005_glossary]
-comment: Figs 72:29, 72:31 in SPDrf:Ubick_et_al_2005_glossary.
 is_a: SPD:0000663 ! sclerite
 relationship: part_of SPD:0000522 ! median division of copulatory bulb
 
@@ -1297,7 +1268,6 @@ relationship: part_of SPD:0000522 ! median division of copulatory bulb
 id: SPD:0000179
 name: conductor
 def: "A sclerite of the male palp inserted in the tegulum. It usually guides or fits part of the embolus; may be sclerotized or hyaline." [SPD:Ramirez]
-comment: Figs 72:29, 72:31, 72:51 in SPDrf:Ubick_et_al_2005_glossary.
 is_a: SPD:0000663 ! sclerite
 relationship: part_of SPD:0000522 ! median division of copulatory bulb
 
@@ -1338,14 +1308,12 @@ relationship: part_of SPD:0000068 ! paturon
 id: SPD:0000185
 name: promargin
 def: "The anterior margin of the cheliceral furrow in Araneomorphae (mesal margin in Mygalomorphae)." [SPDrf:Ubick_et_al_2005_glossary]
-comment: Fig 72:13 in SPDrf:Ubick_et_al_2005_glossary.
 relationship: part_of SPD:0000068 ! paturon
 
 [Term]
 id: SPD:0000186
 name: retromargin
 def: "The posterior margin of the cheliceral furrow in Araneomorphae (ectal margin in Mygalomorphae)." [SPDrf:Ubick_et_al_2005_glossary]
-comment: Fig 72:13 in SPDrf:Ubick_et_al_2005_glossary.
 relationship: part_of SPD:0000068 ! paturon
 
 [Term]
@@ -1359,7 +1327,6 @@ relationship: part_of SPD:0000068 ! paturon
 id: SPD:0000188
 name: cheliceral stridulatory file
 def: "A file on the ectal side of the paturon, used in conjunction with palpal femoral thorns to produce stridulation. The file is usually made of a series of fine horizontal ridges, but it may be composed of large, well spaced ridges (in Scytodidae) or a scaly surface." [SPD:Ramirez]
-comment: Fig 72:68, Fig 72:69 in SPDrf:Ubick_et_al_2005_glossary.
 is_a: SPD:0000686 ! stridulatory file
 relationship: part_of SPD:0000068 ! paturon
 
@@ -1428,7 +1395,6 @@ relationship: part_of SPD:0000446 ! fang shaft
 id: SPD:0000198
 name: serrula
 def: "A row of tiny teeth along the anterior edge of the endite." [SPDrf:Ubick_et_al_2005_glossary]
-comment: Fig 72:66 in SPDrf:Ubick_et_al_2005_glossary.
 relationship: part_of SPD:0000073 ! female palpal coxa
 relationship: part_of SPD:0000144 ! male palpal coxa
 
@@ -1701,7 +1667,6 @@ is_a: SPD:0000385 ! inferior claw
 id: SPD:0000237
 name: calamistrum
 def: "A patch of curved thick setae, usually arranged in one or more rows, on the dorsal-retrolateral side along metatarsus IV of cribellate spiders. It is used for combing out silk from the cribellum." [SPD:Ramirez]
-comment: Fig 72:10 in SPDrf:Ubick_et_al_2005_glossary.
 is_a: SPD:0000490 ! cluster of setae
 relationship: part_of SPD:0000111 ! metatarsus 4
 
@@ -1836,7 +1801,7 @@ relationship: part_of SPD:0000255 ! major ampullate field
 id: SPD:0000257
 name: piriform gland spigot
 def: "Each of the many spigots on the anterior lateral spinnerets, used to cement the attachment of ampullate threads to each other and to the substratum. The cemented attachment is known as attachment disk." [SPD:Ramirez]
-related_synonym: "pyriform gland spigot" [SPD:Ramirez]
+exact_synonym: "pyriform gland spigot" [SPD:Ramirez]
 is_a: SPD:0000253 ! spigot of anterior lateral spinneret
 is_a: SPD:0000364 ! spigot
 relationship: part_of SPD:0000636 ! piriform gland
@@ -2049,21 +2014,20 @@ name: labral tongue
 def: "A flat sclerite with a distal free end on the dorsal side of the labrum of araneomorph spiders (except Hypochilus)." [SPD:Ramirez]
 related_synonym: "labral sclerite" [SPDrf:Kropf_1990]
 exact_synonym: "labral flap" [SPDrf:Lopardo_and_Hormiga_2008]
+is_a: SPD:0000663 ! sclerite
 relationship: part_of SPD:0000288 ! labrum
 
 [Term]
 id: SPD:0000288
 name: labrum
-def: "The upper lip (usually covered by the chelicerae and not easily visible)." [SPDrf:Ubick_et_al_2005_glossary]
-comment: Fig 72:36 in SPDrf:Ubick_et_al_2005_glossary.
+def: "The upper lip, usually covered by the chelicerae and not easily visible." [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "rostrum" [SPDrf:Foelix_2011]
 relationship: part_of SPD:0000673 ! mouthparts
 
 [Term]
 id: SPD:0000289
 name: labium
-def: "The anterior median extension of the sternum." [SPDrf:Ubick_et_al_2005_glossary]
-comment: Figs 72:13, 72:35 in SPDrf:Ubick_et_al_2005_glossary.
+def: "The anterior median extension of the sternum, it may be articulated through a soft membrane." [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "lip" [SPDrf:Ubick_et_al_2005_glossary]
 relationship: part_of SPD:0000673 ! mouthparts
 
@@ -2078,7 +2042,6 @@ relationship: part_of SPD:0000289 ! labium
 id: SPD:0000291
 name: sternum
 def: "The ventral sclerite of the prosoma." [SPDrf:Ubick_et_al_2005_glossary]
-comment: Figs 72:26, 72:35 in SPDrf:Ubick_et_al_2005_glossary.
 is_a: SPD:0000663 ! sclerite
 relationship: part_of SPD:0000002 ! prosoma
 
@@ -2107,7 +2070,6 @@ relationship: part_of SPD:0000258 ! spigot of posterior median spinneret
 id: SPD:0000295
 name: precoxal triangle
 def: "Each of the triangular sclerotized extensions from the sternum, their tips pointing to the middle of the coxa bases." [SPD:Ramirez]
-comment: Fig 72:59 in SPDrf:Ubick_et_al_2005_glossary.
 exact_synonym: "precoxal sclerite" [SPDrf:Ubick_et_al_2005_glossary]
 relationship: part_of SPD:0000291 ! sternum
 
@@ -2115,7 +2077,6 @@ relationship: part_of SPD:0000291 ! sternum
 id: SPD:0000296
 name: intercoxal sclerite
 def: "Each of the triangular sclerotized extensions from the sternum, between the coxae." [SPD:Ramirez]
-comment: Fig 72:59 in SPDrf:Ubick_et_al_2005_glossary.
 relationship: part_of SPD:0000291 ! sternum
 
 [Term]
@@ -2194,7 +2155,6 @@ is_obsolete: true
 id: SPD:0000308
 name: maxillary cusple
 def: "A cusple on the endites of some Mygalomorphae." [SPD:Ramirez]
-comment: Fig 72:21 in SPDrf:Ubick_et_al_2005_glossary.
 is_a: SPD:0000346 ! cusple
 relationship: part_of SPD:0000073 ! female palpal coxa
 
@@ -2215,7 +2175,6 @@ is_a: SPD:0000650 ! sensory  organ
 id: SPD:0000311
 name: scopula
 def: "A group of tenent setae covering surfaces on appendages. Do not confuse with the generic use as a brush of unspecified setae." [SPD:Ramirez]
-comment: Fig72:15, 72:44, 72:66 in SPDrf:Ubick_et_al_2005_glossary.
 is_a: SPD:0000490 ! cluster of setae
 relationship: part_of SPD:0000372 ! leg
 
@@ -2223,7 +2182,6 @@ relationship: part_of SPD:0000372 ! leg
 id: SPD:0000312
 name: claw tuft
 def: "A paired cluster of tenent setae on the feet of many vagrant spiders, which may arise from a patch solidly integrated with the surrounding cuticle or may be inserted on an articulate plate (the claw tuft plate)." [SPD:Ramirez]
-comment: Fig 72:15 in SPDrf:Ubick_et_al_2005_glossary.
 related_synonym: "false claw tuft" [SPD:Raven_1986]
 is_a: SPD:0000490 ! cluster of setae
 relationship: part_of SPD:0000379 ! tarsus
@@ -2233,7 +2191,6 @@ relationship: part_of SPD:0000817 ! foot
 id: SPD:0000313
 name: trichobothria
 def: "A sensory seta on the dorsal surfaces of legs and palps, specialized in detecting air movement. The setal shaft is slender, perpendicular to the cuticle surface, usually curved backwards and longer than the neighboring setae. Trichobothria are typically disposed in longitudinal series of distally increasing length." [SPD:Ramirez]
-comment: Fig 72:44 in SPDrf:Ubick_et_al_2005_glossary.
 is_a: SPD:0000359 ! seta
 is_a: SPD:0000650 ! sensory  organ
 relationship: part_of SPD:0000020 ! female palp
@@ -2250,7 +2207,6 @@ is_a: SPD:0000382 ! superior claw
 id: SPD:0000315
 name: macroseta
 def: "A large articulated seta, with thick and long shaft and robust socket. Macrosetae are inervated by three neurons and become erected when the hemolymph pressure increases. Nerve impulses are generated only during the erection phase. They occur mainly on appendages, but sometimes similar setae occur on the opisthosoma as well." [SPDrf:Foelix_1996]
-comment: Fig 72:44 in SPDrf:Ubick_et_al_2005_glossary.
 related_synonym: "spinule" [SPD:Ramirez]
 exact_synonym: "spine" [SPD:Ramirez]
 is_a: SPD:0000359 ! seta
@@ -2350,7 +2306,6 @@ relationship: part_of SPD:0000019 ! chelicera
 id: SPD:0000330
 name: sigilla
 def: "Circular impressions or dimples on the opisthosoma and sternum of some spiders representing points of muscle attachment and endoskeletal attachments." [SPDrf:Ubick_et_al_2005_glossary]
-comment: Fig 72:67 in SPDrf:Ubick_et_al_2005_glossary.
 exact_synonym: "sigillum" [SPDrf:Ubick_et_al_2005_glossary]
 relationship: part_of SPD:0000043 ! integument
 
@@ -2444,7 +2399,6 @@ is_a: SPD:0000001 ! multi-cellular organism
 id: SPD:0000345
 name: fang furrow
 def: "The groove of the chelicera into which the fang closes." [SPDrf:Ubick_et_al_2005_glossary]
-comment: Fig 72:13 in SPDrf:Ubick_et_al_2005_glossary.
 relationship: part_of SPD:0000068 ! paturon
 
 [Term]
@@ -2537,7 +2491,6 @@ relationship: part_of SPD:0000055 ! opisthosomal segment
 id: SPD:0000359
 name: seta
 def: "An articulate cuticular outgrowth, often inervated to conform a mechanical or chemical sensillium." [SPD:Ramirez]
-comment: Fig 72:44 in SPDrf:Ubick_et_al_2005_glossary.
 relationship: part_of SPD:0000043 ! integument
 
 [Term]
@@ -2590,7 +2543,7 @@ relationship: part_of SPD:0000715 ! pumpkiniform gland
 id: SPD:0000367
 name: cylindrical gland spigot
 def: "Each of the large spigots on the posterior spinnerets, occurring only in adult females. They extrude a silk used for some layers of the eggsac, probably used to regulate humidity." [SPDrf:Gheysens_et_al_2005]
-related_synonym: "tubuliform gland spigot" [SPD:Ramirez]
+exact_synonym: "tubuliform gland spigot" [SPD:Ramirez]
 is_a: SPD:0000364 ! spigot
 relationship: part_of SPD:0000638 ! cylindrical gland
 
@@ -2631,7 +2584,6 @@ relationship: part_of SPD:0000002 ! prosoma
 id: SPD:0000373
 name: coxa
 def: "The basal, 1st segment of the leg. It articulates with the trochanter through a prolateral ball-socket articulation." [SPDrf:Parry_1957]
-comment: Figs 72:19, 72:26, 72:75 in SPDrf:Ubick_et_al_2005_glossary.
 is_a: SPD:0000451 ! leg article
 is_a: SPD:0000822 ! podomere
 
@@ -2639,7 +2591,6 @@ is_a: SPD:0000822 ! podomere
 id: SPD:0000374
 name: trochanter
 def: "Second segment of the leg, between the coxa and femur. It articulates with the femur through a pair of lateral condyles." [SPD:Ramirez]
-comment: Figs 72:19, 72:75 in SPDrf:Ubick_et_al_2005_glossary.
 is_a: SPD:0000451 ! leg article
 is_a: SPD:0000822 ! podomere
 
@@ -2647,7 +2598,6 @@ is_a: SPD:0000822 ! podomere
 id: SPD:0000375
 name: femur
 def: "The 3rd segment of the leg, between trochanter and patella. It articulates with the patella through a pair of dorsal-lateral condyles." [SPD:Ramirez]
-comment: Figs 72:19,72:75 in SPDrf:Ubick_et_al_2005_glossary.
 is_a: SPD:0000451 ! leg article
 is_a: SPD:0000822 ! podomere
 
@@ -2655,7 +2605,6 @@ is_a: SPD:0000822 ! podomere
 id: SPD:0000376
 name: patella
 def: "The 4th segment of the leg, between femur and tibia. It articulates with the tibia through a medial dorsal condyle." [SPD:Ramirez]
-comment: Figs 72:19, 72:75 in SPDrf:Ubick_et_al_2005_glossary.
 is_a: SPD:0000451 ! leg article
 is_a: SPD:0000822 ! podomere
 
@@ -2663,7 +2612,6 @@ is_a: SPD:0000822 ! podomere
 id: SPD:0000377
 name: tibia
 def: "The 5th segment of the leg, between patella and metatarsus. It articulates with the metatarsus through a pair of dorsal-lateral condyles." [SPDd:Ramirez]
-comment: Figs 72:19, 72:75 in SPDrf:Ubick_et_al_2005_glossary.
 is_a: SPD:0000451 ! leg article
 is_a: SPD:0000822 ! podomere
 
@@ -2671,7 +2619,6 @@ is_a: SPD:0000822 ! podomere
 id: SPD:0000378
 name: metatarsus
 def: "The 6th segment of the leg, between tibia and tarsus. It articulates with the tarsus through free joint without condyles." [SPD:Ramirez]
-comment: Fig 72:19 in SPDrf:Ubick_et_al_2005_glossary.
 exact_synonym: "basitarsus" [SPDrf:Ubick_et_al_2005_glossary]
 is_a: SPD:0000451 ! leg article
 is_a: SPD:0000823 ! pseudopodomere
@@ -2680,7 +2627,6 @@ is_a: SPD:0000823 ! pseudopodomere
 id: SPD:0000379
 name: tarsus
 def: "The 7th segment of the leg, between the metatarsus and the pretarsus. It articulates with the pretarsus through a pair of lateral condyles." [SPD:Ramirez]
-comment: Fig 72:19, 72:75 in SPDrf:Ubick_et_al_2005_glossary.
 exact_synonym: "distitarsus" [SPDrf:Ubick_et_al_2005_glossary]
 is_a: SPD:0000451 ! leg article
 is_a: SPD:0000823 ! pseudopodomere
@@ -2722,7 +2668,6 @@ is_a: SPD:0000382 ! superior claw
 id: SPD:0000385
 name: inferior claw
 def: "The median, unpaired claw located apically on the leg pretarsus." [SPD:Ramirez]
-comment: Fig 72:3 in SPDrf:Ubick_et_al_2005_glossary.
 exact_synonym: "median claw" [SPDrf:Ubick_et_al_2005_glossary]
 exact_synonym: "unpaired claw" [SPD:Ramirez]
 is_a: SPD:0000381 ! claw
@@ -2915,6 +2860,7 @@ is_a: SPD:0000054 ! silk fiber
 id: SPD:0000416
 name: flagelliform gland spigot
 def: "A modified gland spigot in araneoids." [SPD:Ramirez]
+exact_synonym: "coronate gland spigot" [SPD:Peters_1955]
 is_a: SPD:0000264 ! modified gland spigot of posterior lateral spinneret
 is_a: SPD:0000364 ! spigot
 relationship: part_of SPD:0000639 ! flagelliform gland
@@ -3185,6 +3131,8 @@ is_a: SPD:0000675 ! anatomical structure
 id: SPD:0000457
 name: plagula ventralis
 def: "A small sclerite on the fang articulation, where the fang flexor tendon inserts." [SPD:Ramirez]
+related_synonym: "plagula articularis" [SPDrf:Simon_1892]
+is_a: SPD:0000663 ! sclerite
 relationship: part_of SPD:0000445 ! fang base
 
 [Term]
@@ -3307,7 +3255,7 @@ is_a: SPD:0000511 ! strain sensillum of cuticle
 id: SPD:0000476
 name: coxal muscle sclerite
 def: "Each of the sclerites forming a ring, where the coxal and trochanter muscles insert. Upon leg autospasy, the cleavage occurs across the sclerites, thus leaving the coxal muscles intact." [SPDrf:Parry_1957]
-is_a: SPD:0000373 ! coxa
+is_a: SPD:0000663 ! sclerite
 relationship: part_of SPD:0000373 ! coxa
 
 [Term]
@@ -3365,7 +3313,7 @@ creation_date: 2009-08-09T08:08:36Z
 id: SPD:0000484
 name: foot slit
 def: "A paired lateral-ventral slit sensilla at the tip of the tarsus, sensitive to vibrations. It delimits the foot." [SPD:Ramirez]
-related_synonym: "pretarsal slit" [SPDrf:Speck_&_Barth_1982]
+exact_synonym: "pretarsal slit" [SPDrf:Speck_&_Barth_1982]
 exact_synonym: "claw slit" [SPDrf:Barth_&_Libera_1970]
 is_a: SPD:0000475 ! slit sensillum
 relationship: part_of SPD:0000379 ! tarsus
@@ -4318,7 +4266,6 @@ creation_date: 2013-03-02T01:04:26Z
 id: SPD:0000596
 name: posterior copulatory duct
 def: "A copulatory duct in the posterior section of the female genitalia." [SPD:Michalik]
-comment: Fig 72:34 in SPDrf:Ubick_et_al_2005_glossary.
 is_a: SPD:0000701 ! copulatory duct
 relationship: part_of SPD:0000554 ! posterior section of female genitalia
 created_by: Peter Michalik
@@ -4679,7 +4626,7 @@ id: SPD:0000639
 name: flagelliform gland
 def: "A large silk gland with complex lumen and long duct, discharging in a spigot on a posterior lateral spinneret." [SPDrf:Kovoor_1977]
 comment: Flagelliform glands are defined for ecribellate spiders only, and are probably homologous to the pseudoflagelliform glands of cribellate spiders.
-related_synonym: "coronate gland" [SPD:Peters_1955]
+exact_synonym: "coronate gland" [SPD:Peters_1955]
 is_a: SPD:0000631 ! silk gland
 created_by: Peter Michalik
 creation_date: 2013-06-14T13:38:25Z
@@ -4767,7 +4714,7 @@ related_synonym: "auxiliary claw" [SPDrf:Simon_1892]
 exact_synonym: "false claw" [SPDrf:Simon_1892]
 is_a: SPD:0000359 ! seta
 relationship: part_of SPD:0000379 ! tarsus
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2013-06-21T16:13:21Z
 
 [Term]
@@ -4784,7 +4731,7 @@ id: SPD:0000651
 name: appendage
 def: "An outgrow of the body with articles and muscles." [SPD:Ramirez]
 is_a: SPD:0000688 ! organism subdivision
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2013-06-21T17:44:09Z
 
 [Term]
@@ -4793,7 +4740,7 @@ name: claw tuft clasper
 def: "A hook-like extension of the superior claws, grasping the folded base of a claw tuft seta. The clasper may be in one piece or composed by several claw teeth appressed together." [SPD:Ramirez]
 is_a: SPD:0000382 ! superior claw
 relationship: part_of SPD:0000654 ! claw tuft clasping mechanism
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2013-07-07T16:19:30Z
 
 [Term]
@@ -4802,7 +4749,7 @@ name: claw tuft seta clasping fold
 def: "The folded base of a claw tuft seta, where the claw tuft clasper locks." [SPD:Ramirez]
 relationship: part_of SPD:0000223 ! claw tuft shaft base
 relationship: part_of SPD:0000654 ! claw tuft clasping mechanism
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2013-07-07T16:35:48Z
 
 [Term]
@@ -4810,7 +4757,7 @@ id: SPD:0000654
 name: claw tuft clasping mechanism
 def: "A mechanism made of a claw tuft clasper in the superior claws and locking on the folded base of a claw tuft seta (the claw tuft seta clasping fold)." [SPD:Ramirez]
 relationship: part_of SPD:0000379 ! tarsus
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2013-07-07T16:36:59Z
 
 [Term]
@@ -4820,7 +4767,7 @@ def: "A comb of setae at the ventral tip of metatarsus III and IV." [SPD:Ramirez
 is_a: SPD:0000490 ! cluster of setae
 relationship: part_of SPD:0000103 ! metatarsus 3
 relationship: part_of SPD:0000111 ! metatarsus 4
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2013-07-07T17:03:43Z
 
 [Term]
@@ -4829,7 +4776,7 @@ name: leg cusple
 def: "A cusple on the ventral surface of a leg." [SPD:Ramirez]
 is_a: SPD:0000346 ! cusple
 relationship: part_of SPD:0000451 ! leg article
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2013-07-07T17:08:56Z
 
 [Term]
@@ -4837,7 +4784,7 @@ id: SPD:0000657
 name: bursal membranous sac
 def: "Each spherical or oval sclerotized sac connected by a thin duct to the bursa. The sacs occur in groups, sometimes in definite patches, on the bursa of palpimanoids. Each sac have several gland ducts discharging on them." [SPD:Ramirez]
 relationship: part_of SPD:0000553 ! anterior section of female genitalia
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2013-07-08T19:21:18Z
 
 [Term]
@@ -4846,7 +4793,7 @@ name: tarsal organ of female palp
 def: "The tarsal organ of the female palpal tarsus." [SPD:Ramirez]
 is_a: SPD:0000310 ! tarsal organ
 relationship: part_of SPD:0000078 ! female palpal tarsus
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2013-07-12T18:49:32Z
 
 [Term]
@@ -4854,7 +4801,7 @@ id: SPD:0000659
 name: calamistrum seta comb
 def: "A comb made of small tooth aligned, on the calamistrun seta.  The comb may have one to several lines of teeth." [SPD:Ramirez]
 relationship: part_of SPD:0000238 ! calamistrum seta
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2013-07-09T10:11:57Z
 
 [Term]
@@ -4863,7 +4810,7 @@ name: tarsal organ of leg
 def: "The tarsal organ on the leg tarsus." [SPD:Ramirez]
 is_a: SPD:0000310 ! tarsal organ
 relationship: part_of SPD:0000379 ! tarsus
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2013-07-12T18:57:31Z
 
 [Term]
@@ -5190,8 +5137,8 @@ creation_date: 2014-12-17T11:40:29Z
 [Term]
 id: SPD:0000697
 name: palpal muscle M30
-def: "The muscle that originates on the dorsal part of the palpal tarsus and attaches through a tendon on the basal part of the copulatory bulb." [SPDrf:Huber_1994]
-exact_synonym: "M30" [SPDrf:Huber_1994]
+def: "The muscle that originates on the dorsal part of the palpal tarsus and attaches through a tendon on the basal part of the copulatory bulb." [SPDrf:Huber_2004]
+exact_synonym: "M30" [SPDrf:Huber_2004]
 is_a: SPD:0000667 ! muscle
 relationship: part_of SPD:0000045 ! male palp
 created_by: Martin Ramirez
@@ -5200,8 +5147,8 @@ creation_date: 2014-12-19T16:40:32Z
 [Term]
 id: SPD:0000698
 name: palpal muscle M29
-def: "The muscle that originates in the palpal tibia and attaches through a tendon on the basal part of the copulatory bulb." [SPDrf:Huber_1994]
-exact_synonym: "M29" [SPDrf:Huber_1994]
+def: "The muscle that originates in the palpal tibia and attaches through a tendon winding on the basal part of the copulatory bulb, or enters the bulb and attaches to the spermophore (in some Synspermiata)." [SPDrf:Huber_2004]
+exact_synonym: "M29" [SPDrf:Huber_2004]
 is_a: SPD:0000667 ! muscle
 relationship: part_of SPD:0000045 ! male palp
 created_by: Martin Ramirez
@@ -5361,7 +5308,7 @@ def: "The compound organ that makes gametes." [SPD:Michalik]
 xref_analog: HAO:0000379
 is_a: SPD:0000717 ! compound organ
 relationship: part_of SPD:0000583 ! reproductive system
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T15:20:54Z
 
 [Term]
@@ -5370,7 +5317,7 @@ name: compound organ
 def: "The anatomical structure that has as its parts two or more multi-tissue structures of at least two different types and which through specific morphogenetic processes forms a single distinct structural unit demarcated by bona fide boundaries from other distinct anatomical structures of different types." [SPD:Michalik]
 xref_analog: CARO:0000024
 is_a: SPD:0000675 ! anatomical structure
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T15:23:41Z
 
 [Term]
@@ -5378,7 +5325,7 @@ id: SPD:0000718
 name: seminal fluid
 def: "The portion of tissue consisting of sperm cells and secretion that is produced by the somatic cells of the male gonad and spermophor gland." [SPD:Michalik]
 is_a: SPD:0000689 ! portion of tissue
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T15:26:13Z
 
 [Term]
@@ -5387,7 +5334,7 @@ name: cell
 def: "The anatomical structure that has as its parts a maximally connected cell compartment surrounded by a plasma membrane." [SPD:Michalik]
 xref_analog: CARO:0000013
 is_a: SPD:0000675 ! anatomical structure
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T15:30:07Z
 
 [Term]
@@ -5396,7 +5343,7 @@ name: cell component
 def: "The anatomical structure that is a direct part of the cell." [SPD:Michalik]
 xref_analog: CARO:0000014
 relationship: part_of SPD:0000719 ! cell
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T15:32:51Z
 
 [Term]
@@ -5409,7 +5356,7 @@ exact_synonym: "spermatozoon" [SPD:Michalik]
 xref_analog: CL:0000019
 is_a: SPD:0000740 ! male germ cell
 is_a: SPD:0000742 ! gamete
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T15:33:58Z
 
 [Term]
@@ -5418,7 +5365,7 @@ name: spermatid
 def: "A male germ cell that develops from the haploid secondary spermatocytes. Without further division, spermatids undergo structural changes and give rise to spermatozoa." [SPD:Michalik]
 xref_analog: CL:0000018
 is_a: SPD:0000740 ! male germ cell
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T16:09:46Z
 
 [Term]
@@ -5427,7 +5374,7 @@ name: spermatocyte
 def: "A male germ cell that develops from spermatogonia. The euploid primary spermatocytes undergo meiosis and give rise to the haploid secondary spermatocytes which in turn give rise to spermatids." [SPD:Michalik]
 xref_analog: CL:0000017
 is_a: SPD:0000740 ! male germ cell
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T16:12:11Z
 
 [Term]
@@ -5436,7 +5383,7 @@ name: spermatogonium
 def: "An euploid male germ cell of an early stage of spermatogenesis." [SPD:Michalik]
 xref_analog: CL:0000020
 is_a: SPD:0000740 ! male germ cell
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T16:13:08Z
 
 [Term]
@@ -5445,7 +5392,7 @@ name: somatic cell
 def: "A cell of an organism that does not pass on its genetic material to the organism's offspring (i.e. a non-germ line cell)." [SPD:Michalik]
 xref_analog: CL:0002371
 is_a: SPD:0000719 ! cell
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T16:39:02Z
 
 [Term]
@@ -5454,7 +5401,7 @@ name: organelle
 def: "Organized structure of distinctive morphology and function. Includes the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton, and prokaryotic structures such as anammoxosomes and pirellulosomes. Excludes the plasma membrane." [SPD:Michalik]
 xref_analog: GO:0043226
 is_a: SPD:0000720 ! cell component
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T16:45:58Z
 
 [Term]
@@ -5464,7 +5411,7 @@ def: "Organized structure of distinctive morphology and function, bounded by a s
 exact_synonym: "membrane-enclosed organelle" [GO:0043227]
 xref_analog: GO:0043227
 is_a: SPD:0000726 ! organelle
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T16:47:38Z
 
 [Term]
@@ -5474,7 +5421,7 @@ def: "Organized structure of distinctive morphology and function, not bounded by
 exact_synonym: "non-membrane-enclosed organelle" [GO:0043228]
 xref_analog: GO:0043228
 is_a: SPD:0000726 ! organelle
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T16:49:32Z
 
 [Term]
@@ -5485,7 +5432,7 @@ xref_analog: GO:0031410
 is_a: SPD:0000733 ! vesicle
 is_a: SPD:0000795 ! cytoplasmic part
 relationship: part_of SPD:0000730 ! cytoplasm
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T16:54:03Z
 
 [Term]
@@ -5494,7 +5441,7 @@ name: cytoplasm
 def: "All of the contents of a cell excluding the plasma membrane and nucleus, but including other subcellular structures." [SPD:Michalik]
 xref_analog: GO:0005737
 relationship: part_of SPD:0000719 ! cell
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T16:55:24Z
 
 [Term]
@@ -5505,7 +5452,7 @@ exact_synonym: "secretory vesicle" [GO:0030141]
 xref_analog: GO:0030141
 is_a: SPD:0000727 ! membrane-bounded organelle
 is_a: SPD:0000729 ! cytoplasmic vesicle
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T17:20:40Z
 
 [Term]
@@ -5518,7 +5465,7 @@ xref_analog: GO:0001669
 is_a: SPD:0000731 ! secretory granule
 relationship: adjacent_to SPD:0000753 ! anterior indentation of the sperm nucleus
 relationship: part_of SPD:0000735 ! acrosomal complex
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T17:21:58Z
 
 [Term]
@@ -5527,7 +5474,7 @@ name: vesicle
 def: "Any small, fluid-filled, spherical organelle enclosed by membrane or protein." [SPD:Michalik]
 xref_analog: GO:0031982
 is_a: SPD:0000726 ! organelle
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T17:27:17Z
 
 [Term]
@@ -5536,7 +5483,7 @@ name: subacrosomal space
 def: "The anatomical space containing the acrosomal filament and is formed by  posterior invagination of the acrosomal vacuole." [SPD:Michalik]
 is_a: SPD:0000691 ! anatomical space
 relationship: part_of SPD:0000735 ! acrosomal complex
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T17:32:18Z
 
 [Term]
@@ -5546,7 +5493,7 @@ def: "A cellular complex consisting of acrosomal vacuole, acrosomal filament and
 is_a: SPD:0000720 ! cell component
 relationship: part_of SPD:0000721 ! sperm
 relationship: part_of SPD:0000722 ! spermatid
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T17:35:49Z
 
 [Term]
@@ -5554,7 +5501,7 @@ id: SPD:0000736
 name: germ cell
 def: "A germ cell is any biological cell that differentiates into the gametes of an organism that reproduces sexually." [SPD:Michalik]
 is_a: SPD:0000719 ! cell
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T17:50:48Z
 
 [Term]
@@ -5564,7 +5511,7 @@ def: "A filamentous structure consisting of actin fibrils, originating in the su
 exact_synonym: "perforatorium" [SPD:Michalik]
 is_a: SPD:0000739 ! cytoskeletal part
 relationship: part_of SPD:0000735 ! acrosomal complex
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T17:59:50Z
 
 [Term]
@@ -5574,7 +5521,7 @@ def: "Any of the various filamentous elements that form the internal framework o
 xref_analog: GO:0005856
 is_a: SPD:0000720 ! cell component
 is_a: SPD:0000728 ! non-membrane-bounded organelle
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T18:03:00Z
 
 [Term]
@@ -5583,7 +5530,7 @@ name: cytoskeletal part
 def: "Any constituent part of the cytoskeleton, a cellular scaffolding or skeleton that maintains cell shape, enables some cell motion (using structures such as flagella and cilia), and plays important roles in both intra-cellular transport (e.g. the movement of vesicles and organelles) and cellular division. Includes constituent parts of intermediate filaments, microfilaments, microtubules, and the microtrabecular lattice." [SPD:Michalik]
 xref_analog: GO:0044430
 relationship: part_of SPD:0000738 ! cytoskeleton
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T18:04:49Z
 
 [Term]
@@ -5593,7 +5540,7 @@ def: "Cell that develops into or is itself a spermatozoon." [SPD:Michalik]
 xref_analog: FBbt:00057011
 is_a: SPD:0000736 ! germ cell
 relationship: part_of SPD:0000587 ! testis
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T18:25:02Z
 
 [Term]
@@ -5603,7 +5550,7 @@ def: "Cell that develops into or is itself an egg." [SPD:Michalik]
 xref_analog: FBbt:00057012
 is_a: SPD:0000736 ! germ cell
 relationship: part_of SPD:0000592 ! ovary
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T18:27:23Z
 
 [Term]
@@ -5613,7 +5560,7 @@ def: "A mature germ cell containing a single set of chromosomes." [SPD:Michalik]
 xref_analog: CL:0000300
 is_a: SPD:0000736 ! germ cell
 relationship: part_of SPD:0000665 ! adult
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T18:28:58Z
 
 [Term]
@@ -5623,7 +5570,7 @@ def: "A mature contractile cell, commonly known as a myocyte. This cell has as p
 xref_analog: CL:0000187
 is_a: SPD:0000725 ! somatic cell
 relationship: part_of SPD:0000667 ! muscle
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T18:33:24Z
 
 [Term]
@@ -5632,7 +5579,7 @@ name: somatic cell of testis
 def: "A non-germ cell in the testis." [SPD:Michalik]
 is_a: SPD:0000725 ! somatic cell
 relationship: part_of SPD:0000587 ! testis
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T18:36:31Z
 
 [Term]
@@ -5641,7 +5588,7 @@ name: hemocyte
 def: "Blood cell of the circulating hemolymph that is involved in the cellular immune response." [SPD:Michalik]
 xref_analog: FBbt:00005063
 is_a: SPD:0000725 ! somatic cell
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T18:42:10Z
 
 [Term]
@@ -5650,7 +5597,7 @@ name: syncytium
 def: "A multi-nucleate cell having no internal boundaries between nuclei." [SPD:Michalik]
 xref_analog: FBbt:00007290
 is_a: SPD:0000719 ! cell
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T18:44:18Z
 
 [Term]
@@ -5661,7 +5608,7 @@ xref_analog: GO:0005930
 is_a: SPD:0000739 ! cytoskeletal part
 relationship: part_of SPD:0000721 ! sperm
 relationship: part_of SPD:0000722 ! spermatid
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T18:48:44Z
 
 [Term]
@@ -5671,7 +5618,7 @@ def: "A semiautonomous, self replicating organelle that occurs in varying number
 xref_analog: GO:0005739
 is_a: SPD:0000727 ! membrane-bounded organelle
 relationship: part_of SPD:0000756 ! midpiece
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T18:53:54Z
 
 [Term]
@@ -5680,7 +5627,7 @@ name: nucleus
 def: "A membrane-bounded organelle of eukaryotic cells in which chromosomes are housed and replicated. In most cells, the nucleus contains all of the cell's chromosomes except the organellar chromosomes, and is the site of RNA synthesis and processing. In some species, or in specialized cell types, RNA metabolism or DNA replication may be absent." [SPD:Michalik]
 xref_analog: GO:0005634
 is_a: SPD:0000727 ! membrane-bounded organelle
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T18:57:52Z
 
 [Term]
@@ -5690,7 +5637,7 @@ def: "The nucleus of a spermatid or sperm." [SPD:Michalik]
 is_a: SPD:0000749 ! nucleus
 relationship: part_of SPD:0000721 ! sperm
 relationship: part_of SPD:0000722 ! spermatid
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T19:00:41Z
 
 [Term]
@@ -5698,7 +5645,7 @@ id: SPD:0000751
 name: postcentriolar elongation of the nucleus
 def: "An elongation of the nucleus posterior to the base of the axoneme, i.e. the centrioles." [SPD:Michalik]
 relationship: part_of SPD:0000750 ! sperm nucleus
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T19:03:14Z
 
 [Term]
@@ -5706,7 +5653,7 @@ id: SPD:0000752
 name: anterior part of the sperm nucleus
 def: "The part of the sperm nucleus anterior to the base of the axoneme, i.e. the centrioles." [SPD:Michalik]
 relationship: part_of SPD:0000750 ! sperm nucleus
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T19:05:15Z
 
 [Term]
@@ -5715,7 +5662,7 @@ name: anterior indentation of the sperm nucleus
 def: "The widen anatomical space at the anterior pole of the nucleus close  to the acrosomal vacuole." [SPD:Michalik]
 is_a: SPD:0000691 ! anatomical space
 relationship: part_of SPD:0000750 ! sperm nucleus
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T19:08:09Z
 
 [Term]
@@ -5725,7 +5672,7 @@ def: "A cellular organelle, found close to the nucleus in many eukaryotic cells,
 xref_analog: GO:0005814
 is_a: SPD:0000739 ! cytoskeletal part
 relationship: part_of SPD:0000740 ! male germ cell
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T19:13:22Z
 
 [Term]
@@ -5735,7 +5682,7 @@ def: "An array of microtubules that completely covers the nucleus of a spermatid
 is_a: SPD:0000739 ! cytoskeletal part
 relationship: adjacent_to SPD:0000750 ! sperm nucleus
 relationship: part_of SPD:0000722 ! spermatid
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T19:15:17Z
 
 [Term]
@@ -5745,7 +5692,7 @@ def: "An array of mitochondria surrounding the most anterior part of the axoneme
 is_a: SPD:0000727 ! membrane-bounded organelle
 relationship: part_of SPD:0000721 ! sperm
 relationship: part_of SPD:0000722 ! spermatid
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T19:18:31Z
 
 [Term]
@@ -5754,7 +5701,7 @@ name: nuclear canal
 def: "A narrow anatomical space of the nucleus that is invaginated from the anterior pole and usually located at the outer edge of  nucleus extending until the end of the posterior elongation of the nucleus." [SPD:Michalik]
 is_a: SPD:0000691 ! anatomical space
 relationship: part_of SPD:0000750 ! sperm nucleus
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T19:19:53Z
 
 [Term]
@@ -5767,7 +5714,7 @@ is_a: SPD:0000727 ! membrane-bounded organelle
 relationship: part_of SPD:0000722 ! spermatid
 relationship: part_of SPD:0000723 ! spermatocyte
 relationship: part_of SPD:0000724 ! spermatogonium
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T19:24:12Z
 
 [Term]
@@ -5779,7 +5726,7 @@ is_a: SPD:0000727 ! membrane-bounded organelle
 relationship: part_of SPD:0000722 ! spermatid
 relationship: part_of SPD:0000723 ! spermatocyte
 relationship: part_of SPD:0000724 ! spermatogonium
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T19:26:53Z
 
 [Term]
@@ -5791,7 +5738,7 @@ is_a: SPD:0000677 ! anatomical cluster
 is_a: SPD:0000768 ! sperm transfer form
 relationship: part_of SPD:0000588 ! deferent duct
 relationship: part_of SPD:0000589 ! ejaculatory duct
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T19:32:18Z
 
 [Term]
@@ -5799,7 +5746,7 @@ id: SPD:0000761
 name: coenospermium
 def: "An often spherical cluster of two or more individual sperm." [SPD:Michalik]
 is_a: SPD:0000764 ! secondary sperm conjugate
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T19:33:40Z
 
 [Term]
@@ -5808,7 +5755,7 @@ name: rouleau
 def: "An orderly stack of sperm of variable number formed after spermiogenesis, including individualization, is complete." [SPD:Michalik]
 exact_synonym: "\"spermatophore\"" [SPD:Michalik]
 is_a: SPD:0000764 ! secondary sperm conjugate
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T19:35:51Z
 
 [Term]
@@ -5816,7 +5763,7 @@ id: SPD:0000763
 name: primary sperm conjugate
 def: "A conjugate derived from spermatogenic processes formed by the products of a single spermatogonium remaining grouped together following spermiogenesis." [SPD:Michalik]
 is_a: SPD:0000760 ! sperm conjugate
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T19:42:20Z
 
 [Term]
@@ -5824,7 +5771,7 @@ id: SPD:0000764
 name: secondary sperm conjugate
 def: "A sperm conjugate arising through post-spermatogenic mechanisms such as biomechanical interactions, cell-surface interactions or membrane fusion." [SPD:Michalik]
 is_a: SPD:0000760 ! sperm conjugate
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T19:45:10Z
 
 [Term]
@@ -5833,7 +5780,7 @@ name: synspermium
 def: "Cluster of two or more fused or partly fused sperm cells originating from a single spermatogonium." [SPD:Michalik]
 is_a: SPD:0000746 ! syncytium
 is_a: SPD:0000763 ! primary sperm conjugate
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T19:51:04Z
 
 [Term]
@@ -5842,7 +5789,7 @@ name: seminal vesicle
 def: "Enlarged proximal region of the ejaculatory duct." [SPD:Michalik]
 comment: Very evident in many theridiids (Michalik and Ramirez, 2014).
 relationship: part_of SPD:0000589 ! ejaculatory duct
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T20:02:44Z
 
 [Term]
@@ -5851,7 +5798,7 @@ name: seminal secretion
 def: "Any products (droplets and matrix) produced by the somatic cells of the male gonad and transferred into the female genitalia." [SPD:Michalik]
 is_a: SPD:0000008 ! portion of organism substance
 relationship: part_of SPD:0000718 ! seminal fluid
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T20:22:20Z
 
 [Term]
@@ -5859,7 +5806,7 @@ id: SPD:0000768
 name: sperm transfer form
 def: "The state in which spider sperm cells are transferred into the female genitalia." [SPD:Michalik]
 relationship: part_of SPD:0000718 ! seminal fluid
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T20:25:48Z
 
 [Term]
@@ -5867,7 +5814,7 @@ id: SPD:0000769
 name: cleistospermium
 def: "Individual sperm cell surrounded by a secretion sheath." [SPD:Michalik]
 is_a: SPD:0000768 ! sperm transfer form
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T20:27:32Z
 
 [Term]
@@ -5876,7 +5823,7 @@ name: oocyte
 def: "A female germ cell that has entered meiosis." [SPD:Michalik]
 xref_analog: CL:0000023
 is_a: SPD:0000741 ! female germ cell
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T21:06:43Z
 
 [Term]
@@ -5885,7 +5832,7 @@ name: oogonial cell
 def: "An undifferentiated germ cell that proliferates rapidly and gives rise to oocytes." [SPD:Michalik]
 xref_analog: CL:0000024
 is_a: SPD:0000741 ! female germ cell
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T21:09:04Z
 
 [Term]
@@ -5894,7 +5841,7 @@ name: oviduct
 def: "The tube that connects the ovary with the uterus internus." [SPD:Michalik]
 is_a: SPD:0000778 ! epithelial tube
 relationship: part_of SPD:0000585 ! female reproductive system
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T21:10:48Z
 
 [Term]
@@ -5903,7 +5850,7 @@ name: funicle
 def: "The stalk connecting the bulge containing the oocyte in the ovarian epithelium with the lumen of the ovary." [SPD:Michalik]
 exact_synonym: "funiculus" [SPD:Michalik]
 relationship: part_of SPD:0000592 ! ovary
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T21:18:05Z
 
 [Term]
@@ -5912,7 +5859,7 @@ name: hindgut
 def: "The posterior part of the digestive system derived from the ectoderm connecting the stercoral pocket with the anus." [SPDrf:Foelix_2011]
 is_a: SPD:0000781 ! integumental tube
 relationship: part_of SPD:0000647 ! gut
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T21:29:23Z
 
 [Term]
@@ -5921,7 +5868,7 @@ name: epithelium
 def: "Portion of tissue, that consists of one or more layers of epithelial cells connected to each other by cell junctions and which is underlain by a basal lamina." [SPD:Michalik]
 xref_analog: CARO:0000066
 is_a: SPD:0000689 ! portion of tissue
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T21:45:34Z
 
 [Term]
@@ -5930,7 +5877,7 @@ name: anatomical conduit
 def: "Any tube, opening or passage that connects two distinct anatomical spaces." [SPD:Michalik]
 xref_analog: UBERON:0004111
 is_a: SPD:0000677 ! anatomical cluster
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T21:50:44Z
 
 [Term]
@@ -5940,7 +5887,7 @@ def: "Any hollow cylindrical anatomical structure containing a lumen through whi
 exact_synonym: "duct" [SPD:Ramirez]
 xref_analog: UBERON:0000025
 is_a: SPD:0000776 ! anatomical conduit
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T21:51:52Z
 
 [Term]
@@ -5949,7 +5896,7 @@ name: epithelial tube
 def: "Epithelial tubes transport gases, liquids and cells from one site to another and form the basic structure of many organs and tissues." [SPD:Michalik]
 xref_analog: UBERON:0003914
 is_a: SPD:0000777 ! tube
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T21:52:49Z
 
 [Term]
@@ -5958,7 +5905,7 @@ name: epidermis
 def: "The epidermis is the entire outer epithelial layer representing a single layer of epithelial cells that produces the cuticle." [SPD:Michalik]
 is_a: SPD:0000775 ! epithelium
 relationship: part_of SPD:0000043 ! integument
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T21:58:24Z
 
 [Term]
@@ -5984,7 +5931,7 @@ name: midgut gland
 def: "The sum of all posterior midgut diverticles." [SPD:Michalik]
 is_a: SPD:0000679 ! gland
 relationship: part_of SPD:0000131 ! posterior midgut
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T23:00:22Z
 
 [Term]
@@ -5993,7 +5940,7 @@ name: posterior midgut diverticle
 def: "A branch of the posterior midgut consisting of digestive and secretory cells." [SPDrf:Ludwig_et_al_1990]
 exact_synonym: "branches of the midgut" [SPD:Foelix_2011]
 relationship: part_of SPD:0000782 ! midgut gland
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T23:04:54Z
 
 [Term]
@@ -6003,7 +5950,7 @@ def: "A cell of the embryo." [SPD:Michalik]
 xref_analog: CL:0002321
 is_a: SPD:0000719 ! cell
 relationship: part_of SPD:0000787 ! embryo
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T23:12:39Z
 
 [Term]
@@ -6012,7 +5959,7 @@ name: early embryonic cell
 def: "A cell found in the embryo before the formation of all the gem layers is complete." [SPD:Michalik]
 xref_analog: CL:0000007
 is_a: SPD:0000784 ! embryonic cell
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T23:15:19Z
 
 [Term]
@@ -6020,7 +5967,7 @@ id: SPD:0000786
 name: zygote
 def: "Diploid cell produced by the fusion of sperm cell nucleus and egg." [SPD:Michalik]
 is_a: SPD:0000785 ! early embryonic cell
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T23:16:09Z
 
 [Term]
@@ -6029,7 +5976,7 @@ name: embryo
 def: "Anatomical entity that comprises the organism in the early stages of growth and differentiation that are characterized by cleavage, the laying down of fundamental tissues, and the formation of primitive organs and organ systems." [SPD:Michalik]
 xref_analog: UBERON:0000922
 is_a: SPD:0000001 ! multi-cellular organism
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T23:18:00Z
 
 [Term]
@@ -6037,7 +5984,7 @@ id: SPD:0000788
 name: immature
 def: "A generic term for stages from hatching to penultimate." [SPD:Ramirez]
 is_a: SPD:0000001 ! multi-cellular organism
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T23:19:24Z
 
 [Term]
@@ -6046,7 +5993,7 @@ name: penultimate
 def: "A generic term for the life stage before maturity." [SPD:Michalik]
 exact_synonym: "subadult" [SPD:Michalik]
 is_a: SPD:0000001 ! multi-cellular organism
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-29T23:20:41Z
 
 [Term]
@@ -6056,7 +6003,7 @@ def: "The posterior indentation of the sperm nucleus." [SPD:Michalik]
 is_a: SPD:0000691 ! anatomical space
 relationship: part_of SPD:0000721 ! sperm
 relationship: part_of SPD:0000722 ! spermatid
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-30T21:22:54Z
 
 [Term]
@@ -6065,7 +6012,7 @@ name: chromosome
 def: "A structure composed of a very long molecule of DNA and associated proteins (e.g. histones) that carries hereditary information." [SPD:Michalik]
 xref_analog: GO:0005694
 is_a: SPD:0000728 ! non-membrane-bounded organelle
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-30T21:29:02Z
 
 [Term]
@@ -6074,7 +6021,7 @@ name: chromosomal part
 def: "Any constituent part of a chromosome, a structure composed of a very long molecule of DNA and associated proteins (e.g. histones) that carries hereditary information." [SPD:Michalik]
 xref_analog: GO:0044427
 relationship: part_of SPD:0000791 ! chromosome
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-30T21:32:23Z
 
 [Term]
@@ -6084,7 +6031,7 @@ def: "The ordered and organized complex of DNA, protein, and sometimes RNA, that
 xref_analog: GO:0000785
 is_a: SPD:0000792 ! chromosomal part
 relationship: part_of SPD:0000750 ! sperm nucleus
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-30T21:33:07Z
 
 [Term]
@@ -6095,7 +6042,7 @@ exact_synonym: "microtubulus" [SPD:Michalik]
 xref_analog: GO:0005874
 is_a: SPD:0000739 ! cytoskeletal part
 relationship: part_of SPD:0000755 ! manchette of microtubules
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-30T21:42:36Z
 
 [Term]
@@ -6105,7 +6052,7 @@ def: "Any constituent part of the cytoplasm, all of the contents of a cell exclu
 exact_synonym: "cytoplasm component" [SPD:Ramirez]
 xref_analog: GO:0044444
 relationship: part_of SPD:0000730 ! cytoplasm
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-30T21:53:28Z
 
 [Term]
@@ -6118,7 +6065,7 @@ is_a: SPD:0000795 ! cytoplasmic part
 relationship: part_of SPD:0000721 ! sperm
 relationship: part_of SPD:0000722 ! spermatid
 relationship: part_of SPD:0000730 ! cytoplasm
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-30T21:57:53Z
 
 [Term]
@@ -6128,7 +6075,7 @@ def: "A cell that is part of the nervous system." [SPD:Michalik]
 xref_analog: CL:0002319
 is_a: SPD:0000725 ! somatic cell
 relationship: part_of SPD:0000620 ! nervous system
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-30T22:18:03Z
 
 [Term]
@@ -6137,7 +6084,7 @@ name: neuron
 def: "The basic cellular unit of nervous tissue. Each neuron consists of a body, an axon, and dendrites. Their purpose is to receive, conduct, and transmit impulses in the nervous system." [SPD:Michalik]
 xref_analog: CL:0000540
 is_a: SPD:0000797 ! neural cell
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-30T22:19:32Z
 
 [Term]
@@ -6146,7 +6093,7 @@ name: afferent neuron
 def: "A neuron which conveys sensory information centrally from the periphery." [SPD:Michalik]
 xref_analog: CL:0000526
 is_a: SPD:0000798 ! neuron
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-30T22:20:20Z
 
 [Term]
@@ -6155,7 +6102,7 @@ name: efferent neuron
 def: "A neuron which sends impulses peripherally to activate muscles or secretory cells." [SPD:Michalik]
 xref_analog: CL:0000527
 is_a: SPD:0000798 ! neuron
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-30T22:21:38Z
 
 [Term]
@@ -6164,7 +6111,7 @@ name: sensory neuron
 def: "Any neuron having a sensory function; an afferent neuron conveying sensory impulses." [SPD:Michalik]
 xref_analog: CL:0000101
 is_a: SPD:0000799 ! afferent neuron
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-30T22:22:54Z
 
 [Term]
@@ -6173,7 +6120,7 @@ name: motor neuron
 def: "An efferent neuron that passes from the central nervous system or a ganglion toward or to a muscle and conducts an impulse that causes or inhibits movement." [SPD:Michalik]
 xref_analog: CL:0000100
 is_a: SPD:0000800 ! efferent neuron
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-30T22:23:48Z
 
 [Term]
@@ -6182,7 +6129,7 @@ name: interneuron
 def: "Most generally any neuron which is not motor or sensory. Interneurons may also refer to neurons whose axons remain within a particular brain region as contrasted with projection neurons which have axons projecting to other brain regions." [SPD:Michalik]
 xref_analog: CL:0000099
 is_a: SPD:0000798 ! neuron
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-30T22:24:42Z
 
 [Term]
@@ -6194,7 +6141,7 @@ is_a: SPD:0000801 ! sensory neuron
 relationship: part_of SPD:0000313 ! trichobothria
 relationship: part_of SPD:0000479 ! lyriform organ
 relationship: part_of SPD:0000511 ! strain sensillum of cuticle
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-30T22:26:51Z
 
 [Term]
@@ -6204,7 +6151,7 @@ def: "A cell specialized to detect chemical substances and relay that informatio
 xref_analog: CL:0000206
 is_a: SPD:0000801 ! sensory neuron
 relationship: part_of SPD:0000310 ! tarsal organ
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-30T22:27:43Z
 
 [Term]
@@ -6214,7 +6161,7 @@ def: "A cell that specializes in controlled release of one or more substances." 
 xref_analog: CL:0000151
 is_a: SPD:0000725 ! somatic cell
 relationship: part_of SPD:0000679 ! gland
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-30T22:39:00Z
 
 [Term]
@@ -6223,7 +6170,7 @@ name: exocrine cell
 def: "A cell of an exocrine gland; i.e. a gland that discharges its secretion via a duct." [SPD:Michalik]
 xref_analog: CL:0000152
 is_a: SPD:0000806 ! secretory cell
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-30T22:40:31Z
 
 [Term]
@@ -6233,7 +6180,7 @@ def: "A cell involved in the elimination of metabolic and foreign toxins, and in
 xref_analog: CL:0000424
 is_a: SPD:0000725 ! somatic cell
 relationship: part_of SPD:0000632 ! excretory system
-created_by: Peter
+created_by: Peter Michalik
 creation_date: 2014-12-30T22:42:28Z
 
 [Term]
@@ -6279,7 +6226,7 @@ def: "The muscle in the leg that produces a levation of the pretarsus. It origin
 exact_synonym: "leg muscle 30" [SPD:Ruhland_&_Rathmayer_1978]
 is_a: SPD:0000667 ! muscle
 relationship: part_of SPD:0000372 ! leg
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2016-11-27T18:28:16Z
 
 [Term]
@@ -6289,7 +6236,7 @@ def: "The muscle in the leg that produces a depression of the pretarsus. It orig
 exact_synonym: "leg muscle 29" [SPD:Ruhland_&_Rathmayer_1978]
 is_a: SPD:0000667 ! muscle
 relationship: part_of SPD:0000372 ! leg
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2016-11-27T19:03:31Z
 
 [Term]
@@ -6299,7 +6246,7 @@ def: "The tendon connecting the pretarsal depressor muscle and inserting venrall
 exact_synonym: "leg tendon 29" [SPDrf:Ruhland_&_Rathmayer_1978]
 is_a: SPD:0000668 ! tendon
 relationship: part_of SPD:0000372 ! leg
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2016-11-27T19:30:34Z
 
 [Term]
@@ -6309,7 +6256,7 @@ def: "The tendon connecting the pretarsal levator muscle and inserting dorsally 
 exact_synonym: "leg tendon 30" [SPDrf:Ruhland_&_Rathmayer_1978]
 is_a: SPD:0000668 ! tendon
 relationship: part_of SPD:0000372 ! leg
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2016-11-27T19:33:10Z
 
 [Term]
@@ -6317,7 +6264,7 @@ id: SPD:0000817
 name: foot
 def: "The distal part of the spider leg, near the claws, which interacts more closely with the substrate and silk cables. The foot is a tight morphological and functional unit, and includes the distal end of the tarsus and its specialized setae, plus the pretarsus and its claws." [SPD:Ramirez]
 relationship: part_of SPD:0000372 ! leg
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2016-11-27T19:44:28Z
 
 [Term]
@@ -6327,7 +6274,7 @@ def: "The conjunctiva that is located between two articulating sclerites." [SPR:
 xref_analog: HAO:0001260
 is_a: SPD:0000662 ! conjunctiva
 relationship: part_of SPD:0000670 ! joint
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2016-11-28T19:03:04Z
 
 [Term]
@@ -6336,7 +6283,7 @@ name: condyle
 def: "The articular surface that is convex and is inserted into the fossa of an adjacent sclerite." [SPD:Ramirez]
 xref_analog: HAO:0000220
 is_a: SPD:0000821 ! articular surface
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2016-11-28T19:07:00Z
 
 [Term]
@@ -6345,7 +6292,7 @@ name: acetabulum
 def: "The articular surface that is concave and accommodates the condyle of another sclerite." [SPD:Ramirez]
 xref_analog: HAO:HAO\:0000353
 is_a: SPD:0000821 ! articular surface
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2016-11-28T19:11:08Z
 
 [Term]
@@ -6355,7 +6302,7 @@ def: "The area of the sclerite that makes movable direct contact with another sc
 xref_analog: HAO:0001485
 is_a: SPD:0000825 ! cuticular structure
 relationship: part_of SPD:0000671 ! eudesmatic joint
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2016-11-28T19:16:02Z
 
 [Term]
@@ -6363,7 +6310,7 @@ id: SPD:0000822
 name: podomere
 def: "The article that is delimited by eudesmatic joints." [SPD:Ramirez]
 is_a: SPD:0000669 ! article
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2016-11-28T19:29:04Z
 
 [Term]
@@ -6371,7 +6318,7 @@ id: SPD:0000823
 name: pseudopodomere
 def: "The article that is delimited by at least one adesmatic joint." [SPD:Ramirez]
 is_a: SPD:0000669 ! article
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2016-11-28T19:30:37Z
 
 [Term]
@@ -6379,7 +6326,7 @@ id: SPD:0000824
 name: pretarsal median septum
 def: "A cuticular septum dividing vertically the ring formed by the pretarsus." [SPD:Ramirez]
 is_a: SPD:0000825 ! cuticular structure
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2016-11-28T19:46:28Z
 
 [Term]
@@ -6387,7 +6334,7 @@ id: SPD:0000825
 name: cuticular structure
 def: "A portion of cuticle making a definite structure." [SPD:Ramirez]
 relationship: part_of SPD:0000004 ! cuticle
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2016-11-28T19:48:24Z
 
 [Term]
@@ -6396,7 +6343,7 @@ name: pretarsal dorsal pulley
 def: "A cuticular structure projecting dorsally from the pretarsus. It projects distally forming a dorsal pulley-like grooved surface, which guides and upholds the levator tendon." [SPD:Ramirez]
 is_a: SPD:0000825 ! cuticular structure
 relationship: part_of SPD:0000450 ! pretarsus
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2016-11-28T19:51:14Z
 
 [Term]
@@ -6405,7 +6352,7 @@ name: levator cuticular guide
 def: "A cuticular structure in the podotarsite that guides the levator tendon in some spiders such as some palpimanids." [SPD:Ramirez]
 is_a: SPD:0000825 ! cuticular structure
 relationship: part_of SPD:0000380 ! podotarsite
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2016-11-28T19:56:23Z
 
 [Term]
@@ -6414,7 +6361,7 @@ name: depressor cuticular guide
 def: "A cuticular structure arising ventrally from the cuticle of the foot of many spiders, usually from the internal wall of the condyles, may be produced into a pair of thick, parallel ridges that provide a canal for the depressor tendon. The guide extends from the tip of the pretarsus to the foot slits or may continue further into the tarsus. The guide is usually open dorsally, but in some spiders with flexible feet, it is closed making a tube." [SPD:Ramirez]
 is_a: SPD:0000825 ! cuticular structure
 relationship: part_of SPD:0000379 ! tarsus
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2016-11-28T19:58:30Z
 
 [Term]
@@ -6423,7 +6370,7 @@ name: pretarsal ventral pulley
 def: "A cuticular structure projecting ventrally from the pretarsus. It projects distally forming a ventral pulley-like grooved surface, which guides and upholds the deressor tendon." [SPD:Ramirez]
 is_a: SPD:0000825 ! cuticular structure
 relationship: part_of SPD:0000450 ! pretarsus
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2016-11-28T20:03:38Z
 
 [Term]
@@ -6432,7 +6379,7 @@ name: levator sheath
 def: "A cuticular structure in the form of a funnel-like sheath that covers the insertion of the levator tendon on the pretarsus." [SPD:Ramirez]
 is_a: SPD:0000825 ! cuticular structure
 relationship: part_of SPD:0000450 ! pretarsus
-created_by: Martin
+created_by: Martin Ramirez
 creation_date: 2016-11-28T20:08:37Z
 
 [Term]
@@ -6447,13 +6394,6 @@ creation_date: 2016-11-28T21:08:28Z
 id: adjacent_to
 name: adjacent to
 
-[Typedef]
-id: attached_to
-name: attached to
-
-[Typedef]
-id: consist_of
-name: consist of
 
 [Typedef]
 id: part_of

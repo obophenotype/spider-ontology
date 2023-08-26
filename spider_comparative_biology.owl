@@ -62,17 +62,13 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by">
-        <rdfs:label>created by</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date">
-        <rdfs:label>creation date</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
     
 
 
@@ -130,9 +126,7 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#id -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id">
-        <rdfs:label>id</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
     
 
 
@@ -177,26 +171,6 @@
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>adjacent_to</oboInOwl:id>
         <rdfs:label>adjacent to</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TEMP#attached_to -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/TEMP#attached_to">
-        <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>attached_to</oboInOwl:id>
-        <rdfs:label>attached to</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TEMP#consist_of -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/TEMP#consist_of">
-        <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>consist_of</oboInOwl:id>
-        <rdfs:label>consist of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -352,17 +326,16 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SPD_0000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The dorsal shield of the prosoma.</obo:IAO_0000115>
+        <obo:IAO_0000115>The sclerite that covers the prosoma dorsally.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>dorsal shield of the prosoma</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000005</oboInOwl:id>
-        <rdfs:comment>Fig 72:4 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>carapace</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SPD_0000005"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The dorsal shield of the prosoma.</owl:annotatedTarget>
+        <owl:annotatedTarget>The sclerite that covers the prosoma dorsally.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>SPD:Ramirez</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -381,7 +354,6 @@
         <obo:IAO_0000115>First opisthosomal segment, the narrowed connection between prosoma and opisthosoma.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000006</oboInOwl:id>
-        <rdfs:comment>Figs 72:4, 72:26 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>pedicel</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -459,7 +431,6 @@
         <obo:IAO_0000115>Finger-like or conical silk spinning appendages located at the posterior end of the opisthosoma.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000010</oboInOwl:id>
-        <rdfs:comment>Figs 72:4, 72:7 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>spinneret</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -483,7 +454,6 @@
         <obo:IAO_0000115>A small lobe posterior to the spinnerets which bears the anal opening.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000011</oboInOwl:id>
-        <rdfs:comment>Figs 72:4, 72:7 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>anal tubercle</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -592,7 +562,6 @@
         <oboInOwl:hasExactSynonym>pars cephalica</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000016</oboInOwl:id>
-        <rdfs:comment>Fig 72:11 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>cephalic area</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -640,7 +609,6 @@
         <obo:IAO_0000115>The posterior portion of the carapace, sometimes delimited anteriorly by marked thoracic furrows.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000017</oboInOwl:id>
-        <rdfs:comment>Fig 72:11 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>thoracic area</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -668,7 +636,6 @@
         <oboInOwl:hasExactSynonym>thoracic groove</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000018</oboInOwl:id>
-        <rdfs:comment>Fig 72:1, 72:11 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>thoracic fovea</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -714,16 +681,15 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SPD_0000673"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The anterior appendages of a spider (the jaws) consisting of a large basal segment (paturon) and an apical fang.</obo:IAO_0000115>
+        <obo:IAO_0000115>The anterior appendage of a spider (the jaw) consisting of a large basal segment (paturon) and an apical fang.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000019</oboInOwl:id>
-        <rdfs:comment>Figs 72:4, 72:26 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>chelicera</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SPD_0000019"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The anterior appendages of a spider (the jaws) consisting of a large basal segment (paturon) and an apical fang.</owl:annotatedTarget>
+        <owl:annotatedTarget>The anterior appendage of a spider (the jaw) consisting of a large basal segment (paturon) and an apical fang.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>SPDrf:Ubick_et_al_2005_glossary</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -738,7 +704,6 @@
         <oboInOwl:hasExactSynonym>pedipalp</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000020</oboInOwl:id>
-        <rdfs:comment>Figs 72:26, 72:75 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>female palp</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -975,7 +940,6 @@
         <oboInOwl:hasExactSynonym>epigynum</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000028</oboInOwl:id>
-        <rdfs:comment>Figs 72:26, 72:32, 72:33, 72:47, 72:76 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>epigyne</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1003,6 +967,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A collective term for the internal elements of the female genitalia.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>endogyne</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000029</oboInOwl:id>
         <rdfs:label>vulva</rdfs:label>
@@ -1012,6 +977,12 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A collective term for the internal elements of the female genitalia.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>SPD:Michalik</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SPD_0000029"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>endogyne</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SPDrf:Mcheidze_1972</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1080,7 +1051,6 @@
         <obo:IAO_0000115>The spiracle of the posterior tracheal system.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000033</oboInOwl:id>
-        <rdfs:comment>Fig 72:26 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>posterior tracheal spiracle</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1105,7 +1075,6 @@
         <oboInOwl:hasExactSynonym>epigastric fold</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000034</oboInOwl:id>
-        <rdfs:comment>Fig 72:26, 72:34 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>epigastric furrow</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1195,7 +1164,6 @@
         <oboInOwl:hasExactSynonym>median spinneret</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000037</oboInOwl:id>
-        <rdfs:comment>Fig 72:7 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>posterior median spinneret</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1234,7 +1202,6 @@
         <oboInOwl:hasExactSynonym>posterior spinneret</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000038</oboInOwl:id>
-        <rdfs:comment>Fig 72:7 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>posterior lateral spinneret</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1268,16 +1235,15 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SPD_0000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A small sclerite at the base of the chelicera (under the clypeus).</obo:IAO_0000115>
+        <obo:IAO_0000115>A small sclerite at the base of the chelicera, under the clypeus.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000039</oboInOwl:id>
-        <rdfs:comment>Fig 72:17 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>chilum</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SPD_0000039"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A small sclerite at the base of the chelicera (under the clypeus).</owl:annotatedTarget>
+        <owl:annotatedTarget>A small sclerite at the base of the chelicera, under the clypeus.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>SPDrf:Ubick_et_al_2005_glossary</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1295,7 +1261,6 @@
         <obo:IAO_0000115>The space between the anterior edge of the carapace and the anterior eyes.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000040</oboInOwl:id>
-        <rdfs:comment>Fig 72:5 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>clypeus</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1472,7 +1437,6 @@
         <oboInOwl:hasExactSynonym>primary eye</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000048</oboInOwl:id>
-        <rdfs:comment>Fig 72:6 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>anterior median eye</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1504,7 +1468,6 @@
         <oboInOwl:hasExactSynonym>ALE</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000049</oboInOwl:id>
-        <rdfs:comment>Fig 72:6 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>anterior lateral eye</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1555,7 +1518,6 @@
         <oboInOwl:hasExactSynonym>PLE</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000051</oboInOwl:id>
-        <rdfs:comment>Fig 72:6 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>posterior lateral eye</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1922,7 +1884,6 @@
         <obo:IAO_0000115>The apical segment of a chelicera, bearing the opening of the venom gland.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000067</oboInOwl:id>
-        <rdfs:comment>Fig 72:5 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>fang</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1944,16 +1905,15 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SPD_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The basal segment of a chelicera.</obo:IAO_0000115>
+        <obo:IAO_0000115>The basal segment of the chelicera.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000068</oboInOwl:id>
-        <rdfs:comment>Figs 72:5, 72:13 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>paturon</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SPD_0000068"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The basal segment of a chelicera.</owl:annotatedTarget>
+        <owl:annotatedTarget>The basal segment of the chelicera.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>SPDrf:Ubick_et_al_2005_glossary</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2010,6 +1970,7 @@
     <!-- http://purl.obolibrary.org/obo/SPD_0000071 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000071">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000663"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#part_of"/>
@@ -2090,7 +2051,6 @@
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>endite</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>SPD:0000073</oboInOwl:id>
-        <rdfs:comment>Figs 72:13, 72:36, 72:75 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>female palpal coxa</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3622,7 +3582,6 @@
         <oboInOwl:hasExactSynonym>spermathecal ducts</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000135</oboInOwl:id>
-        <rdfs:comment>Fig 72:34 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>anterior copulatory duct</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3737,7 +3696,6 @@
         <oboInOwl:hasRelatedSynonym>seminal receptacle</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>spermatheca</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>SPD:0000138</oboInOwl:id>
-        <rdfs:comment>Fig 72:34 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>primary spermatheca</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -4206,7 +4164,6 @@
         <obo:IAO_0000115>The tarsus, 6th and last segment of the male palp connected with the tibia. The name cymbium is mostly used when modified as a spoon-shaped structure containing the copulatory bulb.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000158</oboInOwl:id>
-        <rdfs:comment>Fig 72:12 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>cymbium</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4386,7 +4343,6 @@
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>paracymbial retrolateral-basal process</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>SPD:0000166</oboInOwl:id>
-        <rdfs:comment>Figs 72:29, 72:31, 72:52 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>paracymbium</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4431,19 +4387,18 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SPD_0000045"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The genital structure of the male spider containing the sperm reservoir and attached to the palpal tarsus; rarely fused to the tarsus, as in some Oonopidae, from which it can be differentiated by lacking setae .</obo:IAO_0000115>
+        <obo:IAO_0000115>The genital structure of the male spider containing the spermophor and attached to the palpal tarsus; rarely fused to the tarsus, as in some Oonopidae, from which it can be differentiated by lacking setae .</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>bulbus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>genital bulb</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>palpal organ</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000168</oboInOwl:id>
-        <rdfs:comment>Fig 72:12 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>copulatory bulb</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SPD_0000168"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The genital structure of the male spider containing the sperm reservoir and attached to the palpal tarsus; rarely fused to the tarsus, as in some Oonopidae, from which it can be differentiated by lacking setae .</owl:annotatedTarget>
+        <owl:annotatedTarget>The genital structure of the male spider containing the spermophor and attached to the palpal tarsus; rarely fused to the tarsus, as in some Oonopidae, from which it can be differentiated by lacking setae .</owl:annotatedTarget>
         <oboInOwl:hasDbXref>SPDrf:Ubick_et_al_2005_glossary</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -4521,7 +4476,6 @@
         <obo:IAO_0000115>The basal sclerite of the bulb, connected to the cymbium by the basal hematodocha. It contains the fundus of the spermaphor.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000171</oboInOwl:id>
-        <rdfs:comment>Figs 72:31, 72:37 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>subtegulum</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4572,16 +4526,15 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SPD_0000522"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The middle sclerite of the male palp, that contains the sperm duct and bears the embolus.</obo:IAO_0000115>
+        <obo:IAO_0000115>The middle sclerite of the male palp, that contains the spermophore and bears the embolus.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000173</oboInOwl:id>
-        <rdfs:comment>Figs 72:29, 72:31, 72:37 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>tegulum</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SPD_0000173"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The middle sclerite of the male palp, that contains the sperm duct and bears the embolus.</owl:annotatedTarget>
+        <owl:annotatedTarget>The middle sclerite of the male palp, that contains the spermophore and bears the embolus.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>SPDrf:Ubick_et_al_2005_glossary</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4636,7 +4589,6 @@
         <obo:IAO_0000115>The intromittent sclerite of the male copulatory bulb, where the spermophor discharges.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000176</oboInOwl:id>
-        <rdfs:comment>Figs 72:29, 72:31, 72:51 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>embolus</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4707,7 +4659,6 @@
         <obo:IAO_0000115>A sclerite of the copulatory bulb arising from the tegulum.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000178</oboInOwl:id>
-        <rdfs:comment>Figs 72:29, 72:31 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>median apophysis</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4733,7 +4684,6 @@
         <obo:IAO_0000115>A sclerite of the male palp inserted in the tegulum. It usually guides or fits part of the embolus; may be sclerotized or hyaline.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000179</oboInOwl:id>
-        <rdfs:comment>Figs 72:29, 72:31, 72:51 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>conductor</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4871,7 +4821,6 @@
         <obo:IAO_0000115>The anterior margin of the cheliceral furrow in Araneomorphae (mesal margin in Mygalomorphae).</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000185</oboInOwl:id>
-        <rdfs:comment>Fig 72:13 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>promargin</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4895,7 +4844,6 @@
         <obo:IAO_0000115>The posterior margin of the cheliceral furrow in Araneomorphae (ectal margin in Mygalomorphae).</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000186</oboInOwl:id>
-        <rdfs:comment>Fig 72:13 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>retromargin</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4944,7 +4892,6 @@
         <obo:IAO_0000115>A file on the ectal side of the paturon, used in conjunction with palpal femoral thorns to produce stridulation. The file is usually made of a series of fine horizontal ridges, but it may be composed of large, well spaced ridges (in Scytodidae) or a scaly surface.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000188</oboInOwl:id>
-        <rdfs:comment>Fig 72:68, Fig 72:69 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>cheliceral stridulatory file</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5176,7 +5123,6 @@
         <obo:IAO_0000115>A row of tiny teeth along the anterior edge of the endite.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000198</oboInOwl:id>
-        <rdfs:comment>Fig 72:66 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>serrula</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6037,7 +5983,6 @@
         <obo:IAO_0000115>A patch of curved thick setae, usually arranged in one or more rows, on the dorsal-retrolateral side along metatarsus IV of cribellate spiders. It is used for combing out silk from the cribellum.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000237</oboInOwl:id>
-        <rdfs:comment>Fig 72:10 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>calamistrum</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6489,8 +6434,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Each of the many spigots on the anterior lateral spinnerets, used to cement the attachment of ampullate threads to each other and to the substratum. The cemented attachment is known as attachment disk.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>pyriform gland spigot</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>pyriform gland spigot</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>SPD:0000257</oboInOwl:id>
         <rdfs:label>piriform gland spigot</rdfs:label>
     </owl:Class>
@@ -6502,7 +6447,7 @@
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SPD_0000257"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>pyriform gland spigot</owl:annotatedTarget>
         <oboInOwl:hasDbXref>SPD:Ramirez</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -7184,6 +7129,7 @@
     <!-- http://purl.obolibrary.org/obo/SPD_0000287 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000287">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000663"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#part_of"/>
@@ -7227,17 +7173,16 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SPD_0000673"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The upper lip (usually covered by the chelicerae and not easily visible).</obo:IAO_0000115>
+        <obo:IAO_0000115>The upper lip, usually covered by the chelicerae and not easily visible.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>rostrum</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000288</oboInOwl:id>
-        <rdfs:comment>Fig 72:36 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>labrum</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SPD_0000288"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The upper lip (usually covered by the chelicerae and not easily visible).</owl:annotatedTarget>
+        <owl:annotatedTarget>The upper lip, usually covered by the chelicerae and not easily visible.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>SPDrf:Ubick_et_al_2005_glossary</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -7258,17 +7203,16 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SPD_0000673"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The anterior median extension of the sternum.</obo:IAO_0000115>
+        <obo:IAO_0000115>The anterior median extension of the sternum, it may be articulated through a soft membrane.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>lip</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000289</oboInOwl:id>
-        <rdfs:comment>Figs 72:13, 72:35 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>labium</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SPD_0000289"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The anterior median extension of the sternum.</owl:annotatedTarget>
+        <owl:annotatedTarget>The anterior median extension of the sternum, it may be articulated through a soft membrane.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>SPDrf:Ubick_et_al_2005_glossary</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -7317,7 +7261,6 @@
         <obo:IAO_0000115>The ventral sclerite of the prosoma.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000291</oboInOwl:id>
-        <rdfs:comment>Figs 72:26, 72:35 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>sternum</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7414,7 +7357,6 @@
         <oboInOwl:hasExactSynonym>precoxal sclerite</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000295</oboInOwl:id>
-        <rdfs:comment>Fig 72:59 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>precoxal triangle</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7444,7 +7386,6 @@
         <obo:IAO_0000115>Each of the triangular sclerotized extensions from the sternum, between the coxae.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000296</oboInOwl:id>
-        <rdfs:comment>Fig 72:59 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>intercoxal sclerite</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7714,7 +7655,6 @@
         <obo:IAO_0000115>A cusple on the endites of some Mygalomorphae.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000308</oboInOwl:id>
-        <rdfs:comment>Fig 72:21 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>maxillary cusple</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7782,7 +7722,6 @@
         <obo:IAO_0000115>A group of tenent setae covering surfaces on appendages. Do not confuse with the generic use as a brush of unspecified setae.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000311</oboInOwl:id>
-        <rdfs:comment>Fig72:15, 72:44, 72:66 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>scopula</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7814,7 +7753,6 @@
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>false claw tuft</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>SPD:0000312</oboInOwl:id>
-        <rdfs:comment>Fig 72:15 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>claw tuft</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7852,7 +7790,6 @@
         <obo:IAO_0000115>A sensory seta on the dorsal surfaces of legs and palps, specialized in detecting air movement. The setal shaft is slender, perpendicular to the cuticle surface, usually curved backwards and longer than the neighboring setae. Trichobothria are typically disposed in longitudinal series of distally increasing length.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000313</oboInOwl:id>
-        <rdfs:comment>Fig 72:44 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>trichobothria</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7893,7 +7830,6 @@
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>spinule</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>SPD:0000315</oboInOwl:id>
-        <rdfs:comment>Fig 72:44 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>macroseta</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -8239,7 +8175,6 @@
         <oboInOwl:hasExactSynonym>sigillum</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000330</oboInOwl:id>
-        <rdfs:comment>Fig 72:67 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>sigilla</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -8491,7 +8426,6 @@
         <obo:IAO_0000115>The groove of the chelicera into which the fang closes.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000345</oboInOwl:id>
-        <rdfs:comment>Fig 72:13 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>fang furrow</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -8785,7 +8719,6 @@
         <obo:IAO_0000115>An articulate cuticular outgrowth, often inervated to conform a mechanical or chemical sensillium.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000359</oboInOwl:id>
-        <rdfs:comment>Fig 72:44 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>seta</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -8973,8 +8906,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Each of the large spigots on the posterior spinnerets, occurring only in adult females. They extrude a silk used for some layers of the eggsac, probably used to regulate humidity.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>tubuliform gland spigot</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>tubuliform gland spigot</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>SPD:0000367</oboInOwl:id>
         <rdfs:label>cylindrical gland spigot</rdfs:label>
     </owl:Class>
@@ -8986,7 +8919,7 @@
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SPD_0000367"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>tubuliform gland spigot</owl:annotatedTarget>
         <oboInOwl:hasDbXref>SPD:Ramirez</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -9114,7 +9047,6 @@
         <obo:IAO_0000115>The basal, 1st segment of the leg. It articulates with the trochanter through a prolateral ball-socket articulation.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000373</oboInOwl:id>
-        <rdfs:comment>Figs 72:19, 72:26, 72:75 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>coxa</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -9134,7 +9066,6 @@
         <obo:IAO_0000115>Second segment of the leg, between the coxa and femur. It articulates with the femur through a pair of lateral condyles.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000374</oboInOwl:id>
-        <rdfs:comment>Figs 72:19, 72:75 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>trochanter</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -9154,7 +9085,6 @@
         <obo:IAO_0000115>The 3rd segment of the leg, between trochanter and patella. It articulates with the patella through a pair of dorsal-lateral condyles.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000375</oboInOwl:id>
-        <rdfs:comment>Figs 72:19,72:75 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>femur</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -9174,7 +9104,6 @@
         <obo:IAO_0000115>The 4th segment of the leg, between femur and tibia. It articulates with the tibia through a medial dorsal condyle.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000376</oboInOwl:id>
-        <rdfs:comment>Figs 72:19, 72:75 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>patella</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -9194,7 +9123,6 @@
         <obo:IAO_0000115>The 5th segment of the leg, between patella and metatarsus. It articulates with the metatarsus through a pair of dorsal-lateral condyles.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000377</oboInOwl:id>
-        <rdfs:comment>Figs 72:19, 72:75 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>tibia</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -9215,7 +9143,6 @@
         <oboInOwl:hasExactSynonym>basitarsus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000378</oboInOwl:id>
-        <rdfs:comment>Fig 72:19 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>metatarsus</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -9242,7 +9169,6 @@
         <oboInOwl:hasExactSynonym>distitarsus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000379</oboInOwl:id>
-        <rdfs:comment>Fig 72:19, 72:75 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>tarsus</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -9378,7 +9304,6 @@
         <oboInOwl:hasExactSynonym>unpaired claw</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000385</oboInOwl:id>
-        <rdfs:comment>Fig 72:3 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>inferior claw</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -9994,6 +9919,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A modified gland spigot in araneoids.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>coronate gland spigot</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000416</oboInOwl:id>
         <rdfs:label>flagelliform gland spigot</rdfs:label>
@@ -10003,6 +9929,12 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A modified gland spigot in araneoids.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>SPD:Ramirez</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SPD_0000416"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>coronate gland spigot</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SPD:Peters_1955</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -10865,6 +10797,7 @@
     <!-- http://purl.obolibrary.org/obo/SPD_0000457 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000457">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000663"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#part_of"/>
@@ -10873,6 +10806,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>A small sclerite on the fang articulation, where the fang flexor tendon inserts.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>plagula articularis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>SPD:0000457</oboInOwl:id>
         <rdfs:label>plagula ventralis</rdfs:label>
     </owl:Class>
@@ -10881,6 +10815,12 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A small sclerite on the fang articulation, where the fang flexor tendon inserts.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>SPD:Ramirez</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SPD_0000457"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>plagula articularis</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SPDrf:Simon_1892</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -11295,7 +11235,7 @@
     <!-- http://purl.obolibrary.org/obo/SPD_0000476 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000476">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000373"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000663"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#part_of"/>
@@ -11506,8 +11446,8 @@
         <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2009-08-09T08:22:15Z</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym>claw slit</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pretarsal slit</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>pretarsal slit</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>SPD:0000484</oboInOwl:id>
         <rdfs:label>foot slit</rdfs:label>
     </owl:Class>
@@ -11525,7 +11465,7 @@
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SPD_0000484"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>pretarsal slit</owl:annotatedTarget>
         <oboInOwl:hasDbXref>SPDrf:Speck_&amp;_Barth_1982</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -14355,7 +14295,6 @@
         <oboInOwl:creation_date>2013-03-02T01:05:11Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000596</oboInOwl:id>
-        <rdfs:comment>Fig 72:34 in SPDrf:Ubick_et_al_2005_glossary.</rdfs:comment>
         <rdfs:label>posterior copulatory duct</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -15388,8 +15327,8 @@
         <obo:IAO_0000115>A large silk gland with complex lumen and long duct, discharging in a spigot on a posterior lateral spinneret.</obo:IAO_0000115>
         <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2013-06-14T13:38:25Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>coronate gland</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>coronate gland</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>SPD:0000639</oboInOwl:id>
         <rdfs:comment>Flagelliform glands are defined for ecribellate spiders only, and are probably homologous to the pseudoflagelliform glands of cribellate spiders.</rdfs:comment>
         <rdfs:label>flagelliform gland</rdfs:label>
@@ -15402,7 +15341,7 @@
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SPD_0000639"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>coronate gland</owl:annotatedTarget>
         <oboInOwl:hasDbXref>SPD:Peters_1955</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -15623,7 +15562,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A specialized seta at the tip of the tarsus, below the claws, with a ventral serrate side. They occur in araneoids, austrochilids, and other araneomorphs, and interact with the inferior claw to grasp a silk thread.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2013-06-21T16:13:21Z</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym>false claw</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -15684,7 +15623,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000651">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000688"/>
         <obo:IAO_0000115>An outgrow of the body with articles and muscles.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2013-06-21T17:44:09Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000651</oboInOwl:id>
@@ -15710,7 +15649,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A hook-like extension of the superior claws, grasping the folded base of a claw tuft seta. The clasper may be in one piece or composed by several claw teeth appressed together.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2013-07-07T16:19:30Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000652</oboInOwl:id>
@@ -15741,7 +15680,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The folded base of a claw tuft seta, where the claw tuft clasper locks.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2013-07-07T16:35:48Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000653</oboInOwl:id>
@@ -15766,7 +15705,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A mechanism made of a claw tuft clasper in the superior claws and locking on the folded base of a claw tuft seta (the claw tuft seta clasping fold).</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2013-07-07T16:36:59Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000654</oboInOwl:id>
@@ -15798,7 +15737,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A comb of setae at the ventral tip of metatarsus III and IV.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2013-07-07T17:03:43Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000655</oboInOwl:id>
@@ -15824,7 +15763,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cusple on the ventral surface of a leg.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2013-07-07T17:08:56Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000656</oboInOwl:id>
@@ -15849,7 +15788,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Each spherical or oval sclerotized sac connected by a thin duct to the bursa. The sacs occur in groups, sometimes in definite patches, on the bursa of palpimanoids. Each sac have several gland ducts discharging on them.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2013-07-08T19:21:18Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000657</oboInOwl:id>
@@ -15875,7 +15814,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The tarsal organ of the female palpal tarsus.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2013-07-12T18:49:32Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000658</oboInOwl:id>
@@ -15900,7 +15839,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A comb made of small tooth aligned, on the calamistrun seta.  The comb may have one to several lines of teeth.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2013-07-09T10:11:57Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000659</oboInOwl:id>
@@ -15926,7 +15865,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The tarsal organ on the leg tarsus.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2013-07-12T18:57:31Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000660</oboInOwl:id>
@@ -16847,13 +16786,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SPD_0000697"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The muscle that originates on the dorsal part of the palpal tarsus and attaches through a tendon on the basal part of the copulatory bulb.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>SPDrf:Huber_1994</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SPDrf:Huber_2004</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SPD_0000697"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>M30</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>SPDrf:Huber_1994</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SPDrf:Huber_2004</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -16868,7 +16807,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SPD_0000045"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The muscle that originates in the palpal tibia and attaches through a tendon on the basal part of the copulatory bulb.</obo:IAO_0000115>
+        <obo:IAO_0000115>The muscle that originates in the palpal tibia and attaches through a tendon winding on the basal part of the copulatory bulb, or enters the bulb and attaches to the spermophore (in some Synspermiata).</obo:IAO_0000115>
         <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-19T16:49:58Z</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym>M29</oboInOwl:hasExactSynonym>
@@ -16879,14 +16818,14 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SPD_0000698"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The muscle that originates in the palpal tibia and attaches through a tendon on the basal part of the copulatory bulb.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>SPDrf:Huber_1994</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>The muscle that originates in the palpal tibia and attaches through a tendon winding on the basal part of the copulatory bulb, or enters the bulb and attaches to the spermophore (in some Synspermiata).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SPDrf:Huber_2004</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SPD_0000698"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>M29</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>SPDrf:Huber_1994</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SPDrf:Huber_2004</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -17320,7 +17259,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The compound organ that makes gametes.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T15:20:54Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>HAO:0000379</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -17341,7 +17280,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000717">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000675"/>
         <obo:IAO_0000115>The anatomical structure that has as its parts two or more multi-tissue structures of at least two different types and which through specific morphogenetic processes forms a single distinct structural unit demarcated by bona fide boundaries from other distinct anatomical structures of different types.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T15:23:41Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CARO:0000024</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -17362,7 +17301,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000718">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000689"/>
         <obo:IAO_0000115>The portion of tissue consisting of sperm cells and secretion that is produced by the somatic cells of the male gonad and spermophor gland.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T15:26:13Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000718</oboInOwl:id>
@@ -17382,7 +17321,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000719">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000675"/>
         <obo:IAO_0000115>The anatomical structure that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T15:30:07Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CARO:0000013</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -17408,7 +17347,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The anatomical structure that is a direct part of the cell.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T15:32:51Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CARO:0000014</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -17430,7 +17369,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000740"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000742"/>
         <obo:IAO_0000115>A mature male germ cell that develops from a spermatid.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T15:33:58Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0000019</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>sperm cell</oboInOwl:hasExactSynonym>
@@ -17472,7 +17411,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000722">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000740"/>
         <obo:IAO_0000115>A male germ cell that develops from the haploid secondary spermatocytes. Without further division, spermatids undergo structural changes and give rise to spermatozoa.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T16:09:46Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0000018</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -17493,7 +17432,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000723">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000740"/>
         <obo:IAO_0000115>A male germ cell that develops from spermatogonia. The euploid primary spermatocytes undergo meiosis and give rise to the haploid secondary spermatocytes which in turn give rise to spermatids.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T16:12:11Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0000017</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -17514,7 +17453,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000724">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000740"/>
         <obo:IAO_0000115>An euploid male germ cell of an early stage of spermatogenesis.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T16:13:08Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0000020</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -17535,7 +17474,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000725">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000719"/>
         <obo:IAO_0000115>A cell of an organism that does not pass on its genetic material to the organism&apos;s offspring (i.e. a non-germ line cell).</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T16:39:02Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0002371</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -17556,7 +17495,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000726">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000720"/>
         <obo:IAO_0000115>Organized structure of distinctive morphology and function. Includes the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton, and prokaryotic structures such as anammoxosomes and pirellulosomes. Excludes the plasma membrane.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T16:45:58Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>GO:0043226</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -17577,7 +17516,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000727">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000726"/>
         <obo:IAO_0000115>Organized structure of distinctive morphology and function, bounded by a single or double lipid bilayer membrane. Includes the nucleus, mitochondria, plastids, vacuoles, and vesicles. Excludes the plasma membrane.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T16:47:38Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>GO:0043227</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>membrane-enclosed organelle</oboInOwl:hasExactSynonym>
@@ -17605,7 +17544,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000728">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000726"/>
         <obo:IAO_0000115>Organized structure of distinctive morphology and function, not bounded by a lipid bilayer membrane. Includes ribosomes, the cytoskeleton and chromosomes.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T16:49:32Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>GO:0043228</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>non-membrane-enclosed organelle</oboInOwl:hasExactSynonym>
@@ -17640,7 +17579,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vesicle formed of membrane or protein, found in the cytoplasm of a cell.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T16:54:03Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>GO:0031410</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -17666,7 +17605,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>All of the contents of a cell excluding the plasma membrane and nucleus, but including other subcellular structures.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T16:55:24Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>GO:0005737</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -17688,7 +17627,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000727"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000729"/>
         <obo:IAO_0000115>A small subcellular vesicle, surrounded by a membrane, that is formed from the Golgi apparatus and contains a highly concentrated protein destined for secretion. Secretory granules move towards the periphery of the cell and upon stimulation, their membranes fuse with the cell membrane, and their protein load is exteriorized. Processing of the contained protein may take place in secretory granules.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T17:20:40Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>GO:0030141</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>secretory vesicle</oboInOwl:hasExactSynonym>
@@ -17728,7 +17667,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A structure in the head of a spermatozoon that contains acid hydrolases, and is concerned with the breakdown of the outer membrane of the ovum during fertilization. It lies just beneath the plasma membrane and is derived from the lysosome.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T17:21:58Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>GO:0001669</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>acrosomal vesicle</oboInOwl:hasExactSynonym>
@@ -17763,7 +17702,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000733">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000726"/>
         <obo:IAO_0000115>Any small, fluid-filled, spherical organelle enclosed by membrane or protein.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T17:27:17Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>GO:0031982</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -17790,7 +17729,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The anatomical space containing the acrosomal filament and is formed by  posterior invagination of the acrosomal vacuole.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T17:32:18Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000734</oboInOwl:id>
@@ -17822,7 +17761,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cellular complex consisting of acrosomal vacuole, acrosomal filament and subacrosomal space.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T17:35:49Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000735</oboInOwl:id>
@@ -17842,7 +17781,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000736">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000719"/>
         <obo:IAO_0000115>A germ cell is any biological cell that differentiates into the gametes of an organism that reproduces sexually.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T17:50:48Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000736</oboInOwl:id>
@@ -17868,7 +17807,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A filamentous structure consisting of actin fibrils, originating in the subacrosomal space and extending into the nuclear canal.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T17:59:50Z</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym>perforatorium</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -17896,7 +17835,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000720"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000728"/>
         <obo:IAO_0000115>Any of the various filamentous elements that form the internal framework of cells, and typically remain after treatment of the cells with mild detergent to remove membrane constituents and soluble components of the cytoplasm. The term embraces intermediate filaments, microfilaments, microtubules, the microtrabecular lattice, and other structures characterized by a polymeric filamentous nature and long-range order within the cell. The various elements of the cytoskeleton not only serve in the maintenance of cellular shape but also have roles in other cellular functions, including cellular movement, cell division, endocytosis, and movement of organelles.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T18:03:00Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>GO:0005856</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -17922,7 +17861,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Any constituent part of the cytoskeleton, a cellular scaffolding or skeleton that maintains cell shape, enables some cell motion (using structures such as flagella and cilia), and plays important roles in both intra-cellular transport (e.g. the movement of vesicles and organelles) and cellular division. Includes constituent parts of intermediate filaments, microfilaments, microtubules, and the microtrabecular lattice.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T18:04:49Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>GO:0044430</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -17949,7 +17888,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Cell that develops into or is itself a spermatozoon.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T18:25:02Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>FBbt:00057011</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -17976,7 +17915,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Cell that develops into or is itself an egg.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T18:27:23Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>FBbt:00057012</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -18003,7 +17942,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A mature germ cell containing a single set of chromosomes.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T18:28:58Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0000300</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -18030,7 +17969,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A mature contractile cell, commonly known as a myocyte. This cell has as part of its cytoplasm myofibrils organized in various patterns.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T18:33:24Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0000187</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -18057,7 +17996,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A non-germ cell in the testis.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T18:36:31Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000744</oboInOwl:id>
@@ -18077,7 +18016,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000745">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000725"/>
         <obo:IAO_0000115>Blood cell of the circulating hemolymph that is involved in the cellular immune response.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T18:42:10Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>FBbt:00005063</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -18098,7 +18037,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000746">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000719"/>
         <obo:IAO_0000115>A multi-nucleate cell having no internal boundaries between nuclei.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T18:44:18Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>FBbt:00007290</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -18131,7 +18070,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The bundle of microtubules and associated proteins that forms the core of cilia (also called flagella) in eukaryotic cells and is responsible for their movements.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T18:48:44Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>GO:0005930</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -18158,7 +18097,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A semiautonomous, self replicating organelle that occurs in varying numbers, shapes, and sizes in the cytoplasm of virtually all eukaryotic cells.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T18:53:54Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>GO:0005739</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -18179,7 +18118,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000749">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000727"/>
         <obo:IAO_0000115>A membrane-bounded organelle of eukaryotic cells in which chromosomes are housed and replicated. In most cells, the nucleus contains all of the cell&apos;s chromosomes except the organellar chromosomes, and is the site of RNA synthesis and processing. In some species, or in specialized cell types, RNA metabolism or DNA replication may be absent.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T18:57:52Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>GO:0005634</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -18212,7 +18151,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The nucleus of a spermatid or sperm.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T19:00:41Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000750</oboInOwl:id>
@@ -18237,7 +18176,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>An elongation of the nucleus posterior to the base of the axoneme, i.e. the centrioles.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T19:03:14Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000751</oboInOwl:id>
@@ -18262,7 +18201,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The part of the sperm nucleus anterior to the base of the axoneme, i.e. the centrioles.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T19:05:15Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000752</oboInOwl:id>
@@ -18288,7 +18227,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The widen anatomical space at the anterior pole of the nucleus close  to the acrosomal vacuole.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T19:08:09Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000753</oboInOwl:id>
@@ -18314,7 +18253,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cellular organelle, found close to the nucleus in many eukaryotic cells, consisting of a small cylinder with microtubular walls, 300-500 nm long and 150-250 nm in diameter. It contains nine short, parallel, peripheral microtubular fibrils, each fibril consisting of one complete microtubule fused to two incomplete microtubules. Cells usually have two centrioles, lying at right angles to each other. At division, each pair of centrioles generates another pair and the twin pairs form the pole of the mitotic spindle.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T19:13:22Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>GO:0005814</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -18347,7 +18286,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>An array of microtubules that completely covers the nucleus of a spermatid.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T19:15:17Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000755</oboInOwl:id>
@@ -18379,7 +18318,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>An array of mitochondria surrounding the most anterior part of the axoneme.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T19:18:31Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000756</oboInOwl:id>
@@ -18405,7 +18344,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A narrow anatomical space of the nucleus that is invaginated from the anterior pole and usually located at the outer edge of  nucleus extending until the end of the posterior elongation of the nucleus.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T19:19:53Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000757</oboInOwl:id>
@@ -18443,7 +18382,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A compound membranous cytoplasmic organelle of eukaryotic cells, consisting of flattened, ribosome-free vesicles arranged in a more or less regular stack. The Golgi apparatus differs from the endoplasmic reticulum in often having slightly thicker membranes, appearing in sections as a characteristic shallow semicircle so that the convex side (cis or entry face) abuts the endoplasmic reticulum, secretory vesicles emerging from the concave side (trans or exit face).</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T19:24:12Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>GO:0005794</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>dictyosome</oboInOwl:hasExactSynonym>
@@ -18489,7 +18428,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The irregular network of unit membranes, visible only by electron microscopy, that occurs in the cytoplasm of many eukaryotic cells. The membranes form a complex meshwork of tubular channels, which are often expanded into slitlike cavities called cisternae. The ER takes two forms, rough (or granular), with ribosomes adhering to the outer surface, and smooth (with no ribosomes attached).</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T19:26:53Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>GO:0005783</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -18523,7 +18462,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cluster of multiple sperm joined together for motility and transport through the female reproductive tract before dissociation prior to fertilization. The conjugates are usually surrounded by a common secretion sheath.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T19:32:18Z</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym>sperm aggregate</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -18550,7 +18489,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000761">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000764"/>
         <obo:IAO_0000115>An often spherical cluster of two or more individual sperm.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T19:33:40Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000761</oboInOwl:id>
@@ -18570,7 +18509,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000762">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000764"/>
         <obo:IAO_0000115>An orderly stack of sperm of variable number formed after spermiogenesis, including individualization, is complete.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T19:35:51Z</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym>&quot;spermatophore&quot;</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -18597,7 +18536,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000763">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000760"/>
         <obo:IAO_0000115>A conjugate derived from spermatogenic processes formed by the products of a single spermatogonium remaining grouped together following spermiogenesis.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T19:42:20Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000763</oboInOwl:id>
@@ -18617,7 +18556,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000764">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000760"/>
         <obo:IAO_0000115>A sperm conjugate arising through post-spermatogenic mechanisms such as biomechanical interactions, cell-surface interactions or membrane fusion.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T19:45:10Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000764</oboInOwl:id>
@@ -18638,7 +18577,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000746"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000763"/>
         <obo:IAO_0000115>Cluster of two or more fused or partly fused sperm cells originating from a single spermatogonium.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T19:51:04Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000765</oboInOwl:id>
@@ -18663,7 +18602,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Enlarged proximal region of the ejaculatory duct.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T20:02:44Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000766</oboInOwl:id>
@@ -18690,7 +18629,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Any products (droplets and matrix) produced by the somatic cells of the male gonad and transferred into the female genitalia.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T20:22:20Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000767</oboInOwl:id>
@@ -18715,7 +18654,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The state in which spider sperm cells are transferred into the female genitalia.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T20:25:48Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000768</oboInOwl:id>
@@ -18735,7 +18674,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000769">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000768"/>
         <obo:IAO_0000115>Individual sperm cell surrounded by a secretion sheath.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T20:27:32Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000769</oboInOwl:id>
@@ -18755,7 +18694,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000770">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000741"/>
         <obo:IAO_0000115>A female germ cell that has entered meiosis.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T21:06:43Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0000023</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -18776,7 +18715,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000771">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000741"/>
         <obo:IAO_0000115>An undifferentiated germ cell that proliferates rapidly and gives rise to oocytes.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T21:09:04Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0000024</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -18803,7 +18742,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The tube that connects the ovary with the uterus internus.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T21:10:48Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000772</oboInOwl:id>
@@ -18828,7 +18767,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The stalk connecting the bulge containing the oocyte in the ovarian epithelium with the lumen of the ovary.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T21:18:05Z</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym>funiculus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -18861,7 +18800,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The posterior part of the digestive system derived from the ectoderm connecting the stercoral pocket with the anus.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T21:29:23Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000774</oboInOwl:id>
@@ -18881,7 +18820,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000775">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000689"/>
         <obo:IAO_0000115>Portion of tissue, that consists of one or more layers of epithelial cells connected to each other by cell junctions and which is underlain by a basal lamina.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T21:45:34Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CARO:0000066</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -18902,7 +18841,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000776">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000677"/>
         <obo:IAO_0000115>Any tube, opening or passage that connects two distinct anatomical spaces.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T21:50:44Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>UBERON:0004111</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -18923,7 +18862,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000777">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000776"/>
         <obo:IAO_0000115>Any hollow cylindrical anatomical structure containing a lumen through which substances are transported.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T21:51:52Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>UBERON:0000025</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>duct</oboInOwl:hasExactSynonym>
@@ -18951,7 +18890,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000778">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000777"/>
         <obo:IAO_0000115>Epithelial tubes transport gases, liquids and cells from one site to another and form the basic structure of many organs and tissues.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T21:52:49Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>UBERON:0003914</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -18978,7 +18917,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The epidermis is the entire outer epithelial layer representing a single layer of epithelial cells that produces the cuticle.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T21:58:24Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000779</oboInOwl:id>
@@ -19050,7 +18989,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The sum of all posterior midgut diverticles.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T23:00:22Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000782</oboInOwl:id>
@@ -19075,7 +19014,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A branch of the posterior midgut consisting of digestive and secretory cells.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T23:04:54Z</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym>branches of the midgut</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -19108,7 +19047,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cell of the embryo.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T23:12:39Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0002321</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -19129,7 +19068,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000785">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000784"/>
         <obo:IAO_0000115>A cell found in the embryo before the formation of all the gem layers is complete.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T23:15:19Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0000007</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -19150,7 +19089,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000786">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000785"/>
         <obo:IAO_0000115>Diploid cell produced by the fusion of sperm cell nucleus and egg.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T23:16:09Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000786</oboInOwl:id>
@@ -19170,7 +19109,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000787">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000001"/>
         <obo:IAO_0000115>Anatomical entity that comprises the organism in the early stages of growth and differentiation that are characterized by cleavage, the laying down of fundamental tissues, and the formation of primitive organs and organ systems.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T23:18:00Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>UBERON:0000922</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -19191,7 +19130,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000788">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000001"/>
         <obo:IAO_0000115>A generic term for stages from hatching to penultimate.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T23:19:24Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000788</oboInOwl:id>
@@ -19211,7 +19150,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000789">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000001"/>
         <obo:IAO_0000115>A generic term for the life stage before maturity.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-29T23:20:41Z</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym>subadult</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -19250,7 +19189,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The posterior indentation of the sperm nucleus.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-30T21:22:54Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000790</oboInOwl:id>
@@ -19270,7 +19209,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000791">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000728"/>
         <obo:IAO_0000115>A structure composed of a very long molecule of DNA and associated proteins (e.g. histones) that carries hereditary information.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-30T21:29:02Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>GO:0005694</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -19296,7 +19235,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Any constituent part of a chromosome, a structure composed of a very long molecule of DNA and associated proteins (e.g. histones) that carries hereditary information.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-30T21:32:23Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>GO:0044427</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -19323,7 +19262,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The ordered and organized complex of DNA, protein, and sometimes RNA, that forms the chromosome.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-30T21:33:07Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>GO:0000785</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -19350,7 +19289,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Any of the long, generally straight, hollow tubes of internal diameter 12-15 nm and external diameter 24 nm found in a wide variety of eukaryotic cells; each consists (usually) of 13 protofilaments of polymeric tubulin, staggered in such a manner that the tubulin monomers are arranged in a helical pattern on the microtubular surface, and with the alpha/beta axes of the tubulin subunits parallel to the long axis of the tubule; exist in equilibrium with pool of tubulin monomers and can be rapidly assembled or disassembled in response to physiological stimuli; concerned with force generation, e.g. in the spindle.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-30T21:42:36Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>GO:0005874</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>microtubulus</oboInOwl:hasExactSynonym>
@@ -19383,7 +19322,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Any constituent part of the cytoplasm, all of the contents of a cell excluding the plasma membrane and nucleus, but including other subcellular structures.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-30T21:53:28Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>GO:0044444</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>cytoplasm component</oboInOwl:hasExactSynonym>
@@ -19429,7 +19368,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Cytoplasmic bead-like structures of animal cells, visible by electron microscope. Each granule is a functional unit with the biosynthesis and catabolism of glycogen being catalyzed by enzymes bound to the granule surface.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-30T21:57:53Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>GO:0042587</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>glycogen particle</oboInOwl:hasExactSynonym>
@@ -19463,7 +19402,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cell that is part of the nervous system.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-30T22:18:03Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0002319</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -19484,7 +19423,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000798">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000797"/>
         <obo:IAO_0000115>The basic cellular unit of nervous tissue. Each neuron consists of a body, an axon, and dendrites. Their purpose is to receive, conduct, and transmit impulses in the nervous system.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-30T22:19:32Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0000540</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -19505,7 +19444,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000799">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000798"/>
         <obo:IAO_0000115>A neuron which conveys sensory information centrally from the periphery.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-30T22:20:20Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0000526</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -19526,7 +19465,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000800">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000798"/>
         <obo:IAO_0000115>A neuron which sends impulses peripherally to activate muscles or secretory cells.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-30T22:21:38Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0000527</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -19547,7 +19486,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000801">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000799"/>
         <obo:IAO_0000115>Any neuron having a sensory function; an afferent neuron conveying sensory impulses.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-30T22:22:54Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0000101</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -19568,7 +19507,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000802">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000800"/>
         <obo:IAO_0000115>An efferent neuron that passes from the central nervous system or a ganglion toward or to a muscle and conducts an impulse that causes or inhibits movement.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-30T22:23:48Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0000100</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -19589,7 +19528,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000803">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000798"/>
         <obo:IAO_0000115>Most generally any neuron which is not motor or sensory. Interneurons may also refer to neurons whose axons remain within a particular brain region as contrasted with projection neurons which have axons projecting to other brain regions.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-30T22:24:42Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0000099</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -19628,7 +19567,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cell specialized to transduce mechanical stimuli and relay that information centrally in the nervous system.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-30T22:26:51Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0000199</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -19655,7 +19594,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cell specialized to detect chemical substances and relay that information centrally in the nervous system.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-30T22:27:43Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0000206</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -19682,7 +19621,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cell that specializes in controlled release of one or more substances.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-30T22:39:00Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0000151</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -19703,7 +19642,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000807">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000806"/>
         <obo:IAO_0000115>A cell of an exocrine gland; i.e. a gland that discharges its secretion via a duct.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-30T22:40:31Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0000152</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -19730,7 +19669,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cell involved in the elimination of metabolic and foreign toxins, and in maintaining the ionic, acid-base and water balance of biological fluids.</obo:IAO_0000115>
-        <oboInOwl:created_by>Peter</oboInOwl:created_by>
+        <oboInOwl:created_by>Peter Michalik</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-30T22:42:28Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0000424</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -19861,7 +19800,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The muscle in the leg that produces a levation of the pretarsus. It originates at the proximal, dorsal surface of the metatarsus, and its tendon extends through the metatarsus-tarsus joint and is continuous with the tarsus-pretarsus membrane on its insertion on the dorsal rim of the pretarsus.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2016-11-27T18:28:16Z</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym>leg muscle 30</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -19894,7 +19833,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The muscle in the leg that produces a depression of the pretarsus. It originates at the distal, dorsal surface of the tibia (in Mesothelae there is a section inserted on the patella as well), and its tendon extends through the tibia-metatarsus joint where it enters into the leg artery, and inserts on the ventral surface of the pretarsus.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2016-11-27T19:03:31Z</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym>leg muscle 29</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -19927,7 +19866,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The tendon connecting the pretarsal depressor muscle and inserting venrally on the pretarsus.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2016-11-27T19:30:34Z</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym>leg tendon 29</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -19960,7 +19899,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The tendon connecting the pretarsal levator muscle and inserting dorsally on the pretarsus.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2016-11-27T19:33:10Z</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym>leg tendon 30</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -19992,7 +19931,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The distal part of the spider leg, near the claws, which interacts more closely with the substrate and silk cables. The foot is a tight morphological and functional unit, and includes the distal end of the tarsus and its specialized setae, plus the pretarsus and its claws.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2016-11-27T19:44:28Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000817</oboInOwl:id>
@@ -20018,7 +19957,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The conjunctiva that is located between two articulating sclerites.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2016-11-28T19:03:04Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>HAO:0001260</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -20039,7 +19978,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000819">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000821"/>
         <obo:IAO_0000115>The articular surface that is convex and is inserted into the fossa of an adjacent sclerite.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2016-11-28T19:07:00Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>HAO:0000220</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -20060,7 +19999,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000820">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000821"/>
         <obo:IAO_0000115>The articular surface that is concave and accommodates the condyle of another sclerite.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2016-11-28T19:11:08Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>HAO:HAO:0000353</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -20087,7 +20026,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The area of the sclerite that makes movable direct contact with another sclerite.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2016-11-28T19:16:02Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>HAO:0001485</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
@@ -20108,7 +20047,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000822">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000669"/>
         <obo:IAO_0000115>The article that is delimited by eudesmatic joints.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2016-11-28T19:29:04Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000822</oboInOwl:id>
@@ -20128,7 +20067,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000823">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000669"/>
         <obo:IAO_0000115>The article that is delimited by at least one adesmatic joint.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2016-11-28T19:30:37Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000823</oboInOwl:id>
@@ -20148,7 +20087,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SPD_0000824">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SPD_0000825"/>
         <obo:IAO_0000115>A cuticular septum dividing vertically the ring formed by the pretarsus.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2016-11-28T19:46:28Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000824</oboInOwl:id>
@@ -20173,7 +20112,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A portion of cuticle making a definite structure.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2016-11-28T19:48:24Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000825</oboInOwl:id>
@@ -20199,7 +20138,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cuticular structure projecting dorsally from the pretarsus. It projects distally forming a dorsal pulley-like grooved surface, which guides and upholds the levator tendon.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2016-11-28T19:51:14Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000826</oboInOwl:id>
@@ -20225,7 +20164,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cuticular structure in the podotarsite that guides the levator tendon in some spiders such as some palpimanids.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2016-11-28T19:56:23Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000827</oboInOwl:id>
@@ -20251,7 +20190,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cuticular structure arising ventrally from the cuticle of the foot of many spiders, usually from the internal wall of the condyles, may be produced into a pair of thick, parallel ridges that provide a canal for the depressor tendon. The guide extends from the tip of the pretarsus to the foot slits or may continue further into the tarsus. The guide is usually open dorsally, but in some spiders with flexible feet, it is closed making a tube.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2016-11-28T19:58:30Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000828</oboInOwl:id>
@@ -20277,7 +20216,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cuticular structure projecting ventrally from the pretarsus. It projects distally forming a ventral pulley-like grooved surface, which guides and upholds the deressor tendon.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2016-11-28T20:03:38Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000829</oboInOwl:id>
@@ -20303,7 +20242,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cuticular structure in the form of a funnel-like sheath that covers the insertion of the levator tendon on the pretarsus.</obo:IAO_0000115>
-        <oboInOwl:created_by>Martin</oboInOwl:created_by>
+        <oboInOwl:created_by>Martin Ramirez</oboInOwl:created_by>
         <oboInOwl:creation_date>2016-11-28T20:08:37Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>spider_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SPD:0000830</oboInOwl:id>
@@ -20344,5 +20283,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
 
